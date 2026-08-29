@@ -221,3 +221,26 @@ The public edition (`vault.build.json`, `dist/Dante Commedia Vault`,
 Longfellow; `scripts/check-obsidian-vault.py` refuses a public vault with any
 Cyrillic in its chapters. The study copy with Lozinsky is built by
 `--translations en,ru` and stays local.
+
+## Fourth pass: many translations per language (2026-08-29)
+
+The edition now aligns nine public-domain translations — Longfellow, Cary,
+Norton, Sibbald; Min (in modern and original spelling), Petrov, Fedorov,
+Chuiko, Minaev — and, locally, Lozinsky. `scripts/translations.py` registers
+each with its language, form, coverage, and alignment strategy, and parses
+the sources: Project Gutenberg plain text for English, Lib.ru/Классика's
+Windows-1251 old-orthography HTML for Russian (Wikisource's Min transclusion
+was abandoned when it proved to skip a scanned page in Purgatorio XVII).
+
+Measured against the Italian: Longfellow, Sibbald, Min's Purgatorio and
+Paradiso, and Petrov are exact in every canto; Min's Inferno is exact in
+30 of 34 (canto XVI lacks 29 lines in the transcription, three others one
+line each; gaps are left blank); Fedorov in 31 of 34 (canto XXVIII lacks 41);
+Cary runs 0.90–1.05 of Dante's length per canto and is cut proportionally;
+Minaev 1.0–2.6 (his Purgatorio XXXI has 372 lines to Dante's 145);
+Norton's and Chuiko's prose is distributed by sentence. Both readers mark
+the approximate alignments ≈, rotate a language's column through its
+translations, show two of one language side by side, and skip a
+translation on the parts it does not cover. The Russian edition is public:
+every translator died before 1900 or, for Petrov and Fedorov, published in
+the 1880s–90s.

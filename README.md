@@ -1,72 +1,76 @@
-# Dante — La Divina Commedia
+# Dante — La Divina Commedia, aligned with its translations
 
-A reproducible aligned edition of Dante's complete *Commedia* for readers
-learning Italian: the Italian beside its translation, tercet by tercet, in
-three forms built from the same sources — a book (PDF, EPUB, HTML), an
-Obsidian vault with the FirstPair Reader, and an Emacs Info bundle. Italian
-is always the leftmost column; on narrow iOS layouts each aligned tercet is a
-swipeable horizontal strip. Selecting an Italian word opens an offline
-dictionary whose analyser restores Dante's elisions, truncations, and old
-spellings to their modern headwords (FirstPair's shared Italian lexicon over
-the Wiktionary extractions, FreeDict, and a reviewed supplement).
+An open edition of Dante's complete *Commedia* for readers and learners of
+Italian: the Italian beside any of nine public-domain translations — four
+English (Longfellow, Cary, Norton, Sibbald) and five Russian (Min, Petrov,
+Fedorov, Chuiko, Minaev) — aligned tercet by tercet, with a dictionary that
+analyses every Italian word (elisions, truncations, and Dante's old spellings
+restored to their modern headword) and answers in English and Russian. Three
+readers are built from one source: a book (PDF, EPUB, HTML), an Obsidian
+vault with the FirstPair Reader, and an Emacs Info bundle.
 
-Two editions come from one build:
+Published on First Pair Press: **dante-commedia** (Italian and English) and
+**dante-commedia-russian** (Italian, English, and Russian). The paper
+`docs/PAPER.md` describes the edition; `docs/ADDING-TRANSLATIONS.md` shows how
+to add a translation or a language; `docs/LANGUAGE-PIPELINE-REPORT.md` records
+the dictionary pipeline and its coverage.
 
-- **Public** (`--translations en`, the default): Italian and Longfellow's
-  English, both public domain. Published on First Pair Press as
-  `dante-commedia`; see `FIRSTPAIR.md`.
-- **Study copy** (`--translations en,ru`): adds Lozinsky's Russian (Russian
-  in the middle when both translations are on) and the Russian dictionaries.
-  Local only; never published (see `RIGHTS.md`).
+## Editions
+
+| Edition | Flag | Texts | Output | Published |
+| --- | --- | --- | --- | --- |
+| English | `--edition en` | Italian + Longfellow, Cary, Norton, Sibbald | `dist/Dante Commedia Vault`, `dist/Dante Commedia Emacs`, `book/dist-full` | yes |
+| Russian | `--edition ru` | + Min (modern and original spelling), Petrov, Fedorov, Chuiko, Minaev | `dist/Dante Commedia Vault Russian`, `dist/Dante Commedia Emacs Russian`, `book/dist-russian` | yes |
+| Study | `--edition study` | + Lozinsky | `dist/Dante-Multilingual-Vault`, `dist/Dante-Emacs` | never (see `RIGHTS.md`) |
+
+Every translation is registered in `scripts/translations.py` with its
+language, maker, and alignment: line for line (Longfellow, Sibbald, Min,
+Petrov, Fedorov, Lozinsky), proportional cuts for verse of another length
+(Cary, Minaev), sentence distribution for prose (Norton, Chuiko). Approximate
+alignments are marked ≈ in the readers.
 
 ## Build
 
-The project pins current stable GIL-enabled (non-`t`) CPython 3.14.7 exactly.
+The project pins CPython 3.14.7 with uv; FirstPair (`~/src/firstpair`) must be
+checked out beside this repository.
 
 ```sh
 ./scripts/bootstrap-uv.sh
 ./scripts/uv sync
-./scripts/uv run python scripts/fetch_sources.py
-./scripts/uv run python scripts/build_vault.py "dist/Dante Commedia Vault"
+./scripts/uv run python scripts/fetch_sources.py                       # Gutenberg, Lib.ru, FreeDict; hashes to sources/PROVENANCE.json
+~/src/firstpair/publishing/scripts/firstpair-emacs lexicon --language italian   # Wiktionary extractions, pinned by FirstPair
+./scripts/uv run python scripts/build_vault.py "dist/Dante Commedia Vault" --edition en
+./scripts/uv run python scripts/build_vault.py "dist/Dante Commedia Vault Russian" --edition ru
+./scripts/uv run python scripts/build_vault.py dist/Dante-Multilingual-Vault --edition study
 ./scripts/uv run python scripts/check-obsidian-vault.py "dist/Dante Commedia Vault"
-./scripts/uv run python scripts/build_vault.py dist/Dante-Multilingual-Vault --translations en,ru
-./scripts/uv run python scripts/check-obsidian-vault.py dist/Dante-Multilingual-Vault
 ```
 
-The acquisition step verifies the pinned FreeDict SHA-512 digests and records
-source URLs and SHA-256 hashes in `sources/PROVENANCE.json`. The Wiktionary
-extractions are pinned by FirstPair (`publishing/emacs/lexicon/italian/`) and
-fetched once with `firstpair-emacs lexicon --language italian`.
-
-The public vault build writes `vault.build.json` and the study build
-`vault.build.study.json`; the Emacs editions follow (each bundle binds to the
-committed HEAD, so commit first):
+A vault build writes the edition's `vault.build*.json`; commit, then build
+the Emacs bundles (they bind to the commit) and the books:
 
 ```sh
 ~/src/firstpair/publishing/scripts/firstpair-emacs build vault.build.json --product desktop
+~/src/firstpair/publishing/scripts/firstpair-emacs build vault.build.russian.json --product desktop
 ~/src/firstpair/publishing/scripts/firstpair-emacs validate --bundle "dist/Dante Commedia Emacs"
-~/src/firstpair/publishing/scripts/firstpair-emacs build vault.build.study.json --product desktop
-~/src/firstpair/publishing/scripts/firstpair-emacs validate --bundle dist/Dante-Emacs
+~/src/firstpair/publishing/scripts/build-library-book.sh --repo-root "$PWD"                                   # Italian + Longfellow
+~/src/firstpair/publishing/scripts/build-library-book.sh --repo-root "$PWD" --config book.russian.build.json  # Italian + Min
 ```
 
-The book package (`book/dist-full/`) is built by FirstPair's unified builder
-from `book.build.json`; `scripts/build_book.py` writes the aligned manuscript
-and `book/aligned.lua` sets each tercet as a two-column grid:
+`scripts/refresh-reader-plugin.py VAULT` replaces only the Reader plugin in a
+built or live vault, the one write allowed while Obsidian is open.
 
-```sh
-~/src/firstpair/publishing/scripts/build-library-book.sh --repo-root "$PWD"
-```
+## Reading
 
-`sources/dictionaries/coverage.json` records which Italian forms have no
-English or Russian entry; `sources/dictionaries/*supplement.json` are the
-reviewed additions.
+**Obsidian.** Open the vault; `Home.md` links every canto into the Reader.
+Italian is the first column; each translation column's header names the
+translation and rotates through the language's translations; **+** opens a
+second column of the same language. On a phone held upright the tercet
+stacks; Settings → FirstPair Reader pins a layout, reserves the dictionary
+column, keeps the dictionary open, or docks it at the bottom.
 
-The Lozinsky-based study vault and Emacs bundle are local copies. Do not
-publish them without the rights review described in `RIGHTS.md`; the public
-edition never contains the Russian text or dictionaries, and
-`scripts/check-obsidian-vault.py` refuses a public vault with Cyrillic in it.
+**Emacs.** `(load "…/init.el")`, then `M-x firstpair-read`. `C-c C-d` looks up
+the word at point, `C-c C-t` chooses languages, `C-c C-v` rotates a
+language's translation, `C-c C-b` shows a second one.
 
-See [RIGHTS.md](RIGHTS.md) for the redistribution basis and attribution.
-
-The language pipeline, its measured coverage, and what remains are recorded
-in [docs/LANGUAGE-PIPELINE-REPORT.md](docs/LANGUAGE-PIPELINE-REPORT.md).
+See `RIGHTS.md` for the redistribution basis of every text and dictionary,
+and `FIRSTPAIR.md` for publication.
