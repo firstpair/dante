@@ -131,7 +131,7 @@ def emacs_config(pages: list[dict[str, str]], vault_output: str) -> dict:
                 "supplement": EMACS_SUPPLEMENT,
                 "translations": [
                     {"id": "en", "label": "English", "dictionary": "dist/dictionaries/it-en-freedict.json"},
-                    {"id": "ru", "label": "Русский", "glossary": "ruwiktionary-italian",
+                    {"id": "ru", "label": "Русский", "glossary": ["ruwiktionary-italian", "ruwiktionary-russian-translations"],
                      "dictionary": "dist/dictionaries/it-ru-freedict.json", "supplement": RUSSIAN_SUPPLEMENT},
                 ],
             },
@@ -192,8 +192,12 @@ def main() -> None:
             "license": "CC BY-SA 3.0", "attribution": f"FreeDict {pair} {FREEDICT_RELEASE} / WikDict / Wiktionary / DBnary",
             "entries": {key: list(value) for key, value in sorted(lemmas.items())},
         })
-    ru_glossary = corpus.glossary(spec, "ruwiktionary-italian")
-    ru_index = glosses.index_kaikki(corpus.ensure_glossary(spec, ru_glossary, allow_download=False), fold=fold)
+    ru_index = None; ru_names = []
+    for identifier in ("ruwiktionary-italian", "ruwiktionary-russian-translations"):
+        item = corpus.glossary(spec, identifier)
+        index = glosses.load_glossary(corpus.ensure_glossary(spec, item, allow_download=False), item, fold=fold)
+        ru_index = index if ru_index is None else glosses.merge(ru_index, index)
+        ru_names.append(item.name)
     ru_supplement = glosses.load_supplement(ROOT / RUSSIAN_SUPPLEMENT, fold=fold)
     payload_en, report_en = dictionaries.project(
         language, vocabulary, target="en", label="English", license="CC BY-SA 4.0",
@@ -202,8 +206,8 @@ def main() -> None:
     )
     payload_ru, report_ru = dictionaries.project(
         language, vocabulary, target="ru", label="Русский", license="CC BY-SA 4.0",
-        attribution=f"{ru_glossary.name}; FreeDict ita-rus {FREEDICT_RELEASE}; First Pair reviewed supplement",
-        glossary=ru_index, glossary_name=ru_glossary.name, dictionary=freedict["ru"], dictionary_name=f"FreeDict ita-rus {FREEDICT_RELEASE}",
+        attribution=f"{'; '.join(ru_names)}; FreeDict ita-rus {FREEDICT_RELEASE}; First Pair reviewed supplement",
+        glossary=ru_index, glossary_name="; ".join(ru_names), dictionary=freedict["ru"], dictionary_name=f"FreeDict ita-rus {FREEDICT_RELEASE}",
         supplement=ru_supplement, supplement_name="First Pair reviewed Russian supplement", examples=examples,
     )
     write_json(data / "dictionaries" / "it-en.json", payload_en)

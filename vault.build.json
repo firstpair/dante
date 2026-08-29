@@ -654,7 +654,10 @@
         {
           "id": "ru",
           "label": "Русский",
-          "glossary": "ruwiktionary-italian",
+          "glossary": [
+            "ruwiktionary-italian",
+            "ruwiktionary-russian-translations"
+          ],
           "dictionary": "dist/dictionaries/it-ru-freedict.json",
           "supplement": "sources/dictionaries/italian-russian-supplement.json"
         }
