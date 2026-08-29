@@ -48,6 +48,8 @@ git commit …   # vault builds refresh vault.build*.json; the Emacs bundles bin
 "$HOME/src/firstpair/publishing/scripts/firstpair-emacs" validate --bundle "dist/Dante Commedia Emacs Russian"
 "$HOME/src/firstpair/publishing/scripts/firstpair-vault" guide vault.build.json --product desktop --output dist/dante-commedia-vault-guide.md
 "$HOME/src/firstpair/publishing/scripts/firstpair-vault" guide vault.build.russian.json --product desktop --output dist/dante-commedia-russian-vault-guide.md
+cp cover/dante-commedia-russian-cover.png book/dist-russian/cover.png   # the second title is published from its dist directory,
+cp images/dante-header.png book/dist-russian/headboard.png             # so its card images sit beside it
 ```
 
 Outputs are ignored by Git: the book packages under `book/dist-*/`, the
