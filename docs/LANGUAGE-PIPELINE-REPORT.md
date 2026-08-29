@@ -98,6 +98,14 @@ FreeDict and the supplement:
 Each scanned dump is cached as a small derived index keyed by its digest, so
 the multi-gigabyte extractions are read once.
 
+A **second pass** runs only where those direct sources give nothing, and
+labels what it did: first the dictionary's own pointers — an entry's synonyms
+and alternative forms, so *gaetta* → *gaietto* → *gaio* → *весёлый* is glossed
+"via gaio"; then a pivot through the words of the entry's own English senses
+against English Wiktionary's Russian tables, so *accismare* ("to adorn, to
+deck out") is glossed *украшать (via English: adorn, to make more beautiful)*.
+Names are excluded from the second pass.
+
 ### The vault
 
 `scripts/build_vault.py` now leads with Italian (the shared Reader leads with
@@ -141,7 +149,8 @@ Over the Commedia's 101,604 Italian tokens and 12,766 normalised word types:
 | --- | --- | --- |
 | Forms analysed to a headword with grammar | — | 11,882 of 12,766 types (93.1 %), 98.9 % of tokens |
 | English explanation | 2,436 types (17.9 %) | all 11,882 analysed forms |
-| Russian explanation | 1,745 types (12.8 %) | 9,591 of 11,882 analysed forms (80.7 %) |
+| Russian explanation, direct sources | 1,745 types (12.8 %) | 9,591 of 11,882 analysed forms (80.7 %) |
+| Russian explanation, with the labelled second pass | — | 11,317 of 11,882 analysed forms (95.2 %) |
 | Vault dictionary entries | 28,245 / 13,529 (lemma-keyed, mostly unreachable) | 12,189 / 9,813 (form-keyed) |
 
 The gap analysis in `sources/dictionaries/coverage.json` is honest by
@@ -153,13 +162,12 @@ construction: the analyser never fills a hole with a guess.
   archaisms and proper names the extraction lacks — *Acheronte, Averroè,
   Bonagiunta* — which have neither English nor Russian. They belong in the
   reviewed supplement; the frequent ones are already there.
-- **2,291 analysed forms without Russian**, behind 258 proper-name lemmas
-  and 1,457 common lemmas, mostly rare or archaic verbs (*abbarbagliare,
-  accismare, aggueffare*). Curated dictionaries are exhausted here; the
-  remaining path is `italian-russian-supplement.json`, lemma by lemma from
-  `coverage.json`. A proper name wants a transliteration rather than a
-  translation, and the aligned Russian tercet already stands beside every
-  Italian line.
+- **565 analysed forms without Russian**, behind 257 proper-name lemmas and
+  274 common lemmas whose English senses are phrases the gloss pivot cannot
+  safely reduce to a word. The remaining path is
+  `italian-russian-supplement.json`, lemma by lemma from `coverage.json`. A
+  proper name wants a transliteration rather than a translation, and the
+  aligned Russian tercet already stands beside every Italian line.
 - **Rights.** Lozinsky's Russian is public domain in Russia since 1 January
   2026 but of unsettled US status: the vault and the bundle stay local study
   copies until the review in `RIGHTS.md`. `fetch_sources.py` also knows the

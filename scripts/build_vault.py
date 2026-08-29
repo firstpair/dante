@@ -35,7 +35,7 @@ FREEDICT_RELEASE = "2025.11.23"
 EMACS_SUPPLEMENT = "sources/dictionaries/italian-supplement.json"
 RUSSIAN_SUPPLEMENT = "sources/dictionaries/italian-russian-supplement.json"
 # Russian glossaries pinned by FirstPair, direct dictionaries before the English-sense pivot.
-RUSSIAN_GLOSSARIES = ("ruwiktionary-italian", "itwiktionary-italian-translations", "ruwiktionary-russian-translations", "enwiktionary-english-pivot")
+RUSSIAN_GLOSSARIES = ("ruwiktionary-italian", "itwiktionary-italian-translations", "ruwiktionary-russian-translations", "enwiktionary-english-pivot", "enwiktionary-english-glosses")
 
 
 def roman(value: str) -> int:
@@ -194,10 +194,13 @@ def main() -> None:
             "license": "CC BY-SA 3.0", "attribution": f"FreeDict {pair} {FREEDICT_RELEASE} / WikDict / Wiktionary / DBnary",
             "entries": {key: list(value) for key, value in sorted(lemmas.items())},
         })
-    ru_index = None; ru_names = []
+    ru_index = None; ru_names = []; gloss_pivot = None; gloss_pivot_name = ""
     for identifier in RUSSIAN_GLOSSARIES:
         item = corpus.glossary(spec, identifier)
         index = glosses.load_glossary(corpus.ensure_glossary(spec, item, allow_download=False), item, fold=fold)
+        if item.kind == "gloss-pivot":
+            gloss_pivot, gloss_pivot_name = index, item.name
+            continue
         ru_index = index if ru_index is None else glosses.merge(ru_index, index)
         ru_names.append(item.name)
     ru_supplement = glosses.load_supplement(ROOT / RUSSIAN_SUPPLEMENT, fold=fold)
@@ -211,6 +214,7 @@ def main() -> None:
         attribution=f"{'; '.join(ru_names)}; FreeDict ita-rus {FREEDICT_RELEASE}; First Pair reviewed supplement",
         glossary=ru_index, glossary_name="; ".join(ru_names), dictionary=freedict["ru"], dictionary_name=f"FreeDict ita-rus {FREEDICT_RELEASE}",
         supplement=ru_supplement, supplement_name="First Pair reviewed Russian supplement", examples=examples,
+        gloss_pivot=gloss_pivot, gloss_pivot_name=gloss_pivot_name,
     )
     write_json(data / "dictionaries" / "it-en.json", payload_en)
     write_json(data / "dictionaries" / "it-ru.json", payload_ru)
@@ -224,7 +228,7 @@ def main() -> None:
         (names if entry.part == "name" or entry.headword[:1].isupper() else common)[entry.headword].append(form)
     coverage = {"schema": "dante-dictionary-coverage-v2", "italianForms": report_en["forms"], "analysed": report_en["analysed"],
                 "english": {"covered": report_en["covered"], "missing": report_en["missing"]},
-                "russian": {"covered": report_ru["covered"], "missing": report_ru["missing"],
+                "russian": {"covered": report_ru["covered"], "derivedEntries": report_ru.get("derivedEntries", 0), "missing": report_ru["missing"],
                             "missingLemmas": {"names": dict(sorted(names.items())), "common": dict(sorted(common.items()))}},
                 "unanalysed": report_en["unanalysed"]}
     write_json(data / "dictionaries" / "coverage.json", coverage)

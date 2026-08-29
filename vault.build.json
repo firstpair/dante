@@ -658,7 +658,8 @@
             "ruwiktionary-italian",
             "itwiktionary-italian-translations",
             "ruwiktionary-russian-translations",
-            "enwiktionary-english-pivot"
+            "enwiktionary-english-pivot",
+            "enwiktionary-english-glosses"
           ],
           "dictionary": "dist/dictionaries/it-ru-freedict.json",
           "supplement": "sources/dictionaries/italian-russian-supplement.json"
