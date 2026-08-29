@@ -1,0 +1,528 @@
+{
+ "schema": "firstpair-lexicon-supplement-v1",
+ "note": "First Pair reviewed supplement (2026) for forms of Dante's Commedia that the pinned English Wiktionary extraction does not analyse. Each row names the modern headword, part of speech, English definitions, and the grammar of the form.",
+ "entries": {
+  "subitamente": {
+   "headword": "subitamente",
+   "partOfSpeech": "adverb",
+   "definitions": [
+    "suddenly",
+    "at once"
+   ]
+  },
+  "sordello": {
+   "headword": "Sordello",
+   "partOfSpeech": "proper noun",
+   "definitions": [
+    "Sordello da Goito, the troubadour whom Dante meets in Purgatory"
+   ]
+  },
+  "image": {
+   "headword": "immagine",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "image",
+    "likeness"
+   ],
+   "grammar": "old form of immagine"
+  },
+  "seguette": {
+   "headword": "seguire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to follow"
+   ],
+   "grammar": "third-person singular past historic (old form of seguì)"
+  },
+  "martira": {
+   "headword": "martirare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to torment",
+    "to martyr"
+   ],
+   "grammar": "third-person singular present indicative"
+  },
+  "dichina": {
+   "headword": "dichinare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to descend",
+    "to decline",
+    "to sink"
+   ],
+   "grammar": "third-person singular present indicative"
+  },
+  "sappiendo": {
+   "headword": "sapere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to know"
+   ],
+   "grammar": "gerund (old form of sapendo)"
+  },
+  "resplende": {
+   "headword": "risplendere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to shine",
+    "to gleam"
+   ],
+   "grammar": "third-person singular present indicative (old form of risplende)"
+  },
+  "folgór": {
+   "headword": "folgore",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "lightning",
+    "flash",
+    "thunderbolt"
+   ],
+   "grammar": "apocopic form of folgore"
+  },
+  "imprenta": {
+   "headword": "impronta",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "imprint",
+    "impression",
+    "stamp"
+   ],
+   "grammar": "old form of impronta"
+  },
+  "offense": {
+   "headword": "offesa",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "offence",
+    "injury",
+    "wrong"
+   ],
+   "grammar": "plural (old form of offese)"
+  },
+  "pense": {
+   "headword": "pensare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to think"
+   ],
+   "grammar": "second-person singular present (old form of pensi)"
+  },
+  "dovrien": {
+   "headword": "dovere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "must",
+    "ought",
+    "to have to"
+   ],
+   "grammar": "third-person plural conditional (old form of dovrebbero)"
+  },
+  "piccioletta": {
+   "headword": "piccoletto",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "tiny",
+    "very small"
+   ],
+   "grammar": "feminine singular (old form of piccoletta)"
+  },
+  "entre": {
+   "headword": "entrare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to enter"
+   ],
+   "grammar": "second-person singular present subjunctive (old form of entri)"
+  },
+  "dicerò": {
+   "headword": "dire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to say",
+    "to tell"
+   ],
+   "grammar": "first-person singular future (old form of dirò)"
+  },
+  "èe": {
+   "headword": "essere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to be"
+   ],
+   "grammar": "third-person singular present indicative (è with a paragogic vowel)"
+  },
+  "dirizzò": {
+   "headword": "dirizzare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to direct",
+    "to straighten",
+    "to set right"
+   ],
+   "grammar": "third-person singular past historic"
+  },
+  "imaginar": {
+   "headword": "immaginare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to imagine"
+   ],
+   "grammar": "infinitive (apocope, old form of immaginare)"
+  },
+  "concepe": {
+   "headword": "concepire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to conceive",
+    "to grasp"
+   ],
+   "grammar": "third-person singular present indicative (old form of concepisce)"
+  },
+  "deus": {
+   "headword": "Deus",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "God (Latin)"
+   ],
+   "grammar": "Latin"
+  },
+  "difalta": {
+   "headword": "difalta",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "fault",
+    "lack",
+    "failing"
+   ]
+  },
+  "iosuè": {
+   "headword": "Giosuè",
+   "partOfSpeech": "proper noun",
+   "definitions": [
+    "Joshua, successor of Moses"
+   ],
+   "grammar": "old form of Giosuè"
+  },
+  "evangelio": {
+   "headword": "vangelo",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "gospel"
+   ],
+   "grammar": "old form of vangelo"
+  },
+  "conveniesi": {
+   "headword": "convenire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to be fitting",
+    "to be proper"
+   ],
+   "grammar": "third-person singular imperfect + si (old form of si conveniva)"
+  },
+  "ierusalemme": {
+   "headword": "Gerusalemme",
+   "partOfSpeech": "proper noun",
+   "definitions": [
+    "Jerusalem"
+   ],
+   "grammar": "old form of Gerusalemme"
+  },
+  "discoverto": {
+   "headword": "scoperto",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "uncovered",
+    "revealed",
+    "open"
+   ],
+   "grammar": "old form of scoperto"
+  },
+  "opposita": {
+   "headword": "opposto",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "opposite"
+   ],
+   "grammar": "feminine singular (old form of opposta)"
+  },
+  "penter": {
+   "headword": "pentirsi",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to repent"
+   ],
+   "grammar": "infinitive (apocope, old form of pentire)"
+  },
+  "ferute": {
+   "headword": "ferita",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "wounds"
+   ],
+   "grammar": "plural (old form of ferite)"
+  },
+  "mantoana": {
+   "headword": "mantovano",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "Mantuan",
+    "of Mantua"
+   ],
+   "grammar": "feminine singular (old form of mantovana)"
+  },
+  "cristianesmo": {
+   "headword": "cristianesimo",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "Christendom",
+    "Christianity"
+   ],
+   "grammar": "old form of cristianesimo"
+  },
+  "dido": {
+   "headword": "Didone",
+   "partOfSpeech": "proper noun",
+   "definitions": [
+    "Dido, queen of Carthage"
+   ]
+  },
+  "offensione": {
+   "headword": "offesa",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "offence",
+    "injury"
+   ],
+   "grammar": "old form"
+  },
+  "pluto": {
+   "headword": "Pluto",
+   "partOfSpeech": "proper noun",
+   "definitions": [
+    "Pluto, god of wealth and of the underworld"
+   ]
+  },
+  "difension": {
+   "headword": "difesa",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "defence"
+   ],
+   "grammar": "apocopic old form of difensione"
+  },
+  "fiammette": {
+   "headword": "fiammetta",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "little flames"
+   ],
+   "grammar": "plural"
+  },
+  "rammarca": {
+   "headword": "rammaricarsi",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to lament",
+    "to grieve"
+   ],
+   "grammar": "third-person singular present indicative (old form of rammarica)"
+  },
+  "ruine": {
+   "headword": "rovina",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "ruins",
+    "downfall"
+   ],
+   "grammar": "plural (old form of rovine)"
+  },
+  "incontenenza": {
+   "headword": "incontinenza",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "incontinence",
+    "lack of restraint"
+   ],
+   "grammar": "old form of incontinenza"
+  },
+  "dismonta": {
+   "headword": "dismontare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to descend",
+    "to dismount"
+   ],
+   "grammar": "third-person singular present indicative"
+  },
+  "moviensi": {
+   "headword": "muoversi",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to move"
+   ],
+   "grammar": "third-person plural imperfect + si (old form of si muovevano)"
+  },
+  "garra": {
+   "headword": "garrire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to chatter",
+    "to squawk",
+    "to quarrel"
+   ],
+   "grammar": "third-person singular present indicative"
+  },
+  "movien": {
+   "headword": "muovere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to move"
+   ],
+   "grammar": "third-person plural imperfect (old form of muovevano)"
+  },
+  "repleta": {
+   "headword": "repleto",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "full",
+    "replete"
+   ],
+   "grammar": "feminine singular"
+  },
+  "trassel": {
+   "headword": "trarre",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to draw",
+    "to pull"
+   ],
+   "grammar": "third-person singular past historic + lo (trasse lo, drew him)"
+  },
+  "gualoppo": {
+   "headword": "galoppo",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "gallop"
+   ],
+   "grammar": "old form of galoppo"
+  },
+  "imaginata": {
+   "headword": "immaginare",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to imagine"
+   ],
+   "grammar": "past participle feminine (old form of immaginata)"
+  },
+  "proveggia": {
+   "headword": "provvedere",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to provide",
+    "to see to"
+   ],
+   "grammar": "third-person singular present subjunctive (old form of provveda)"
+  },
+  "fratei": {
+   "headword": "fratello",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "brothers"
+   ],
+   "grammar": "plural (old form of fratelli)"
+  },
+  "biece": {
+   "headword": "bieco",
+   "partOfSpeech": "adjective",
+   "definitions": [
+    "grim",
+    "askance",
+    "sinister"
+   ],
+   "grammar": "feminine plural (old form of bieche)"
+  },
+  "levorsi": {
+   "headword": "levarsi",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to rise",
+    "to get up"
+   ],
+   "grammar": "third-person plural past historic + si (old form of si levarono)"
+  },
+  "milia": {
+   "headword": "mila",
+   "partOfSpeech": "numeral",
+   "definitions": [
+    "thousand"
+   ],
+   "grammar": "old form of mila"
+  },
+  "guerir": {
+   "headword": "guarire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to heal",
+    "to cure"
+   ],
+   "grammar": "infinitive (apocope, old form of guarire)"
+  },
+  "partio": {
+   "headword": "partire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to depart",
+    "to divide"
+   ],
+   "grammar": "third-person singular past historic (old form of partì)"
+  },
+  "sentio": {
+   "headword": "sentire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to hear",
+    "to feel"
+   ],
+   "grammar": "third-person singular past historic (old form of sentì)"
+  },
+  "membre": {
+   "headword": "membro",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "limbs",
+    "members"
+   ],
+   "grammar": "plural (old form of membra)"
+  },
+  "proferse": {
+   "headword": "proferire",
+   "partOfSpeech": "verb",
+   "definitions": [
+    "to utter",
+    "to pronounce"
+   ],
+   "grammar": "third-person singular past historic (old form of proferì)"
+  },
+  "figliuoi": {
+   "headword": "figliuolo",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "sons",
+    "children"
+   ],
+   "grammar": "plural (old form of figliuoli)"
+  },
+  "dificio": {
+   "headword": "edificio",
+   "partOfSpeech": "noun",
+   "definitions": [
+    "edifice",
+    "building",
+    "structure"
+   ],
+   "grammar": "old form of edificio"
+  }
+ }
+}

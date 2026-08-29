@@ -1,0 +1,673 @@
+{
+  "$schema": "https://firstpair.org/schemas/vault.build.schema.json",
+  "schemaVersion": 1,
+  "slug": "dante-commedia",
+  "title": "Dante — La Divina Commedia",
+  "profile": "triptych",
+  "sourceCommit": "HEAD",
+  "plugin": true,
+  "guide": {
+    "bookSpecific": "guide-emacs.md"
+  },
+  "reader": [
+    {
+      "id": "inferno-01",
+      "title": "Inferno — Canto 1",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-01.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-02",
+      "title": "Inferno — Canto 2",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-02.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-03",
+      "title": "Inferno — Canto 3",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-03.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-04",
+      "title": "Inferno — Canto 4",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-04.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-05",
+      "title": "Inferno — Canto 5",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-05.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-06",
+      "title": "Inferno — Canto 6",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-06.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-07",
+      "title": "Inferno — Canto 7",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-07.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-08",
+      "title": "Inferno — Canto 8",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-08.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-09",
+      "title": "Inferno — Canto 9",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-09.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-10",
+      "title": "Inferno — Canto 10",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-10.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-11",
+      "title": "Inferno — Canto 11",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-11.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-12",
+      "title": "Inferno — Canto 12",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-12.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-13",
+      "title": "Inferno — Canto 13",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-13.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-14",
+      "title": "Inferno — Canto 14",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-14.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-15",
+      "title": "Inferno — Canto 15",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-15.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-16",
+      "title": "Inferno — Canto 16",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-16.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-17",
+      "title": "Inferno — Canto 17",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-17.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-18",
+      "title": "Inferno — Canto 18",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-18.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-19",
+      "title": "Inferno — Canto 19",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-19.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-20",
+      "title": "Inferno — Canto 20",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-20.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-21",
+      "title": "Inferno — Canto 21",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-21.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-22",
+      "title": "Inferno — Canto 22",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-22.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-23",
+      "title": "Inferno — Canto 23",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-23.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-24",
+      "title": "Inferno — Canto 24",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-24.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-25",
+      "title": "Inferno — Canto 25",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-25.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-26",
+      "title": "Inferno — Canto 26",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-26.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-27",
+      "title": "Inferno — Canto 27",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-27.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-28",
+      "title": "Inferno — Canto 28",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-28.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-29",
+      "title": "Inferno — Canto 29",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-29.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-30",
+      "title": "Inferno — Canto 30",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-30.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-31",
+      "title": "Inferno — Canto 31",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-31.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-32",
+      "title": "Inferno — Canto 32",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-32.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-33",
+      "title": "Inferno — Canto 33",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-33.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "inferno-34",
+      "title": "Inferno — Canto 34",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/inferno-34.json",
+      "part": "Inferno"
+    },
+    {
+      "id": "purgatorio-01",
+      "title": "Purgatorio — Canto 1",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-01.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-02",
+      "title": "Purgatorio — Canto 2",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-02.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-03",
+      "title": "Purgatorio — Canto 3",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-03.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-04",
+      "title": "Purgatorio — Canto 4",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-04.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-05",
+      "title": "Purgatorio — Canto 5",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-05.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-06",
+      "title": "Purgatorio — Canto 6",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-06.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-07",
+      "title": "Purgatorio — Canto 7",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-07.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-08",
+      "title": "Purgatorio — Canto 8",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-08.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-09",
+      "title": "Purgatorio — Canto 9",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-09.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-10",
+      "title": "Purgatorio — Canto 10",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-10.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-11",
+      "title": "Purgatorio — Canto 11",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-11.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-12",
+      "title": "Purgatorio — Canto 12",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-12.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-13",
+      "title": "Purgatorio — Canto 13",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-13.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-14",
+      "title": "Purgatorio — Canto 14",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-14.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-15",
+      "title": "Purgatorio — Canto 15",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-15.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-16",
+      "title": "Purgatorio — Canto 16",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-16.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-17",
+      "title": "Purgatorio — Canto 17",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-17.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-18",
+      "title": "Purgatorio — Canto 18",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-18.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-19",
+      "title": "Purgatorio — Canto 19",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-19.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-20",
+      "title": "Purgatorio — Canto 20",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-20.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-21",
+      "title": "Purgatorio — Canto 21",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-21.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-22",
+      "title": "Purgatorio — Canto 22",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-22.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-23",
+      "title": "Purgatorio — Canto 23",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-23.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-24",
+      "title": "Purgatorio — Canto 24",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-24.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-25",
+      "title": "Purgatorio — Canto 25",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-25.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-26",
+      "title": "Purgatorio — Canto 26",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-26.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-27",
+      "title": "Purgatorio — Canto 27",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-27.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-28",
+      "title": "Purgatorio — Canto 28",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-28.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-29",
+      "title": "Purgatorio — Canto 29",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-29.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-30",
+      "title": "Purgatorio — Canto 30",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-30.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-31",
+      "title": "Purgatorio — Canto 31",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-31.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-32",
+      "title": "Purgatorio — Canto 32",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-32.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "purgatorio-33",
+      "title": "Purgatorio — Canto 33",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/purgatorio-33.json",
+      "part": "Purgatorio"
+    },
+    {
+      "id": "paradiso-01",
+      "title": "Paradiso — Canto 1",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-01.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-02",
+      "title": "Paradiso — Canto 2",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-02.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-03",
+      "title": "Paradiso — Canto 3",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-03.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-04",
+      "title": "Paradiso — Canto 4",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-04.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-05",
+      "title": "Paradiso — Canto 5",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-05.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-06",
+      "title": "Paradiso — Canto 6",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-06.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-07",
+      "title": "Paradiso — Canto 7",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-07.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-08",
+      "title": "Paradiso — Canto 8",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-08.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-09",
+      "title": "Paradiso — Canto 9",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-09.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-10",
+      "title": "Paradiso — Canto 10",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-10.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-11",
+      "title": "Paradiso — Canto 11",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-11.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-12",
+      "title": "Paradiso — Canto 12",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-12.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-13",
+      "title": "Paradiso — Canto 13",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-13.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-14",
+      "title": "Paradiso — Canto 14",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-14.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-15",
+      "title": "Paradiso — Canto 15",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-15.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-16",
+      "title": "Paradiso — Canto 16",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-16.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-17",
+      "title": "Paradiso — Canto 17",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-17.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-18",
+      "title": "Paradiso — Canto 18",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-18.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-19",
+      "title": "Paradiso — Canto 19",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-19.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-20",
+      "title": "Paradiso — Canto 20",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-20.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-21",
+      "title": "Paradiso — Canto 21",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-21.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-22",
+      "title": "Paradiso — Canto 22",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-22.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-23",
+      "title": "Paradiso — Canto 23",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-23.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-24",
+      "title": "Paradiso — Canto 24",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-24.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-25",
+      "title": "Paradiso — Canto 25",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-25.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-26",
+      "title": "Paradiso — Canto 26",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-26.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-27",
+      "title": "Paradiso — Canto 27",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-27.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-28",
+      "title": "Paradiso — Canto 28",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-28.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-29",
+      "title": "Paradiso — Canto 29",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-29.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-30",
+      "title": "Paradiso — Canto 30",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-30.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-31",
+      "title": "Paradiso — Canto 31",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-31.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-32",
+      "title": "Paradiso — Canto 32",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-32.json",
+      "part": "Paradiso"
+    },
+    {
+      "id": "paradiso-33",
+      "title": "Paradiso — Canto 33",
+      "source": "dist/Dante-Multilingual-Vault/_data/chapters/paradiso-33.json",
+      "part": "Paradiso"
+    }
+  ],
+  "products": {
+    "desktop": {
+      "output": "dist/Dante-Multilingual-Vault",
+      "edition": "full"
+    }
+  },
+  "emacs": {
+    "direntry": {
+      "category": "Books",
+      "name": "dante-commedia",
+      "description": "Dante's Commedia with English and Russian, aligned tercet by tercet."
+    },
+    "subtitle": "La Divina Commedia, with Longfellow and Lozinsky",
+    "author": "Dante Alighieri",
+    "parts": [
+      {
+        "title": "Inferno",
+        "description": "Thirty-four cantos: the descent."
+      },
+      {
+        "title": "Purgatorio",
+        "description": "Thirty-three cantos: the mountain."
+      },
+      {
+        "title": "Paradiso",
+        "description": "Thirty-three cantos: the spheres."
+      }
+    ],
+    "lexicon": {
+      "language": "italian",
+      "mode": "projected",
+      "sourceId": "it",
+      "minimumLength": 3,
+      "supplement": "sources/dictionaries/italian-supplement.json",
+      "translations": [
+        {
+          "id": "en",
+          "label": "English",
+          "dictionary": "dist/dictionaries/it-en-freedict.json"
+        },
+        {
+          "id": "ru",
+          "label": "Русский",
+          "glossary": "ruwiktionary-italian",
+          "dictionary": "dist/dictionaries/it-ru-freedict.json",
+          "supplement": "sources/dictionaries/italian-russian-supplement.json"
+        }
+      ]
+    },
+    "records": [],
+    "products": {
+      "desktop": {
+        "output": "dist/Dante-Emacs",
+        "edition": "full",
+        "maxFiles": 400,
+        "maxBytes": 200000000
+      }
+    }
+  }
+}

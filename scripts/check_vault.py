@@ -8,7 +8,8 @@ root = Path(sys.argv[1]).resolve() if len(sys.argv) == 2 else None
 if root is None or not root.is_dir(): raise SystemExit("usage: check_vault.py VAULT")
 parallel = json.loads((root / "_data/parallel-reader.json").read_text(encoding="utf-8"))
 assert parallel["schema"] == "firstpair-parallel-reader-v1"
-assert [item["id"] for item in parallel["translations"]] == ["en", "ru"]
+assert [item["id"] for item in parallel["translations"]] == ["ru", "en"]
+assert parallel["sourceLanguage"]["position"] == "left"
 assert all(item["defaultVisible"] for item in parallel["translations"])
 assert parallel["sourceLanguage"]["position"] == "right"
 assert len(parallel["pages"]) == 100
