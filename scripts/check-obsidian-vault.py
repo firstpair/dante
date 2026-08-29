@@ -27,7 +27,9 @@ for code in languages:
 manifest = json.loads((root / "VAULT-MANIFEST.json").read_text(encoding="utf-8"))
 edition = manifest["edition"]
 public = edition in ("en", "ru")
-if public: assert "ru-lozinsky" not in ids, "Lozinsky's Russian must not be published"
+if public:
+    restricted = [t["id"] for t in translations if t.get("rights") != "public domain"]
+    assert not restricted, f"rights-restricted translations must not be published: {restricted}"
 else: assert "ru-lozinsky" in ids
 units = 0
 for page in parallel["pages"]:

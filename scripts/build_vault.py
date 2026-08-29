@@ -127,7 +127,7 @@ def main() -> None:
     if output.exists(): raise SystemExit(f"refusing to replace existing output: {output}")
     chosen = T.selected(edition); languages = list(dict.fromkeys(t.lang for t in chosen))
     with_russian = "ru" in languages
-    required = list(ENGLISH_SOURCES) + ["ita-eng.tei"] + ((list(RUSSIAN_SOURCES) + ["ita-rus.tei"]) if with_russian else []) + (["russian-lozinsky.html"] if edition == "study" else [])
+    required = list(ENGLISH_SOURCES) + ["ita-eng.tei"] + ((list(RUSSIAN_SOURCES) + ["ita-rus.tei"]) if with_russian else []) + (["russian-lozinsky.html", "english-palma.epub", "english-james.epub"] if edition == "study" else [])
     missing = [name for name in required if not (RAW / name).is_file()]
     if missing: raise SystemExit(f"fetch sources first; missing: {', '.join(missing)}")
     italian = T.parse_gutenberg(RAW / "italian.txt", T.ITALIAN_HEADER)

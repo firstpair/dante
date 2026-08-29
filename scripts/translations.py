@@ -158,6 +158,64 @@ def check_cantos(name: str, result: dict, *, expected: int = 100, minimum: int =
         if not minimum <= len(lines) <= maximum: raise RuntimeError(f"{name} {key}: implausible {len(lines)} lines")
 
 
+# --- The owner's EPUBs (study edition only) -----------------------------------
+#
+# Reader-supplied, in-copyright translations are parsed straight from the
+# EPUB in ``sources/raw`` (ignored by Git) and registered with the STUDY
+# edition set, so no public build can carry them.
+
+import html as _html
+import zipfile
+
+
+def epub_documents(path: Path) -> list[tuple[str, str]]:
+    """The EPUB's documents in spine order, as (href, text) with tags turned into line breaks."""
+
+    with zipfile.ZipFile(path) as archive:
+        container = archive.read("META-INF/container.xml").decode("utf-8")
+        opf_path = re.search(r'full-path="([^"]+)"', container).group(1)
+        opf = archive.read(opf_path).decode("utf-8"); base = opf_path.rsplit("/", 1)[0] + "/" if "/" in opf_path else ""
+        items = {}
+        for tag in re.findall(r"<item [^>]*>", opf):
+            identifier = re.search(r'id="([^"]+)"', tag); href = re.search(r'href="([^"]+)"', tag)
+            if identifier and href: items[identifier.group(1)] = href.group(1)
+        documents = []
+        for idref in re.findall(r'<itemref idref="([^"]+)"', opf):
+            href = items.get(idref)
+            if not href or not href.endswith((".html", ".xhtml")): continue
+            documents.append((href, archive.read(base + href).decode("utf-8")))
+    return documents
+
+
+def parse_epub_james(path: Path) -> dict[tuple[str, int], list[str]]:
+    """Clive James (2013): one document per canto, headed CANTO n, a line number after every tenth line."""
+
+    cantos: list[list[str]] = []
+    for _, document in epub_documents(path):
+        text = re.sub(r"<[^>]+>", "\n", document)
+        lines = [" ".join(_html.unescape(line).replace("\xa0", " ").split()) for line in text.splitlines()]
+        lines = [line for line in lines if line]
+        if len(lines) > 2 and lines[0] == "The Divine Comedy" and re.match(r"^CANTO \d+$", lines[1], re.I):
+            cantos.append([re.sub(r"\s+\d+$", "", line) for line in lines[2:]])
+    keys = [(cantica, n) for cantica, (_, count) in CANTICA.items() for n in range(1, count + 1)]
+    if len(cantos) != len(keys): raise RuntimeError(f"{path.name}: {len(cantos)} cantos, need {len(keys)}")
+    return dict(zip(keys, cantos, strict=True))
+
+
+def parse_epub_palma(path: Path) -> dict[tuple[str, int], list[str]]:
+    """Michael Palma (2025): Chapter01–Chapter100, one <p class="verse"> or "verse1" per line."""
+
+    documents = dict(epub_documents(path))
+    keys = [(cantica, n) for cantica, (_, count) in CANTICA.items() for n in range(1, count + 1)]
+    result = {}
+    for number, key in enumerate(keys, 1):
+        document = next((text for href, text in documents.items() if href.endswith(f"Chapter{number:02d}.xhtml")), None)
+        if document is None: raise RuntimeError(f"{path.name}: Chapter{number:02d} missing")
+        result[key] = [" ".join(_html.unescape(re.sub(r"<[^>]+>", "", m)).split()) for m in re.findall(r'<p class="verse1?">(.*?)</p>', document, re.S)]
+    check_cantos(path.name, result)
+    return result
+
+
 # --- Russian orthography ------------------------------------------------------
 
 PRE_REFORM = str.maketrans({"ѣ": "е", "Ѣ": "Е", "і": "и", "І": "И", "ѳ": "ф", "Ѳ": "Ф", "ѵ": "и", "Ѵ": "И"})
@@ -247,6 +305,11 @@ TRANSLATIONS: tuple[Translation, ...] = (
     Translation("ru-minaev", "ru", "Русский", "Дмитрий Минаев", "Минаев (1874–1879, Чистилище и Рай)", "1874–1879", "verse", "proportional", RUSSIAN, coverage=("purgatorio", "paradiso"), orthography="modernised", source="russian-minaev-*.html"),
     Translation("ru-lozinsky", "ru", "Русский", "Михаил Лозинский", "Лозинский (1939–1945)", "1939–1945", "verse", "line", STUDY, default=True,
                 rights="local study copy; not for publication (see RIGHTS.md)", source="russian-lozinsky.html"),
+    # The owner's own EPUBs, in copyright: study edition only.
+    Translation("en-palma", "en", "English", "Michael Palma", "Palma (2025)", "2025", "verse", "line", STUDY,
+                rights="local study copy; not for publication (see RIGHTS.md)", source="english-palma.epub"),
+    Translation("en-james", "en", "English", "Clive James", "James (2013)", "2013", "verse", "proportional", STUDY,
+                rights="local study copy; not for publication (see RIGHTS.md)", source="english-james.epub"),
 )
 
 
@@ -273,6 +336,8 @@ def load_texts(translations: tuple[Translation, ...], expected: dict[tuple[str, 
         for cantica in ("purgatorio", "paradiso"): parsed.update(parse_azlib_linenumbered(RAW / f"russian-minaev-{cantica}.html", cantica))
         texts["ru-minaev"] = modern(parsed)
     if "ru-lozinsky" in wanted: texts["ru-lozinsky"] = parse_lozinsky(RAW / "russian-lozinsky.html")
+    if "en-palma" in wanted: texts["en-palma"] = parse_epub_palma(RAW / "english-palma.epub")
+    if "en-james" in wanted: texts["en-james"] = parse_epub_james(RAW / "english-james.epub")
     return texts
 
 

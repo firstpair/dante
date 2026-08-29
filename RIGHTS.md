@@ -38,6 +38,12 @@ pre-1918 orthography; this edition also offers each modernised by rule
   edition, which is never published or redistributed; the validator refuses
   it in any public vault.
 
+- Clive James, *The Divine Comedy* (Liveright, 2013), and Michael Palma,
+  *The Divine Comedy* (Liveright, 2025): the owner's own EPUBs, in copyright.
+  Carried only by the `study` edition (`sources/raw/english-*.epub`, ignored
+  by Git); the validator refuses any rights-restricted translation in a
+  public vault.
+
 ## Dictionaries
 
 - FreeDict `ita-eng` and `ita-rus`, release 2025.11.23, derived from
