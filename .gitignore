@@ -8,3 +8,4 @@ __pycache__/
 book/build/
 book/dist-full/
 .DS_Store
+book/dist-*/
