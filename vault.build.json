@@ -656,7 +656,9 @@
           "label": "Русский",
           "glossary": [
             "ruwiktionary-italian",
-            "ruwiktionary-russian-translations"
+            "itwiktionary-italian-translations",
+            "ruwiktionary-russian-translations",
+            "enwiktionary-english-pivot"
           ],
           "dictionary": "dist/dictionaries/it-ru-freedict.json",
           "supplement": "sources/dictionaries/italian-russian-supplement.json"

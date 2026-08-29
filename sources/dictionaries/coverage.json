@@ -1,5 +1,5 @@
 {
- "schema": "dante-dictionary-coverage-v1",
+ "schema": "dante-dictionary-coverage-v2",
  "italianForms": 12766,
  "analysed": 11882,
  "english": {
@@ -7,7 +7,7 @@
   "missing": []
  },
  "russian": {
-  "covered": 8522,
+  "covered": 9591,
   "missing": [
    "abbarbaglio",
    "abbarbicata",
@@ -29,56 +29,28 @@
    "accocchi",
    "accoglitor",
    "acconcerà",
-   "accoppia",
-   "accoppio",
-   "accora",
    "accorda",
    "accordiamo",
-   "accoro",
-   "accorta",
-   "accorte",
-   "accorti",
-   "accoscia",
-   "acheronte",
    "achitofèl",
    "acquacheta",
    "acquasparta",
    "acquatta",
    "acquetava",
    "acra",
-   "acutamente",
-   "adagia",
    "addimandò",
    "addite",
    "addivenne",
    "addivien",
    "addobbi",
-   "addormentai",
-   "addorna",
    "addornarmi",
-   "addorno",
    "addossandosi",
-   "addotto",
    "addrizzaro",
    "addua",
-   "adduce",
-   "addur",
-   "addusse",
    "aderse",
    "adizzo",
-   "adocchi",
-   "adocchia",
-   "adocchiato",
-   "adocchio",
    "adombra",
    "adona",
    "aduggia",
-   "aduna",
-   "adunar",
-   "adunate",
-   "adunati",
-   "aduni",
-   "aduno",
    "aequar",
    "aere",
    "affanna",
@@ -86,11 +58,8 @@
    "affannate",
    "affaticarne",
    "affattura",
-   "affezion",
-   "affezione",
    "affigge",
    "affiguro",
-   "affina",
    "affisar",
    "affisser",
    "affoca",
@@ -102,10 +71,6 @@
    "affuoca",
    "agevole",
    "aggelava",
-   "aggira",
-   "aggirammo",
-   "aggirata",
-   "aggiri",
    "aggrada",
    "aggrappa",
    "aggrappossi",
@@ -117,15 +82,11 @@
    "aggueffa",
    "agni",
    "agno",
-   "agogna",
    "agosta",
    "aguglion",
-   "agurarsi",
    "agusta",
-   "aguti",
    "aguzzavan",
    "aguzzeranno",
-   "ahi",
    "aiutami",
    "aiutarla",
    "aiutarlo",
@@ -136,22 +97,16 @@
    "alberga",
    "albergan",
    "alberigo",
-   "albori",
    "aldobrandi",
    "aleppe",
-   "aletto",
    "alichin",
    "alichino",
-   "allarga",
    "alleggiar",
    "allegrammo",
    "allegrezza",
    "allegrezze",
    "alleluiando",
-   "alletta",
-   "allette",
    "allevata",
-   "alleviò",
    "allodetta",
    "allotta",
    "alluma",
@@ -159,30 +114,18 @@
    "alluminar",
    "alluminasti",
    "allumò",
-   "allungata",
    "alma",
    "alme",
    "almi",
    "alo",
    "alpe",
-   "alpestre",
-   "alpestro",
-   "alquanto",
    "altaforte",
    "alternando",
-   "altresì",
-   "altrimenti",
    "altura",
    "alvo",
-   "alì",
    "amanza",
    "ambage",
-   "ambascia",
-   "ambedue",
-   "ambedui",
    "ambo",
-   "amen",
-   "amendue",
    "ammanna",
    "ammanta",
    "ammanti",
@@ -191,7 +134,6 @@
    "ammendava",
    "ammenta",
    "ammentassi",
-   "ammicca",
    "ammirata",
    "ammoglia",
    "ammorta",
@@ -199,22 +141,17 @@
    "ammusa",
    "ammuta",
    "amomo",
-   "anassagora",
    "ancella",
    "ancelle",
-   "anchise",
    "ancilla",
    "ancoi",
    "andarne",
-   "andi",
    "andovvi",
    "anella",
-   "anelo",
    "anfiarao",
    "anfione",
    "anfisibena",
    "angiolello",
-   "angosciate",
    "angosciosa",
    "angoscioso",
    "angue",
@@ -227,25 +164,17 @@
    "annotta",
    "annoverar",
    "anselmuccio",
-   "antecessor",
    "antelucani",
    "antenora",
    "antenori",
    "anteo",
    "anticamente",
-   "antigone",
    "antiveder",
    "antivedere",
    "antivedesse",
-   "anzi",
    "aombra",
    "aonti",
    "apo",
-   "appaga",
-   "appago",
-   "apparecchia",
-   "apparecchian",
-   "apparecchiava",
    "apparinno",
    "apparo",
    "appasta",
@@ -254,9 +183,6 @@
    "appellava",
    "appetibili",
    "appiattò",
-   "appicca",
-   "appiccar",
-   "appollo",
    "appon",
    "appone",
    "apporta",
@@ -278,39 +204,26 @@
    "appressavan",
    "appresso",
    "appresta",
-   "approccia",
-   "appropinquava",
    "approvarla",
    "appulcro",
    "appuzza",
    "aprimi",
    "aprirmi",
    "aquino",
-   "aragne",
-   "aragona",
    "arbia",
    "arbitrio",
    "arbor",
    "arbore",
    "arbuscelli",
-   "arca",
    "arcanamente",
-   "arche",
-   "arcioni",
-   "aretin",
-   "aretini",
-   "aretusa",
-   "arezzo",
    "argia",
    "argolica",
    "aringo",
    "arli",
-   "armento",
    "arno",
    "aronta",
    "arr",
    "arra",
-   "arretri",
    "arricciar",
    "arrossan",
    "arrosso",
@@ -319,14 +232,11 @@
    "arruncigliò",
    "arsiccia",
    "artezza",
-   "artificio",
-   "artigliar",
    "artimon",
    "artù",
    "arzanà",
    "asbergo",
    "ascende",
-   "ascesi",
    "ascian",
    "ascoltarli",
    "ascoltarmi",
@@ -338,38 +248,21 @@
    "ascose",
    "ascoso",
    "asdente",
-   "aspersion",
-   "aspiri",
-   "assalisse",
-   "assalita",
-   "assaliti",
-   "asseggia",
    "assenno",
-   "assentir",
-   "assentirei",
-   "assentì",
    "asseta",
-   "assetate",
    "assetta",
    "assettai",
    "assiepa",
-   "assiri",
    "assiser",
-   "assisi",
    "assiso",
-   "assoluta",
    "assomigliarsi",
    "assommi",
    "assonna",
    "assonnar",
    "assonnaro",
-   "assottiglia",
-   "assottiglio",
    "assuero",
    "assumma",
    "asticciuole",
-   "astio",
-   "atamante",
    "atra",
    "atre",
    "atteggiata",
@@ -378,22 +271,18 @@
    "attorse",
    "attorti",
    "attosca",
-   "attribuisce",
    "attrista",
    "attristiam",
    "attuffa",
    "attuffare",
    "attuffata",
    "attuffò",
-   "attuta",
    "audivi",
    "augel",
    "augelli",
    "augello",
    "aulide",
    "auliva",
-   "auna",
-   "aura",
    "ausa",
    "ausi",
    "ausonia",
@@ -404,22 +293,16 @@
    "avello",
    "avelse",
    "avendomi",
-   "aventino",
-   "averle",
    "averlo",
    "avermi",
-   "averoìs",
    "aversi",
    "averti",
-   "avicenna",
    "avolo",
    "avolterate",
    "avoltero",
    "avvalla",
    "avvalli",
    "avvalliamo",
-   "avvalora",
-   "avvalorava",
    "avvantaggia",
    "avvede",
    "avvedrai",
@@ -428,18 +311,11 @@
    "avventò",
    "avvera",
    "avvide",
-   "avvinghia",
-   "avvinghiai",
-   "avvinse",
-   "avvinsi",
    "avvinte",
-   "avvinto",
    "avviticchiò",
    "avviva",
    "avvivan",
    "avvivava",
-   "avvolge",
-   "avvolse",
    "avvolte",
    "avvolti",
    "azzolino",
@@ -449,9 +325,6 @@
    "balasso",
    "balba",
    "balco",
-   "balenar",
-   "baleno",
-   "balenò",
    "balestro",
    "bando",
    "barattier",
@@ -462,58 +335,37 @@
    "battendosi",
    "battezzatori",
    "battuti",
-   "beatrice",
    "becchetto",
-   "beda",
-   "bee",
    "belisar",
    "belletta",
-   "belzebù",
    "benaco",
-   "benedette",
-   "benevento",
    "benignamente",
    "beninanza",
    "berti",
    "bestialitade",
    "bestialitate",
-   "biacca",
    "biancovestito",
    "bieci",
-   "bifolco",
    "bigoncia",
    "bindi",
-   "bisavol",
    "biscazza",
    "bisenzo",
    "bivero",
-   "blanda",
-   "blande",
-   "bolognese",
-   "bolognesi",
    "bolsena",
    "bonatti",
-   "bonaventura",
    "bonturo",
    "bornio",
    "borsiere",
    "botoli",
-   "botto",
    "bozzacchioni",
-   "bozze",
    "braco",
    "brago",
-   "bramosa",
-   "bramose",
-   "bramosi",
    "brancolar",
    "brenno",
    "brenta",
    "briareo",
    "brisso",
-   "broglia",
    "brolo",
-   "bruggia",
    "brunetto",
    "bugio",
    "bulicame",
@@ -525,7 +377,6 @@
    "caccianli",
    "cacciata",
    "cacume",
-   "cadmo",
    "caggendo",
    "caggia",
    "caggion",
@@ -533,7 +384,6 @@
    "cagnan",
    "cagnazzi",
    "cagnazzo",
-   "cagne",
    "caina",
    "calboli",
    "calcabrina",
@@ -561,124 +411,67 @@
    "cantaro",
    "cantere",
    "cantica",
-   "cantilena",
-   "cantor",
    "caorsa",
    "capaneo",
    "cape",
-   "capestro",
-   "capocchio",
    "cappelletti",
    "caprona",
    "caramente",
-   "cariddi",
    "carlin",
    "carmi",
    "carnaro",
    "carole",
-   "caron",
    "carpando",
-   "carpir",
-   "carpon",
-   "carpone",
    "carrarese",
    "carreggiar",
    "casalodi",
-   "casella",
-   "cassi",
-   "cassino",
    "cassio",
-   "casso",
    "castore",
    "catolico",
    "caton",
    "catun",
    "cecilio",
-   "cecina",
    "cencri",
-   "ceni",
    "cennamella",
    "cent",
-   "cerbero",
-   "cerchia",
-   "cerchiando",
-   "cerchiar",
-   "cerchiaro",
-   "cerchiato",
    "cerchie",
-   "cerchietti",
    "cerebro",
-   "cerna",
-   "cerne",
-   "cerner",
-   "cerno",
    "cerro",
    "chelidri",
    "chercuti",
    "cherubi",
-   "cherubica",
    "chiame",
    "chiana",
-   "chiappa",
    "chiarirti",
-   "chiarissima",
    "chiarità",
-   "chiavar",
-   "chiavasse",
-   "chiavata",
-   "chin",
    "chinandomi",
-   "chioma",
-   "chiome",
-   "chiosa",
-   "chiosar",
-   "chiosarlo",
-   "chiose",
    "chiostra",
-   "chirón",
    "ciacco",
    "cianfa",
    "ciba",
    "ciberà",
-   "cigne",
-   "cigner",
-   "cignesi",
    "cimabue",
    "cincinnato",
-   "cinge",
-   "cinger",
    "cinghio",
-   "cingon",
-   "cinse",
-   "cinsela",
    "cionca",
    "ciotto",
    "ciprigna",
-   "circe",
-   "circuir",
-   "circuito",
    "circulata",
    "circulava",
    "circumcinto",
    "circunfulse",
-   "circunscritto",
-   "circunscrive",
    "ciriatto",
-   "cirro",
    "citarista",
    "ciuffetto",
    "cive",
    "civi",
    "claritate",
-   "claustro",
    "clavi",
-   "clemente",
    "cleto",
    "clivo",
    "cloto",
    "coarta",
    "cocenti",
-   "cocito",
    "cocolle",
    "coculla",
    "cogitazion",
@@ -686,8 +479,6 @@
    "colchi",
    "colco",
    "colei",
-   "colorata",
-   "coltura",
    "colui",
    "colà",
    "combusto",
@@ -702,15 +493,10 @@
    "compiacermi",
    "compiange",
    "compianto",
-   "compiute",
-   "comporta",
-   "comporti",
    "compresa",
    "compunto",
-   "concilio",
    "concolori",
    "condescende",
-   "condoleami",
    "confaccia",
    "confitto",
    "conflati",
@@ -721,22 +507,13 @@
    "congaudete",
    "congiugnersi",
    "congiungi",
-   "congiunta",
-   "congiunte",
-   "congiunti",
-   "congiunto",
-   "congiurato",
    "congratulando",
    "conserte",
    "consperso",
    "constare",
    "consunse",
    "consunsi",
-   "consunta",
-   "consunto",
-   "consuona",
    "contarla",
-   "contegno",
    "contemplanti",
    "contenerlo",
    "contentato",
@@ -749,26 +526,9 @@
    "contrista",
    "contristati",
    "convegna",
-   "convegno",
-   "convegnon",
-   "convegnono",
-   "conven",
-   "convene",
-   "convenia",
-   "convenne",
-   "converrassi",
-   "converrebbe",
-   "converria",
-   "converrà",
-   "convien",
-   "conviene",
-   "convienmi",
-   "conviensi",
    "convolto",
    "coperchia",
-   "coppo",
    "coram",
-   "corata",
    "corca",
    "corcar",
    "cordigliero",
@@ -780,13 +540,10 @@
    "correda",
    "correr",
    "corruttibile",
-   "corsar",
-   "corsier",
    "corusca",
    "coruscar",
    "corusco",
    "cosperso",
-   "cospetto",
    "costei",
    "costellati",
    "costinci",
@@ -803,12 +560,10 @@
    "cotanta",
    "cotanti",
    "cotanto",
-   "cotenna",
    "cotesta",
    "cotesti",
    "cotesto",
    "coto",
-   "cotti",
    "coverchia",
    "crasso",
    "crastino",
@@ -816,7 +571,6 @@
    "credendomi",
    "cresciuta",
    "creusa",
-   "crisostomo",
    "croia",
    "crollarsi",
    "croscia",
@@ -825,23 +579,14 @@
    "crucciasse",
    "crucciata",
    "crucciato",
-   "cu",
-   "cuna",
-   "cune",
    "cunta",
-   "cupidità",
    "curan",
    "currado",
    "curro",
    "cuticagna",
-   "cólti",
    "dalmi",
-   "damiano",
-   "dammi",
-   "dammiata",
    "dandole",
    "dannaggio",
-   "dannati",
    "danne",
    "dape",
    "darli",
@@ -852,8 +597,6 @@
    "debili",
    "debitamente",
    "decenne",
-   "deci",
-   "decina",
    "decretali",
    "decurio",
    "degnamente",
@@ -862,19 +605,9 @@
    "deidamia",
    "deidamìa",
    "deiforme",
-   "deitade",
-   "deità",
-   "deliberarti",
-   "delinque",
    "delo",
    "delubro",
    "deman",
-   "democrito",
-   "derelitta",
-   "derelitti",
-   "desiderosi",
-   "desideroso",
-   "desso",
    "detruso",
    "deturpa",
    "dianzi",
@@ -885,54 +618,30 @@
    "dichiararti",
    "dien",
    "diessi",
-   "difesa",
    "diffidi",
    "digli",
    "digrada",
    "digradar",
-   "digrigna",
-   "digrignan",
-   "digrignar",
    "dilaceraro",
    "dilci",
    "dilegua",
    "dileguan",
    "dileguò",
-   "dilettar",
    "dilettarne",
-   "dilettava",
    "dilettoso",
    "dille",
    "dillo",
    "dilmi",
-   "dilunga",
    "dimagra",
    "dimessa",
-   "dimesso",
    "dimmi",
    "dimostrami",
-   "dinanzi",
    "dindi",
    "dinne",
    "dintorno",
-   "diomede",
-   "dione",
-   "diparte",
-   "diparti",
-   "dipartilla",
-   "dipartille",
-   "dipartir",
    "dipartirci",
-   "dipartire",
-   "dipartiro",
-   "dipartirsi",
-   "dipartita",
-   "dipartiti",
    "dipela",
    "dipelato",
-   "dipinta",
-   "dipinte",
-   "dipinti",
    "dirada",
    "diradar",
    "dirama",
@@ -952,32 +661,20 @@
    "disceda",
    "discente",
    "discetti",
-   "dischiude",
-   "dischiusa",
-   "dischiuso",
    "discioglie",
    "discioglierò",
    "disciolse",
    "disciolta",
    "disciolto",
    "discolora",
-   "discolpi",
-   "disconvien",
-   "discoperse",
-   "discoperta",
    "discorde",
    "discorre",
    "discorrer",
    "discoscesa",
-   "discuopre",
-   "disdegnosa",
-   "disdegnoso",
-   "disdetto",
    "diserra",
    "diserrando",
    "diserrare",
    "diserri",
-   "diseta",
    "disfama",
    "disfatti",
    "disgiunte",
@@ -991,7 +688,6 @@
    "disiati",
    "disiato",
    "disiava",
-   "disideroso",
    "disigilla",
    "disii",
    "disio",
@@ -1012,12 +708,8 @@
    "dispaia",
    "disparito",
    "disparve",
-   "dispensa",
    "dispensare",
-   "dispense",
    "dispergesse",
-   "dispettosa",
-   "dispettoso",
    "dispoglia",
    "dispogliata",
    "disposando",
@@ -1027,19 +719,10 @@
    "dispregiare",
    "dispregio",
    "dispregiò",
-   "dissolve",
    "dista",
    "distar",
    "distava",
    "distavan",
-   "distesa",
-   "distorse",
-   "distorta",
-   "distorti",
-   "distratte",
-   "distrutta",
-   "distrutte",
-   "distrutti",
    "disusa",
    "disvelta",
    "disvestito",
@@ -1058,98 +741,53 @@
    "divota",
    "divote",
    "doagio",
-   "doga",
-   "doglia",
-   "doglie",
    "doglienza",
    "dogliose",
    "dogliosi",
    "dolcin",
-   "dole",
-   "dolente",
    "dolenti",
-   "doler",
    "dolermi",
    "dolorando",
-   "dolsi",
-   "dolve",
    "domandal",
    "domandarmi",
    "dome",
-   "dominazioni",
    "domizian",
    "donati",
    "donno",
    "doria",
-   "dota",
-   "dotar",
-   "dote",
    "draghignazzo",
-   "drappi",
-   "drappo",
    "drittamente",
    "drudo",
    "dubbiando",
    "dubbiar",
    "dubbiare",
    "dubbiava",
-   "dubbiosi",
    "dubitazion",
    "duera",
    "duol",
-   "duole",
-   "duoli",
    "duolo",
-   "durabile",
-   "duramente",
    "eccelsa",
-   "eccelse",
-   "eccelso",
-   "eclissar",
-   "eclissò",
-   "effige",
    "effigiata",
    "egina",
    "ego",
-   "eletra",
-   "elia",
    "elicona",
-   "eliodoro",
    "eliso",
    "ema",
-   "emme",
-   "emmi",
-   "empedoclès",
    "empierti",
-   "enea",
-   "eolo",
    "epa",
    "epe",
-   "epicuro",
-   "equalità",
-   "equivocando",
-   "eraclito",
    "erbetta",
    "erbette",
    "ergea",
    "erine",
    "eritón",
    "ermo",
-   "erta",
-   "erte",
-   "erti",
-   "erto",
    "eschi",
    "esper",
-   "essa",
    "essalazion",
-   "essausto",
-   "essecutori",
    "essenti",
    "essermi",
    "esservi",
-   "esso",
-   "estatica",
    "esti",
    "esto",
    "eteòcle",
@@ -1161,8 +799,6 @@
    "facella",
    "facelle",
    "falca",
-   "falconiere",
-   "falde",
    "fallace",
    "fallaci",
    "fallar",
@@ -1170,13 +806,8 @@
    "falsai",
    "falsasti",
    "falsava",
-   "famagosta",
    "fammi",
    "fammiti",
-   "fanciul",
-   "fanciulla",
-   "fanciulli",
-   "fanciullo",
    "fano",
    "fantin",
    "fantolin",
@@ -1195,18 +826,12 @@
    "farvi",
    "fassi",
    "fatene",
-   "faticoso",
    "favella",
    "favelle",
    "favelli",
    "favellò",
-   "favilla",
-   "faville",
-   "favola",
-   "favole",
    "favoleggiare",
    "favoleggiava",
-   "feda",
    "fedir",
    "fedire",
    "feggia",
@@ -1215,7 +840,6 @@
    "felli",
    "fello",
    "fellonia",
-   "feminine",
    "femmi",
    "fera",
    "ferace",
@@ -1226,55 +850,28 @@
    "ferrati",
    "ferrigno",
    "fertilemente",
-   "ferve",
    "ferza",
    "ferze",
-   "festanti",
    "festini",
    "festino",
-   "festuca",
-   "fetonte",
-   "fialte",
    "fiammando",
-   "fiammeggiante",
-   "fiammeggiar",
-   "fiammeggiare",
-   "fiammeggiarsi",
-   "fiammeggiava",
-   "fiammeggio",
    "fiata",
    "fiate",
    "fida",
    "fidandomi",
-   "fidanza",
-   "fidate",
    "fidi",
    "fiede",
    "fiesolane",
    "fiesole",
-   "fievole",
-   "figliar",
    "figliuol",
    "figliuole",
    "figliuoli",
-   "figurando",
-   "figurarlo",
-   "figurato",
-   "figuri",
    "filippi",
-   "filosofando",
    "finitolo",
    "fino",
-   "finor",
    "fio",
    "fiocca",
    "fioccar",
-   "fioche",
-   "fioco",
-   "fiotto",
-   "fisamente",
-   "fisi",
-   "fiumana",
    "flegetonta",
    "flegiàs",
    "flegra",
@@ -1282,47 +879,31 @@
    "focara",
    "focile",
    "fogliette",
-   "folgor",
    "folgorando",
    "folgorate",
-   "folgore",
    "folgoreggiando",
    "folgorò",
-   "folgóri",
-   "folli",
    "folo",
    "fommi",
    "foracchiato",
    "forame",
    "forbendola",
    "forbi",
-   "forcata",
    "forcuta",
    "forcuto",
    "forese",
    "forlì",
-   "formativa",
    "fornita",
    "forsennata",
-   "fosca",
-   "fosco",
    "fotin",
    "franga",
    "frasca",
    "frasche",
-   "fratta",
    "fratto",
-   "freddura",
-   "fregiati",
-   "fregiavan",
-   "frison",
-   "fronteggiar",
    "frui",
-   "fruttare",
    "fucci",
    "fuggirsi",
    "fugò",
-   "fuia",
    "fulgeami",
    "fulgida",
    "fulgor",
@@ -1330,15 +911,12 @@
    "fura",
    "furare",
    "furò",
-   "fusca",
-   "fusto",
    "félli",
    "gabbo",
    "gaddo",
    "gaeta",
    "gaetta",
    "gaggi",
-   "galieno",
    "gallura",
    "ganellone",
    "garda",
@@ -1350,23 +928,14 @@
    "geri",
    "gerion",
    "gerione",
-   "gesta",
-   "ghermito",
    "ghin",
    "ghisolabella",
    "gibetto",
    "giga",
    "gimmo",
-   "giocasta",
-   "giostrò",
    "giotto",
-   "giova",
    "giovanetti",
-   "giovare",
-   "giovato",
    "giovenale",
-   "gioverà",
-   "giovi",
    "giovial",
    "giovinetta",
    "gire",
@@ -1377,15 +946,10 @@
    "girà",
    "gissi",
    "gittan",
-   "giudecca",
-   "giuntura",
-   "giunture",
    "giurarlo",
-   "giustamente",
    "giva",
    "givan",
    "givi",
-   "glauco",
    "gliel",
    "glien",
    "gliene",
@@ -1396,86 +960,45 @@
    "gocciar",
    "gocciava",
    "gorgona",
-   "gorgón",
    "grada",
-   "gradir",
-   "gradire",
-   "graffia",
    "graffiacan",
    "graffiacane",
-   "graffiar",
-   "graffiati",
    "grattarmi",
    "gravezza",
-   "greggia",
    "greppo",
    "greve",
    "grifagni",
    "grifagno",
-   "grifo",
    "gromma",
    "grommate",
-   "gronda",
-   "groppa",
-   "groppone",
    "grue",
-   "guai",
-   "guaio",
    "gualandi",
    "gualdo",
    "gualdrada",
    "guardaci",
-   "guascogna",
    "guastatori",
    "guata",
    "guati",
    "guinizzelli",
    "guisa",
-   "guiscardo",
    "guise",
    "guittone",
-   "guizza",
-   "guizzan",
-   "guizzando",
-   "guizzante",
-   "guizzava",
-   "guizzavan",
-   "guizzo",
    "gurge",
-   "gusta",
-   "gustar",
-   "gustata",
-   "gustato",
-   "gustava",
-   "gustò",
    "gì",
    "iasón",
-   "iattanza",
    "iattura",
    "ibero",
-   "icaro",
-   "ida",
-   "idioma",
-   "idre",
    "idropico",
-   "iesù",
    "igne",
    "ignito",
-   "ignude",
-   "ignudi",
-   "igualmente",
    "ima",
-   "imago",
    "imbestiò",
    "imboli",
    "imbruna",
-   "immolle",
    "immondi",
-   "immota",
    "imo",
    "impediti",
    "impeli",
-   "impenna",
    "impera",
    "impetrai",
    "impetrare",
@@ -1487,10 +1010,7 @@
    "impigliar",
    "impingua",
    "impola",
-   "imprende",
-   "imprendea",
    "impressa",
-   "impresso",
    "impronti",
    "impulse",
    "incappelli",
@@ -1521,137 +1041,84 @@
    "incresca",
    "incresce",
    "incude",
-   "indaco",
-   "indegna",
-   "indegno",
    "indige",
-   "indo",
    "indulgo",
    "indulse",
    "indurasse",
    "indurlo",
-   "inebriate",
-   "inebriava",
    "ineffabil",
    "ineffabile",
    "ineffabili",
    "inferma",
    "infermi",
    "infermo",
-   "infiammata",
-   "infiammati",
    "infiata",
    "infima",
    "infimo",
-   "infin",
    "infino",
    "infinse",
    "infiora",
    "infonde",
    "inforca",
    "inforcar",
-   "infra",
    "infuso",
    "ingemmato",
    "ingemmi",
-   "inghirlanda",
-   "ingrossò",
    "inlei",
    "inluia",
    "inmilla",
-   "innamorata",
-   "innanzi",
    "innovò",
-   "innumerabili",
    "insacca",
    "insala",
-   "insano",
    "insin",
    "insino",
    "insolla",
-   "intagliato",
-   "intanto",
    "intendimenti",
    "intercisi",
    "interciso",
-   "interdetto",
    "interminei",
    "interporsi",
    "interpuose",
    "intoppa",
-   "intrambe",
-   "intrambi",
    "inurba",
    "invaghito",
    "inveggia",
    "inveggiar",
-   "invoco",
    "invola",
-   "involuto",
    "iole",
-   "iosafàt",
-   "iperione",
-   "ipocràte",
    "iracundia",
    "irmi",
    "iscede",
    "isifile",
-   "isnelle",
-   "isnello",
-   "isopo",
-   "issa",
-   "isso",
    "istoria",
    "ita",
    "italica",
    "iterate",
-   "iuba",
    "iube",
-   "iunone",
    "iura",
    "labbia",
    "labi",
    "labia",
    "labili",
    "lacerto",
-   "ladron",
    "ladroneccio",
-   "ladroni",
    "lagrimabil",
-   "lagrimai",
-   "lagrimando",
-   "lagrimar",
-   "lagrimata",
    "lai",
-   "laida",
-   "laide",
    "lamagna",
    "lamone",
-   "lampeggiar",
-   "lampeggiava",
-   "lancialotto",
-   "landa",
    "lanfranchi",
    "lapilli",
-   "lapo",
    "largir",
    "largirmi",
    "largiscon",
    "largisse",
    "largita",
    "largito",
-   "lasc",
-   "lasca",
    "lasciala",
    "lasciali",
    "lasciatemi",
-   "lassa",
-   "lasse",
-   "lassi",
-   "lasso",
    "latebra",
    "laterano",
-   "latona",
    "latria",
    "lattar",
    "laudabil",
@@ -1660,34 +1127,22 @@
    "lauro",
    "lavina",
    "learco",
-   "lebbroso",
    "lece",
    "leda",
-   "leggiadria",
    "legista",
-   "lembo",
-   "lena",
    "lenno",
-   "leno",
-   "leonine",
    "leppo",
    "lesa",
    "letizian",
    "letiziar",
-   "letè",
    "lezzo",
    "libente",
-   "liberamente",
    "libicocco",
-   "libra",
-   "licenza",
    "lici",
    "licito",
    "lietamente",
    "lievemente",
    "lilia",
-   "limbo",
-   "liquefatta",
    "lito",
    "litorano",
    "livore",
@@ -1696,77 +1151,43 @@
    "locati",
    "loderingo",
    "logodoro",
-   "logoro",
    "loico",
    "lonza",
-   "loquela",
    "lordura",
-   "lucca",
-   "lucemi",
-   "lucendo",
-   "lucente",
-   "lucenti",
-   "lucevan",
    "lucore",
    "luculenta",
    "lude",
    "ludi",
    "ludo",
-   "lumaccia",
    "lungamente",
    "lunghesso",
    "luni",
    "lusinghe",
-   "macabeo",
    "maccabei",
-   "macigno",
-   "maciulla",
    "macra",
    "macri",
    "macro",
-   "madonna",
-   "maginare",
    "magino",
-   "magne",
-   "magni",
-   "magno",
    "magrezza",
    "mainardi",
    "malacoda",
-   "maladetta",
-   "maladette",
-   "maladetti",
    "malagevole",
-   "malaspina",
    "malebolge",
    "malebranche",
-   "malie",
    "malignamente",
-   "malizioso",
    "malmenare",
-   "mandrian",
    "manduca",
    "manfredi",
    "manicar",
    "manse",
    "mantoan",
-   "maometto",
-   "maravigliando",
-   "maravigliar",
-   "maravigliate",
-   "maravigliava",
-   "maraviglio",
    "marcabò",
    "marcel",
-   "marcite",
-   "mareggiare",
    "maremma",
    "marescalchi",
    "marinari",
    "marra",
    "marsia",
-   "marturi",
-   "marzia",
    "marzucco",
    "mastro",
    "mattinar",
@@ -1774,7 +1195,6 @@
    "mbestiate",
    "mea",
    "meco",
-   "medea",
    "medesma",
    "medesme",
    "medesmi",
@@ -1797,67 +1217,43 @@
    "menava",
    "menavano",
    "mencio",
-   "mendaci",
    "mendici",
    "meni",
    "menocci",
-   "menommi",
-   "mensola",
    "mentovato",
    "menò",
    "merca",
    "mercatante",
-   "mercede",
-   "mercedi",
    "mercé",
-   "meretrice",
    "merigge",
    "merse",
    "mesca",
    "messer",
    "metello",
-   "metropolitano",
    "mettetel",
    "mettine",
    "mida",
    "migliaio",
    "milan",
-   "milizia",
    "minerva",
    "minoi",
-   "minotauro",
    "minugia",
-   "minuzie",
-   "minòs",
    "mirabil",
    "mirabile",
    "mirabili",
    "mirabilmente",
    "miraglio",
    "mirro",
-   "mischia",
-   "mischiar",
-   "mischiata",
-   "mischiate",
-   "mischiato",
-   "mischio",
    "miseramente",
    "miserere",
-   "miso",
    "misuratamente",
    "mmonito",
-   "mo",
-   "modena",
    "molin",
    "monaldi",
    "monche",
    "monchi",
    "mondiglia",
-   "mondizia",
    "monetier",
-   "monferrato",
-   "mongibello",
-   "montanaro",
    "montaperti",
    "montasi",
    "montecchi",
@@ -1871,17 +1267,12 @@
    "mostrarli",
    "mostrarmi",
    "mostrarti",
-   "mota",
-   "moventi",
-   "moviti",
    "mpaccia",
    "mpaniati",
    "mpegolate",
    "mpetro",
    "mpiglia",
-   "mpresso",
    "mucci",
-   "muda",
    "mugghia",
    "mugghiava",
    "mugghiò",
@@ -1893,44 +1284,28 @@
    "murò",
    "mutandom",
    "muzio",
-   "nabuccodonosor",
-   "nanna",
-   "narrazion",
    "nascimenti",
-   "nascosta",
    "nasetto",
    "nasidio",
    "navigio",
    "nchiese",
    "nchiude",
    "necesse",
-   "necessitate",
-   "necessitato",
-   "negghienza",
    "nembrotto",
    "nembròt",
    "nequizia",
-   "nerbo",
    "nerli",
    "nescia",
-   "nesso",
    "neun",
-   "nfiammati",
    "nfiata",
    "nfin",
    "nfino",
    "nfiora",
    "nforco",
-   "ngrossa",
-   "niccosia",
    "nin",
    "nino",
    "niso",
-   "nnanzi",
-   "nobilitasti",
    "nocchi",
-   "nocchier",
-   "nocchiero",
    "noiando",
    "noma",
    "nomar",
@@ -1942,50 +1317,33 @@
    "nomerò",
    "nominanza",
    "nomò",
-   "nonché",
-   "norma",
-   "norme",
    "nosco",
    "nostral",
    "nostrali",
-   "notabile",
-   "notabili",
    "notaro",
    "notrica",
    "novellamente",
    "novello",
    "noverca",
    "nsembre",
-   "nsidie",
-   "ntanto",
    "ntendimento",
    "ntrona",
    "ntrono",
    "numi",
-   "nuvoli",
    "nvetriate",
    "nviarci",
    "nviluppata",
-   "nvoglia",
-   "nvogliava",
    "nòi",
    "obliando",
    "oblivion",
-   "occaso",
-   "occhiaie",
    "oggimai",
    "ognora",
-   "oh",
    "olezza",
-   "olimpo",
-   "olocausto",
-   "oloferne",
    "oltracotanza",
    "oltracotata",
    "omai",
    "ombrata",
    "omè",
-   "ondeggiar",
    "onrata",
    "onta",
    "ontoso",
@@ -1993,15 +1351,8 @@
    "opimo",
    "opizzo",
    "oppilazion",
-   "orai",
    "oramai",
-   "orando",
-   "orate",
-   "orazion",
-   "orazione",
-   "orazioni",
    "orbino",
-   "ordigno",
    "oreste",
    "orezza",
    "organa",
@@ -2009,65 +1360,41 @@
    "orizzonta",
    "orizzòn",
    "orlando",
-   "orma",
    "ormai",
    "ormanni",
-   "orme",
-   "ornar",
    "orrevoli",
-   "orribilmente",
    "ortolano",
    "ossame",
    "ostante",
-   "ostello",
-   "ostendali",
    "osterlicchi",
    "otta",
-   "ottavian",
    "ov",
    "ove",
    "ovidio",
    "pachino",
-   "pado",
-   "palafreni",
    "palesarvi",
-   "pallade",
-   "pallante",
-   "palmi",
    "pantasilea",
    "pape",
    "pappo",
-   "parecchi",
-   "parecchio",
-   "pareggia",
-   "pareggiando",
    "pareglio",
    "pargoleggia",
-   "paricida",
    "parisi",
    "parlami",
    "parlandomi",
    "parlarmi",
    "parlasia",
-   "parmenide",
    "parnaso",
    "paroffia",
    "parolette",
    "parteggiando",
    "paruta",
    "parventi",
-   "parvenza",
-   "parvenze",
    "parvol",
-   "parìs",
    "paschi",
    "pasciute",
    "pasciuti",
    "pasife",
-   "passin",
-   "pastura",
    "pasturale",
-   "pasture",
    "pasturò",
    "paternostro",
    "patris",
@@ -2082,7 +1409,6 @@
    "pegola",
    "pelaghi",
    "pelago",
-   "peloro",
    "pendice",
    "pendici",
    "peneia",
@@ -2090,30 +1416,18 @@
    "penestrino",
    "pennecchio",
    "pennelleggia",
-   "pensata",
-   "pentuto",
    "perdonanza",
    "perduta",
    "perdute",
    "perduti",
-   "periclo",
-   "perigli",
-   "periglio",
    "permane",
    "permanendo",
-   "permutasse",
-   "permutazion",
    "persecutori",
-   "persegue",
-   "perseguette",
    "persio",
    "pertratta",
    "pertrattato",
    "pesol",
-   "pessima",
-   "pestilenzie",
    "petraia",
-   "petri",
    "petrina",
    "petrone",
    "pettinaio",
@@ -2125,66 +1439,46 @@
    "piccarda",
    "picen",
    "piche",
-   "pietola",
    "pietosamente",
    "pietrapana",
-   "pigmalion",
-   "pilato",
    "pilucca",
    "pinamonte",
    "pingue",
    "piovier",
    "piramo",
-   "pirro",
    "pisan",
    "pisistràto",
    "pispiglia",
    "pistoia",
    "pizzicor",
    "plaga",
-   "platone",
    "plaude",
    "plauto",
    "ploia",
    "plor",
    "plora",
-   "podesta",
    "podestate",
    "poetando",
    "poetar",
    "poetaro",
-   "poggia",
-   "poggian",
-   "poggiati",
-   "poggiato",
-   "poggin",
-   "poggio",
    "pola",
    "polidoro",
    "polissena",
    "poltre",
    "polve",
-   "pompeo",
-   "ponavam",
    "ponderoso",
    "ponta",
    "pontan",
    "pontano",
-   "porfido",
    "porsila",
    "portarne",
    "posarmi",
    "poscia",
-   "posponendo",
-   "posposta",
-   "pospuosi",
    "poss",
    "possanza",
    "posse",
    "posseditor",
    "possiam",
-   "postille",
-   "potavam",
    "potenziata",
    "potert",
    "potestate",
@@ -2198,19 +1492,14 @@
    "prave",
    "pravi",
    "precinto",
-   "preciso",
    "preclara",
    "preconio",
-   "precorre",
    "predella",
-   "predestinata",
    "predestinazion",
-   "predetta",
    "prefazi",
    "pregi",
    "pregiando",
    "pregio",
-   "pregna",
    "pregno",
    "preliba",
    "presaga",
@@ -2220,18 +1509,10 @@
    "primai",
    "primaia",
    "primiero",
-   "primizia",
-   "primizie",
    "princìpi",
    "priscian",
    "probo",
-   "procaccia",
-   "procacciam",
-   "procella",
-   "procuro",
-   "proferta",
    "profila",
-   "progenie",
    "promessi",
    "promession",
    "propinqua",
@@ -2248,27 +1529,16 @@
    "prun",
    "pruno",
    "puccio",
-   "pudica",
-   "pueril",
-   "puerili",
    "puerizia",
-   "pugliese",
    "pugnar",
    "pulcro",
-   "pullular",
    "purgarmi",
    "purgazion",
    "pusillo",
    "pute",
-   "putta",
    "puttaneggiar",
-   "putti",
    "pè",
-   "quadrante",
-   "quadranti",
-   "quadrel",
    "quai",
-   "qualunque",
    "quandunque",
    "quantunque",
    "quartana",
@@ -2280,7 +1550,6 @@
    "quetato",
    "queti",
    "quici",
-   "quiditate",
    "quietar",
    "quietarmi",
    "quietata",
@@ -2290,27 +1559,18 @@
    "quinzio",
    "quirino",
    "quiritta",
-   "quisquilia",
    "quiv",
    "quivi",
    "quorum",
    "rabbuffa",
    "raccapriccia",
    "raccerta",
-   "raccesa",
-   "raccese",
-   "raccesi",
-   "racceso",
-   "racchiuso",
    "racconciasse",
    "raccorci",
    "raccostammo",
    "raccostansi",
    "racqueta",
    "radiando",
-   "raffigura",
-   "raffigurar",
-   "raffina",
    "raffrettò",
    "raffronta",
    "raggeli",
@@ -2333,7 +1593,6 @@
    "ralligna",
    "ramarro",
    "ramogna",
-   "rampogna",
    "rampogni",
    "rance",
    "rancura",
@@ -2341,15 +1600,11 @@
    "rannicchia",
    "rappaciati",
    "rapporta",
-   "rascia",
-   "rassegna",
    "rattezza",
    "rauna",
    "raunai",
    "rauni",
-   "ravenna",
    "ravignani",
-   "ravvisai",
    "ravvolgea",
    "ravvolta",
    "razionabile",
@@ -2359,7 +1614,6 @@
    "recasse",
    "recasti",
    "recate",
-   "recettacolo",
    "rech",
    "recherà",
    "rechi",
@@ -2381,35 +1635,23 @@
    "refulse",
    "regalmente",
    "rege",
-   "reggia",
    "regi",
    "reiterando",
-   "relinqua",
    "remunerar",
    "rendili",
    "repente",
    "requievi",
-   "resplendo",
    "restarmi",
-   "retro",
    "retrorso",
-   "retroso",
    "reverente",
    "reverenti",
-   "reverire",
-   "revoche",
    "rezzo",
-   "ria",
-   "riaccesa",
    "rialto",
-   "riarmar",
    "riarse",
    "riarso",
    "riavesse",
    "ribaldo",
    "ribellante",
-   "ricadde",
-   "ricadeva",
    "ricerna",
    "richinava",
    "richiude",
@@ -2417,77 +1659,49 @@
    "richiusa",
    "richiuse",
    "richiuso",
-   "ricida",
-   "ricidemmo",
    "riciso",
    "ricoglie",
    "ricompie",
    "riconforta",
-   "ricoperse",
-   "ricopersi",
    "ricoperta",
    "ricorcarsi",
-   "ricovrar",
    "ricrea",
    "ricreduta",
-   "ricuopra",
-   "ricuopre",
    "riddi",
    "ridenti",
    "ridurlasi",
    "riede",
    "riedi",
-   "rietro",
    "rificchi",
    "rifiglia",
    "rifissi",
-   "rifonde",
    "rifratta",
-   "rifuggir",
    "rifulgea",
    "rigavan",
-   "rigira",
-   "rigirando",
    "rigiugnerò",
    "rigiunse",
    "riguardarmi",
-   "rii",
-   "rilega",
-   "rilegate",
-   "rilegollo",
    "rilevarvi",
-   "riluca",
-   "riluce",
    "rilucenti",
    "rimanendosi",
    "rimarita",
    "rimasa",
-   "rimbecca",
-   "rimembra",
    "rimembranza",
-   "rimembrar",
-   "rimembri",
-   "rimembriti",
-   "rimembro",
    "rimendo",
    "rimira",
    "rimirando",
    "rimirar",
    "rimiraron",
    "rimiri",
-   "rimontò",
    "rimorda",
    "rimorte",
    "rimpalmare",
    "rimpetto",
    "rinchiusa",
-   "rinchiuso",
    "rinfami",
    "rinfarcia",
    "rinfiammarsi",
-   "rinfresca",
    "rinfrescarmi",
-   "rinfreschi",
    "ringhiosi",
    "rinier",
    "rinovellar",
@@ -2495,38 +1709,21 @@
    "rintoppa",
    "rintoppo",
    "rinverte",
-   "rio",
-   "ripassossi",
-   "ripe",
-   "ripensando",
-   "ripensi",
    "ripercossi",
    "ripercosso",
    "ripiagne",
    "ripigliammo",
    "ripiglierà",
-   "ripogna",
    "riporse",
    "riposta",
-   "riposto",
    "ripresta",
    "ripriego",
    "riprofondavan",
-   "ripuose",
-   "risalir",
-   "risalire",
-   "risaliva",
    "riscosse",
    "riscossi",
    "riseder",
    "risega",
    "risente",
-   "risma",
-   "risplenda",
-   "risplende",
-   "risplendea",
-   "risplendendo",
-   "risplendere",
    "risso",
    "ristato",
    "ristette",
@@ -2534,19 +1731,15 @@
    "ristoppa",
    "ristora",
    "ristorar",
-   "ristori",
-   "ristoro",
    "ristrignermi",
    "ristrinse",
    "ristrinsi",
    "ritenerlo",
-   "ritenuti",
    "ritese",
    "ritorci",
    "ritornarci",
    "ritorse",
    "ritorsili",
-   "ritroso",
    "ritto",
    "riudir",
    "rivada",
@@ -2554,12 +1747,6 @@
    "rivene",
    "riversa",
    "riversata",
-   "rivesta",
-   "rivestire",
-   "rivestita",
-   "rivi",
-   "riviva",
-   "rivo",
    "rivolando",
    "rivolga",
    "rivolge",
@@ -2576,21 +1763,15 @@
    "rivolve",
    "rivolvi",
    "robbi",
-   "roco",
-   "rodano",
-   "rode",
-   "rodo",
    "roffia",
    "roggia",
    "roggio",
    "romagna",
    "romagnuoli",
-   "romeo",
    "romita",
    "ronchion",
    "ronchione",
    "roratelo",
-   "roso",
    "rosseggia",
    "rotando",
    "rotante",
@@ -2600,7 +1781,6 @@
    "ruberto",
    "rubesto",
    "rubicante",
-   "rubicon",
    "rubro",
    "ruffian",
    "ruggieri",
@@ -2609,26 +1789,15 @@
    "runcigli",
    "runciglio",
    "rusticucci",
-   "ruvida",
-   "ruvidamente",
-   "róse",
    "sabbion",
    "sabbione",
    "sabello",
    "sacrate",
-   "sacrato",
-   "saettando",
-   "saettaron",
-   "saettava",
-   "saetti",
    "saglia",
-   "sagrestia",
-   "saladino",
    "salirla",
    "salitor",
    "sallo",
    "salmista",
-   "salsi",
    "salterello",
    "salutevol",
    "salvati",
@@ -2644,31 +1813,15 @@
    "saputa",
    "sapìa",
    "sardanapalo",
-   "sarte",
-   "sassol",
-   "satolli",
-   "satollo",
-   "sazi",
-   "sazia",
-   "saziando",
    "saziarti",
-   "sazie",
-   "sazio",
    "sbandita",
    "scaccia",
    "scacciato",
-   "scalappia",
    "scalee",
-   "scaleo",
    "scalpitar",
    "scalzasi",
    "scalzò",
-   "scanni",
-   "scanno",
-   "scardova",
-   "scariotto",
    "scarmiglione",
-   "sceman",
    "scemata",
    "scempia",
    "scempie",
@@ -2676,8 +1829,6 @@
    "scerna",
    "scerpi",
    "scevra",
-   "scherniti",
-   "schianta",
    "schianze",
    "schiara",
    "schiarar",
@@ -2686,60 +1837,34 @@
    "schiatte",
    "schicchi",
    "schiro",
-   "schiude",
-   "schiuso",
    "sciagurato",
    "sciaurati",
    "scilocco",
-   "scindi",
    "sciorina",
    "scipa",
    "scipion",
    "scipione",
-   "scisso",
    "scocca",
    "scolora",
    "scolorocci",
-   "scolpa",
-   "sconfortai",
    "sconoscente",
    "sconsolata",
    "scontrati",
    "scontrava",
-   "scoperchiata",
    "scoperti",
-   "scorge",
-   "scorger",
-   "scorgere",
-   "scorgessi",
-   "scorgeva",
    "scornati",
-   "scorno",
-   "scorza",
    "scoscende",
    "scosta",
    "scostarsi",
-   "scranna",
-   "scriba",
-   "scuotersi",
-   "scuriada",
    "scusarmi",
    "sdebitò",
-   "secchion",
    "seco",
-   "secondamente",
    "secreta",
    "segnata",
-   "segnoria",
    "segretamente",
-   "seguace",
-   "seguaci",
    "seguentemente",
    "seguimi",
    "seguirla",
-   "sembianz",
-   "sembianza",
-   "sembianze",
    "semelè",
    "sementa",
    "semente",
@@ -2753,10 +1878,7 @@
    "sempiterno",
    "sene",
    "senis",
-   "senna",
    "sentenzia",
-   "sentita",
-   "sentiti",
    "sepe",
    "sepolta",
    "sepolte",
@@ -2773,89 +1895,57 @@
    "serpentello",
    "serrame",
    "serrati",
-   "serse",
-   "serto",
    "servammo",
    "servando",
    "servata",
    "servigio",
-   "settentrion",
    "sezzai",
    "sezzo",
    "sfavilla",
    "sfavillar",
    "sfavillaro",
-   "sferzati",
    "sfogato",
    "sforza",
    "sforzai",
    "sforzami",
-   "sfregia",
    "sganni",
-   "sgomenta",
    "sibilia",
    "sicheo",
    "sicurtà",
-   "siena",
-   "sigilla",
-   "sigillava",
-   "sigillo",
    "signaculo",
    "signoreggia",
    "sile",
-   "similitudine",
    "simoneggiando",
-   "sine",
    "sinigaglia",
    "sinon",
    "sipa",
    "sismondi",
    "sisto",
    "sitisti",
-   "siòn",
-   "slaccia",
-   "slega",
    "smaga",
    "smagato",
    "smaghi",
    "smozzicate",
-   "snella",
-   "snelle",
    "sobbarco",
-   "sobilia",
    "sobranza",
-   "soccinto",
    "sodalizio",
-   "soddoma",
    "sofferta",
    "sofferti",
    "soffolce",
    "soffolge",
-   "sofismi",
    "soga",
    "soggiace",
    "soggiacete",
-   "soggiorna",
    "soggiugnendo",
    "soggiunse",
    "sogli",
    "sogliare",
-   "soglio",
-   "soglion",
-   "sogliono",
-   "solaio",
-   "solea",
    "solecchio",
-   "solere",
    "soletto",
-   "soleva",
-   "solieno",
    "solinga",
    "solingo",
    "solla",
-   "sollazzo",
    "sollo",
-   "solone",
    "soluto",
    "solva",
    "solve",
@@ -2867,14 +1957,10 @@
    "solvesti",
    "solvetemi",
    "solvi",
-   "somiglia",
    "somigliarsi",
-   "somigliò",
    "sommersa",
-   "sommesse",
    "sonanti",
    "sone",
-   "sonnolenza",
    "soperchia",
    "soperchio",
    "sopr",
@@ -2889,13 +1975,7 @@
    "sortiro",
    "sortito",
    "sospecciar",
-   "sospigne",
-   "sospinse",
-   "sospinte",
-   "sospinto",
-   "sospir",
    "sospirosa",
-   "sosta",
    "sostentar",
    "sottesso",
    "sottilmente",
@@ -2903,16 +1983,6 @@
    "soverchiar",
    "soverchio",
    "soverchiò",
-   "sovrasta",
-   "sovvegna",
-   "sovvenir",
-   "sovvenisse",
-   "sovvenne",
-   "sovvenni",
-   "sozza",
-   "sozze",
-   "sozzi",
-   "sozzo",
    "spanda",
    "spande",
    "spandessi",
@@ -2922,7 +1992,6 @@
    "spano",
    "spaurato",
    "spazia",
-   "spazzo",
    "specchia",
    "specchiai",
    "specchiarsi",
@@ -2932,54 +2001,23 @@
    "spediti",
    "spegli",
    "speglio",
-   "spegne",
    "speme",
    "spene",
-   "spennar",
-   "spense",
-   "spensi",
-   "spenta",
-   "spente",
-   "spenti",
-   "spento",
    "sperga",
    "spersi",
-   "spiacenti",
-   "spicca",
-   "spiccia",
-   "spigolar",
    "spirarmi",
-   "spire",
-   "splende",
-   "splendesse",
-   "splendeva",
-   "splendor",
-   "splendore",
-   "splendori",
    "spogliarvi",
-   "spoglie",
    "sponesti",
    "spranga",
-   "spreme",
    "squaderna",
-   "squarcia",
-   "squarciata",
-   "squarciò",
    "squilla",
    "stagliata",
-   "staio",
-   "staman",
-   "stamane",
    "stannosi",
    "starmi",
    "stassi",
-   "stavvi",
    "stazio",
    "sterpi",
    "stieno",
-   "stige",
-   "stillar",
-   "stillasti",
    "stimativa",
    "stimolati",
    "stinse",
@@ -2994,17 +2032,11 @@
    "strame",
    "strami",
    "straniasse",
-   "strascineremo",
    "strema",
    "stremi",
    "strenne",
    "strofade",
-   "stucca",
-   "stuolo",
    "suadi",
-   "subsisto",
-   "succession",
-   "successor",
    "succia",
    "suggel",
    "suggella",
@@ -3015,26 +2047,11 @@
    "superne",
    "superni",
    "superno",
-   "supin",
-   "supini",
    "surta",
-   "suscitarla",
    "svelle",
-   "sventurata",
-   "sventurato",
-   "svia",
-   "sviando",
-   "sviati",
    "sàvena",
-   "sé",
-   "sòstati",
-   "tacita",
-   "tacite",
-   "taciti",
-   "tacito",
    "tagliacozzo",
    "tagliamento",
-   "taide",
    "talor",
    "talora",
    "tambernicchi",
@@ -3042,20 +2059,13 @@
    "tanai",
    "tange",
    "tantosto",
-   "tapin",
-   "tapini",
    "tarpea",
    "tarquino",
-   "tasta",
-   "taumante",
-   "tauro",
    "tebaldello",
    "tebaldo",
    "teban",
    "tebano",
-   "tebe",
    "teco",
-   "tegghia",
    "tegghiaio",
    "telo",
    "temenza",
@@ -3065,29 +2075,18 @@
    "temprava",
    "tempre",
    "temuta",
-   "tencione",
-   "tenebra",
-   "tenebroso",
    "tenerla",
    "tenermi",
-   "tenèbra",
    "tepidezza",
    "terghi",
-   "terragne",
-   "terragno",
    "terram",
    "tersi",
    "terso",
-   "teseo",
    "testeso",
    "testé",
-   "teti",
    "tetragono",
-   "tever",
-   "tevero",
    "tideo",
    "tignoso",
-   "timeo",
    "tin",
    "tirandosi",
    "tirarti",
@@ -3096,28 +2095,16 @@
    "titone",
    "tolle",
    "tolomea",
-   "tolomeo",
    "tomma",
-   "toppo",
-   "torbide",
-   "torbidi",
-   "torma",
    "tormentarlo",
    "torneamenti",
    "torneare",
    "torquato",
-   "torreggiavan",
    "torrente",
-   "torso",
    "torza",
-   "tosca",
-   "toschi",
    "tossio",
-   "tosta",
    "tostamente",
-   "tosto",
    "tota",
-   "trabocca",
    "tradita",
    "trafigge",
    "trafisse",
@@ -3133,16 +2120,12 @@
    "traluca",
    "traluce",
    "tramortita",
-   "tramuti",
-   "trangugia",
    "trani",
    "tranquillar",
    "translato",
    "trapassammo",
    "trapassando",
    "trapassar",
-   "trapassate",
-   "trapassi",
    "trapassonne",
    "trarlo",
    "trarmi",
@@ -3167,19 +2150,13 @@
    "trasparea",
    "trasparer",
    "trasparere",
-   "trastulla",
-   "trastullo",
    "trasumanar",
    "trasvolar",
    "travagliato",
    "travagliava",
    "travaglie",
-   "traversara",
-   "traversaro",
-   "traverso",
    "traviò",
    "trentino",
-   "tresca",
    "trescando",
    "trestizia",
    "tribo",
@@ -3187,7 +2164,6 @@
    "trista",
    "tristizia",
    "tristo",
-   "trita",
    "triunfa",
    "triunfando",
    "triunfante",
@@ -3199,11 +2175,7 @@
    "tronto",
    "trovan",
    "trovandoli",
-   "trovata",
    "trulla",
-   "tura",
-   "turbata",
-   "turbe",
    "turge",
    "u",
    "ubertà",
@@ -3215,16 +2187,8 @@
    "ughi",
    "ugolin",
    "ugolino",
-   "ulisse",
-   "ultimamente",
    "umbriferi",
-   "umile",
-   "umilmente",
-   "umìle",
-   "uncin",
    "uncina",
-   "uncini",
-   "uncino",
    "unghioni",
    "unio",
    "unqua",
@@ -3234,43 +2198,30 @@
    "uopo",
    "urge",
    "usata",
-   "uscie",
-   "uscio",
    "uscirci",
    "uscirne",
-   "uscìo",
    "usuriere",
    "utica",
    "utilmente",
-   "v",
    "vaca",
-   "vagabunde",
    "vagheggia",
    "vagheggiar",
    "valchi",
    "valdichiana",
    "valea",
-   "vali",
    "vallan",
    "vallea",
    "valse",
-   "vampa",
    "vaneggia",
    "vaneggiai",
    "vaneggio",
-   "vanta",
-   "vanti",
-   "vanto",
    "varca",
    "varcai",
    "varcheresti",
-   "varco",
-   "varo",
    "varro",
    "vasel",
    "vasello",
    "vassi",
-   "vau",
    "vece",
    "vederla",
    "vederli",
@@ -3281,9 +2232,7 @@
    "vegg",
    "veggendoci",
    "veggendomi",
-   "veggi",
    "vegnonti",
-   "vel",
    "velame",
    "velle",
    "veltri",
@@ -3299,13 +2248,10 @@
    "venirli",
    "venirvi",
    "ventraia",
-   "ventura",
-   "venturo",
    "venusto",
    "verace",
    "veraci",
    "vercelli",
-   "verga",
    "verghetta",
    "verghi",
    "vergognando",
@@ -3318,20 +2264,15 @@
    "verrucchio",
    "vertute",
    "verun",
-   "vespero",
    "vestige",
    "vestigge",
    "vestigio",
    "vestimento",
    "vetusto",
-   "vi",
    "vicari",
    "vicario",
-   "vicenda",
-   "vico",
    "viemmi",
    "vige",
-   "vigilate",
    "viglia",
    "vincenti",
    "virtualmente",
@@ -3341,17 +2282,11 @@
    "visitarli",
    "visivi",
    "visivo",
-   "vittore",
    "vituperio",
-   "vivagni",
-   "vivagno",
    "vivamente",
-   "vivanda",
-   "vivande",
    "vivissime",
    "vizzo",
    "vocem",
-   "voglioso",
    "voialtri",
    "voill",
    "volerne",
@@ -3364,12 +2299,5735 @@
    "zanca",
    "zanche",
    "zara",
-   "zebe",
-   "zeno",
-   "zenone",
-   "àncora",
-   "òra"
-  ]
+   "zebe"
+  ],
+  "missingLemmas": {
+   "names": {
+    "Abèl": [
+     "abèl"
+    ],
+    "Achitofel": [
+     "achitofèl"
+    ],
+    "Acquacheta": [
+     "acquacheta"
+    ],
+    "Acquasparta": [
+     "acquasparta"
+    ],
+    "Agosta": [
+     "agosta",
+     "agusta"
+    ],
+    "Agrati": [
+     "aggrati"
+    ],
+    "Alagna": [
+     "alagna"
+    ],
+    "Alberico": [
+     "alberigo"
+    ],
+    "Aldobrandi": [
+     "aldobrandi"
+    ],
+    "Alichino": [
+     "alichin",
+     "alichino"
+    ],
+    "Altaforte": [
+     "altaforte"
+    ],
+    "Anfiarao": [
+     "anfiarao"
+    ],
+    "Anfione": [
+     "anfione"
+    ],
+    "Angiolello": [
+     "angiolello"
+    ],
+    "Anselmuccio": [
+     "anselmuccio"
+    ],
+    "Antenora": [
+     "antenora"
+    ],
+    "Antenore": [
+     "antenori"
+    ],
+    "Anteo": [
+     "anteo"
+    ],
+    "Aquino": [
+     "aquino"
+    ],
+    "Arbia": [
+     "arbia"
+    ],
+    "Argia": [
+     "argia"
+    ],
+    "Arli": [
+     "arli"
+    ],
+    "Arno": [
+     "arno"
+    ],
+    "Artù": [
+     "artù"
+    ],
+    "Arunte": [
+     "aronta"
+    ],
+    "Asdente": [
+     "asdente"
+    ],
+    "Assuero": [
+     "assuero"
+    ],
+    "Aulide": [
+     "aulide"
+    ],
+    "Azzolino": [
+     "azzolino"
+    ],
+    "Bacchiglione": [
+     "bacchiglione"
+    ],
+    "Bagnacavallo": [
+     "bagnacaval"
+    ],
+    "Bagnoregio": [
+     "bagnoregio"
+    ],
+    "Balaso": [
+     "balasso"
+    ],
+    "Barbariccia": [
+     "barbariccia"
+    ],
+    "Barbarossa": [
+     "barbarossa"
+    ],
+    "Belisari": [
+     "belisar"
+    ],
+    "Benaco": [
+     "benaco"
+    ],
+    "Bindi": [
+     "bindi"
+    ],
+    "Bisenzio": [
+     "bisenzo"
+    ],
+    "Bolsena": [
+     "bolsena"
+    ],
+    "Bonatti": [
+     "bonatti"
+    ],
+    "Bonturo": [
+     "bonturo"
+    ],
+    "Bornio": [
+     "bornio"
+    ],
+    "Borsiere": [
+     "borsiere"
+    ],
+    "Bosi": [
+     "vos"
+    ],
+    "Brenno": [
+     "brenno"
+    ],
+    "Briareo": [
+     "briareo"
+    ],
+    "Brunetto": [
+     "brunetto"
+    ],
+    "Buoso": [
+     "buoso"
+    ],
+    "Caccianemico": [
+     "caccianemico"
+    ],
+    "Cagnani": [
+     "cagnan"
+    ],
+    "Caina": [
+     "caina"
+    ],
+    "Calboli": [
+     "calboli"
+    ],
+    "Calcabrina": [
+     "calcabrina"
+    ],
+    "Calcante": [
+     "calcanta"
+    ],
+    "Camiscione": [
+     "camiscion"
+    ],
+    "Cammilla": [
+     "cammilla"
+    ],
+    "Camonica": [
+     "camonica"
+    ],
+    "Canavese": [
+     "canavese"
+    ],
+    "Candelo": [
+     "candelo"
+    ],
+    "Caorsa": [
+     "caorsa"
+    ],
+    "Capaneo": [
+     "capaneo"
+    ],
+    "Caprona": [
+     "caprona"
+    ],
+    "Casalodi": [
+     "casalodi"
+    ],
+    "Castore": [
+     "castore"
+    ],
+    "Cecilio": [
+     "cecilio"
+    ],
+    "Cianfa": [
+     "cianfa"
+    ],
+    "Cimabue": [
+     "cimabue"
+    ],
+    "Ciriatto": [
+     "ciriatto"
+    ],
+    "Cleto": [
+     "cleto"
+    ],
+    "Cloto": [
+     "cloto"
+    ],
+    "Colco": [
+     "colchi",
+     "colco"
+    ],
+    "Corneto": [
+     "corneto"
+    ],
+    "Corniglia": [
+     "corniglia"
+    ],
+    "Correr": [
+     "correr"
+    ],
+    "Creusa": [
+     "creusa"
+    ],
+    "Currado": [
+     "currado"
+    ],
+    "Daretti": [
+     "darotti"
+    ],
+    "Deianira": [
+     "deianira"
+    ],
+    "Deidamia": [
+     "deidamia",
+     "deidamìa"
+    ],
+    "Delo": [
+     "delo"
+    ],
+    "Desiato": [
+     "disiata",
+     "disiati"
+    ],
+    "Dioscoride": [
+     "diascoride"
+    ],
+    "Doagio": [
+     "doagio"
+    ],
+    "Domiziano": [
+     "domizian"
+    ],
+    "Doria": [
+     "doria"
+    ],
+    "Dovara": [
+     "duera"
+    ],
+    "Draghignazzo": [
+     "draghignazzo"
+    ],
+    "Egina": [
+     "egina"
+    ],
+    "Elicona": [
+     "elicona"
+    ],
+    "Ema": [
+     "ema"
+    ],
+    "Erinni": [
+     "erine"
+    ],
+    "Eritone": [
+     "eritón"
+    ],
+    "Espero": [
+     "esper"
+    ],
+    "Eteocle": [
+     "eteòcle"
+    ],
+    "Eurialo": [
+     "eurialo"
+    ],
+    "Facella": [
+     "facelle"
+    ],
+    "Fano": [
+     "fano"
+    ],
+    "Fantina": [
+     "fantin"
+    ],
+    "Farfarello": [
+     "farfarello"
+    ],
+    "Fassio": [
+     "fassi"
+    ],
+    "Femia": [
+     "femmi"
+    ],
+    "Fera": [
+     "fera"
+    ],
+    "Fiesole": [
+     "fiesole"
+    ],
+    "Filippi": [
+     "filippi"
+    ],
+    "Flegetonta": [
+     "flegetonta"
+    ],
+    "Flegias": [
+     "flegiàs"
+    ],
+    "Flegra": [
+     "flegra"
+    ],
+    "Folo": [
+     "folo"
+    ],
+    "Fommei": [
+     "fommi"
+    ],
+    "Forlì": [
+     "forlì"
+    ],
+    "Fucci": [
+     "fucci"
+    ],
+    "Gaddo": [
+     "gaddo"
+    ],
+    "Gaeta": [
+     "gaeta"
+    ],
+    "Gallura": [
+     "gallura"
+    ],
+    "Ganellone": [
+     "ganellone"
+    ],
+    "Garda": [
+     "garda"
+    ],
+    "Gaville": [
+     "gaville"
+    ],
+    "Geri": [
+     "geri"
+    ],
+    "Gerione": [
+     "gerion",
+     "gerione"
+    ],
+    "Ghini": [
+     "ghin"
+    ],
+    "Ghisolabella": [
+     "ghisolabella"
+    ],
+    "Giotto": [
+     "giotto"
+    ],
+    "Giovenale": [
+     "giovenale"
+    ],
+    "Gorgona": [
+     "gorgona"
+    ],
+    "Graffiacane": [
+     "graffiacan",
+     "graffiacane"
+    ],
+    "Grue": [
+     "grue"
+    ],
+    "Gualandi": [
+     "gualandi"
+    ],
+    "Gualdrada": [
+     "gualdrada"
+    ],
+    "Guinizzelli": [
+     "guinizzelli"
+    ],
+    "Guittone": [
+     "guittone"
+    ],
+    "ITA": [
+     "ita"
+    ],
+    "Iason": [
+     "iasón"
+    ],
+    "Interminei": [
+     "interminei"
+    ],
+    "Isifile": [
+     "isifile"
+    ],
+    "La Magna": [
+     "lamagna"
+    ],
+    "Labia": [
+     "labia"
+    ],
+    "Lai": [
+     "lai"
+    ],
+    "Lamone": [
+     "lamone"
+    ],
+    "Lanfranchi": [
+     "lanfranchi"
+    ],
+    "Laterano": [
+     "laterano"
+    ],
+    "Learco": [
+     "learco"
+    ],
+    "Lenno": [
+     "lenno"
+    ],
+    "Leto": [
+     "lito"
+    ],
+    "Libicocco": [
+     "libicocco"
+    ],
+    "Loderingo": [
+     "loderingo"
+    ],
+    "Logudoro": [
+     "logodoro"
+    ],
+    "Luni": [
+     "luni"
+    ],
+    "Mainardi": [
+     "mainardi"
+    ],
+    "Malacoda": [
+     "malacoda"
+    ],
+    "Malebolge": [
+     "malebolge"
+    ],
+    "Malebranche": [
+     "malebranche"
+    ],
+    "Manfredi": [
+     "manfredi"
+    ],
+    "Marcabò": [
+     "marcabò"
+    ],
+    "Marcello": [
+     "marcel"
+    ],
+    "Marsia": [
+     "marsia"
+    ],
+    "Meleagro": [
+     "meleagro"
+    ],
+    "Menalippo": [
+     "menalippo"
+    ],
+    "Metello": [
+     "metello"
+    ],
+    "Mida": [
+     "mida"
+    ],
+    "Milan": [
+     "milan"
+    ],
+    "Minoia": [
+     "minoi"
+    ],
+    "Molino": [
+     "molin"
+    ],
+    "Monaldi": [
+     "monaldi"
+    ],
+    "Montaperti": [
+     "montaperti"
+    ],
+    "Montecchi": [
+     "montecchi"
+    ],
+    "Montefeltro": [
+     "montefeltro"
+    ],
+    "Morrocco": [
+     "morrocco"
+    ],
+    "Muzio": [
+     "muzio"
+    ],
+    "Nasidio": [
+     "nasidio"
+    ],
+    "Nerli": [
+     "nerli"
+    ],
+    "Nimrod": [
+     "nembròt"
+    ],
+    "Notaro": [
+     "notaro"
+    ],
+    "Obizzo": [
+     "opizzo"
+    ],
+    "Onio": [
+     "unio"
+    ],
+    "Oreste": [
+     "oreste"
+    ],
+    "Ormanni": [
+     "ormanni"
+    ],
+    "Osterlicchi": [
+     "osterlicchi"
+    ],
+    "Ovidio": [
+     "ovidio"
+    ],
+    "Palestrina": [
+     "penestrino"
+    ],
+    "Parisi": [
+     "parisi"
+    ],
+    "Pasifae": [
+     "pasife"
+    ],
+    "Patrese": [
+     "patris"
+    ],
+    "Pecorella": [
+     "pecorelle"
+    ],
+    "Penelope": [
+     "penelopè"
+    ],
+    "Pentesilea": [
+     "pantasilea"
+    ],
+    "Persio": [
+     "persio"
+    ],
+    "Petrone": [
+     "petrone"
+    ],
+    "Pietrapana": [
+     "pietrapana"
+    ],
+    "Pinamonte": [
+     "pinamonte"
+    ],
+    "Piramo": [
+     "piramo"
+    ],
+    "Pisistrato": [
+     "pisistràto"
+    ],
+    "Pistoia": [
+     "pistoia"
+    ],
+    "Plauto": [
+     "plauto"
+    ],
+    "Pola": [
+     "pola"
+    ],
+    "Polidoro": [
+     "polidoro"
+    ],
+    "Polissena": [
+     "polissena"
+    ],
+    "Prisciano": [
+     "priscian"
+    ],
+    "Proserpina": [
+     "proserpina"
+    ],
+    "Quarnaro": [
+     "carnaro"
+    ],
+    "Quartana": [
+     "quartana"
+    ],
+    "Quinzio": [
+     "quinzio"
+    ],
+    "Riniero": [
+     "rinier"
+    ],
+    "Roia": [
+     "rui"
+    ],
+    "Romagna": [
+     "romagna"
+    ],
+    "Rota": [
+     "rote"
+    ],
+    "Ruberto": [
+     "ruberto"
+    ],
+    "Rusticucci": [
+     "rusticucci"
+    ],
+    "Ruzier": [
+     "ruggieri"
+    ],
+    "Salvato": [
+     "salvati"
+    ],
+    "Santa Fiora": [
+     "santafior"
+    ],
+    "Santerno": [
+     "santerno"
+    ],
+    "Santissimo": [
+     "santissima"
+    ],
+    "Savena": [
+     "sàvena"
+    ],
+    "Schicchi": [
+     "schicchi"
+    ],
+    "Schirò": [
+     "schiro"
+    ],
+    "Scipione": [
+     "scipion",
+     "scipione"
+    ],
+    "Semelè": [
+     "semelè"
+    ],
+    "Semiramide": [
+     "semiramìs"
+    ],
+    "Sepe": [
+     "sepe"
+    ],
+    "Sepulcri": [
+     "sepulcri"
+    ],
+    "Serchio": [
+     "serchio"
+    ],
+    "Sibilia": [
+     "sibilia"
+    ],
+    "Sicheo": [
+     "sicheo"
+    ],
+    "Sile": [
+     "sile"
+    ],
+    "Sinigaglia": [
+     "sinigaglia"
+    ],
+    "Sismondi": [
+     "sismondi"
+    ],
+    "Sisto": [
+     "sisto"
+    ],
+    "Stassi": [
+     "stassi"
+    ],
+    "Steno": [
+     "stieno"
+    ],
+    "Strofade": [
+     "strofade"
+    ],
+    "Tagliacozzo": [
+     "tagliacozzo"
+    ],
+    "Tambernicchi": [
+     "tambernicchi"
+    ],
+    "Tamiri": [
+     "tamiri"
+    ],
+    "Tanai": [
+     "tanai"
+    ],
+    "Tarquinio": [
+     "tarquino"
+    ],
+    "Tebaldello": [
+     "tebaldello"
+    ],
+    "Tebaldo": [
+     "tebaldo"
+    ],
+    "Tegghiaio": [
+     "tegghiaio"
+    ],
+    "Tideo": [
+     "tideo"
+    ],
+    "Tinè": [
+     "tin"
+    ],
+    "Tiresia": [
+     "tiresia"
+    ],
+    "Tisbe": [
+     "tisbe"
+    ],
+    "Titone": [
+     "titone"
+    ],
+    "Tolomea": [
+     "tolomea"
+    ],
+    "Torquato": [
+     "torquato"
+    ],
+    "Torza": [
+     "torza"
+    ],
+    "Tosio": [
+     "tossio"
+    ],
+    "Traiano": [
+     "traiano"
+    ],
+    "Trani": [
+     "trani"
+    ],
+    "Tronto": [
+     "tronto"
+    ],
+    "Ughi": [
+     "ughi"
+    ],
+    "Ugolino": [
+     "ugolin",
+     "ugolino"
+    ],
+    "Utica": [
+     "utica"
+    ],
+    "Valdichiana": [
+     "valdichiana"
+    ],
+    "Venedico": [
+     "venedico"
+    ],
+    "Vercelli": [
+     "vercelli"
+    ],
+    "Verucchio": [
+     "verrucchio"
+    ]
+   },
+   "common": {
+    "a volo": [
+     "avolo"
+    ],
+    "abbarbagliare": [
+     "abbarbaglio"
+    ],
+    "abbarbicato": [
+     "abbarbicata"
+    ],
+    "abbellare": [
+     "abbella"
+    ],
+    "abbicare": [
+     "abbica"
+    ],
+    "abbracciarmi": [
+     "abbracciarmi"
+    ],
+    "abbuiare": [
+     "abbui",
+     "abbuia"
+    ],
+    "accaffare": [
+     "accaffi"
+    ],
+    "accampare": [
+     "accampa"
+    ],
+    "accarnare": [
+     "accarno"
+    ],
+    "accasciare": [
+     "accascia"
+    ],
+    "acceffare": [
+     "acceffa"
+    ],
+    "accismare": [
+     "accisma"
+    ],
+    "acciò": [
+     "acciò"
+    ],
+    "accoccare": [
+     "accocchi"
+    ],
+    "accoglitore": [
+     "accoglitor"
+    ],
+    "acconciare": [
+     "acconcerà"
+    ],
+    "accordare": [
+     "accorda",
+     "accordiamo"
+    ],
+    "acline": [
+     "accline"
+    ],
+    "acquattare": [
+     "acquatta"
+    ],
+    "acquietare": [
+     "acquetava"
+    ],
+    "acra": [
+     "acra"
+    ],
+    "addimandare": [
+     "addimandò"
+    ],
+    "addire": [
+     "addite"
+    ],
+    "addirizzare": [
+     "addrizzaro"
+    ],
+    "addivenire": [
+     "addivenne",
+     "addivien"
+    ],
+    "addobbare": [
+     "addobbi"
+    ],
+    "addossandosi": [
+     "addossandosi"
+    ],
+    "adduare": [
+     "addua"
+    ],
+    "adergere": [
+     "aderse"
+    ],
+    "adombrare": [
+     "adombra",
+     "aombra"
+    ],
+    "adonare": [
+     "adona"
+    ],
+    "adontare": [
+     "aonti"
+    ],
+    "adornarmi": [
+     "addornarmi"
+    ],
+    "aduggiare": [
+     "aduggia"
+    ],
+    "aequar": [
+     "aequar"
+    ],
+    "aere": [
+     "aere"
+    ],
+    "affannare": [
+     "affanna",
+     "affannate"
+    ],
+    "affannato": [
+     "affannata"
+    ],
+    "affaticarne": [
+     "affaticarne"
+    ],
+    "affatturare": [
+     "affattura"
+    ],
+    "affiggere": [
+     "affigge",
+     "affisser"
+    ],
+    "affigurare": [
+     "affiguro"
+    ],
+    "affissare": [
+     "affisar"
+    ],
+    "affocare": [
+     "affoca",
+     "affocate",
+     "affocato",
+     "affuoca"
+    ],
+    "affollare": [
+     "affollar"
+    ],
+    "affrangere": [
+     "affranse"
+    ],
+    "affrenare": [
+     "affreno"
+    ],
+    "agevole": [
+     "agevole"
+    ],
+    "aggelare": [
+     "aggelava"
+    ],
+    "aggradare": [
+     "aggrada"
+    ],
+    "aggrappare": [
+     "aggrappa",
+     "aggrappossi"
+    ],
+    "aggroppare": [
+     "aggroppata",
+     "aggroppate"
+    ],
+    "agguagliare": [
+     "agguagli",
+     "agguagliar"
+    ],
+    "aggueffare": [
+     "aggueffa"
+    ],
+    "agno": [
+     "agni",
+     "agno"
+    ],
+    "aguglione": [
+     "aguglion"
+    ],
+    "aguzzare": [
+     "aguzzavan",
+     "aguzzeranno"
+    ],
+    "aiutami": [
+     "aiutami"
+    ],
+    "aiutarla": [
+     "aiutarla"
+    ],
+    "aiutarlo": [
+     "aiutarlo"
+    ],
+    "aiutarmi": [
+     "aiutarmi"
+    ],
+    "aiutarti": [
+     "aiutarti"
+    ],
+    "aiutorio": [
+     "aiutorio"
+    ],
+    "aizzare": [
+     "adizzo"
+    ],
+    "alare": [
+     "alo"
+    ],
+    "albergare": [
+     "alberga",
+     "albergan"
+    ],
+    "aleppe": [
+     "aleppe"
+    ],
+    "alleggiare": [
+     "alleggiar"
+    ],
+    "allegrare": [
+     "allegrammo"
+    ],
+    "allegrezza": [
+     "allegrezza",
+     "allegrezze"
+    ],
+    "alleluiare": [
+     "alleluiando"
+    ],
+    "allevato": [
+     "allevata"
+    ],
+    "allodoletta": [
+     "allodetta"
+    ],
+    "allottare": [
+     "allotta"
+    ],
+    "allumare": [
+     "alluma",
+     "allumati",
+     "allumò"
+    ],
+    "alluminare": [
+     "alluminar",
+     "alluminasti"
+    ],
+    "alma": [
+     "alme"
+    ],
+    "almo": [
+     "alma",
+     "almi"
+    ],
+    "alpe": [
+     "alpe"
+    ],
+    "alternare": [
+     "alternando"
+    ],
+    "altura": [
+     "altura"
+    ],
+    "alvo": [
+     "alvo"
+    ],
+    "amanza": [
+     "amanza"
+    ],
+    "ambage": [
+     "ambage"
+    ],
+    "ambo": [
+     "ambo"
+    ],
+    "ammannire": [
+     "ammanna"
+    ],
+    "ammantare": [
+     "ammanta",
+     "ammanti",
+     "ammanto"
+    ],
+    "ammassicciare": [
+     "ammassiccia"
+    ],
+    "ammendare": [
+     "ammendava"
+    ],
+    "ammentare": [
+     "ammenta",
+     "ammentassi"
+    ],
+    "ammirato": [
+     "ammirata"
+    ],
+    "ammogliare": [
+     "ammoglia"
+    ],
+    "ammortare": [
+     "ammorta"
+    ],
+    "ammorzare": [
+     "ammorza"
+    ],
+    "ammusare": [
+     "ammusa"
+    ],
+    "ammutare": [
+     "ammuta"
+    ],
+    "amomo": [
+     "amomo"
+    ],
+    "ancella": [
+     "ancella",
+     "ancelle",
+     "ancilla"
+    ],
+    "ancoi": [
+     "ancoi"
+    ],
+    "andarne": [
+     "andarne"
+    ],
+    "andovvi": [
+     "andovvi"
+    ],
+    "anellare": [
+     "anella"
+    ],
+    "anfisbena": [
+     "anfisibena"
+    ],
+    "angoscioso": [
+     "angosciosa",
+     "angoscioso"
+    ],
+    "angue": [
+     "angue"
+    ],
+    "anguinaia": [
+     "anguinaia"
+    ],
+    "animoso": [
+     "animose"
+    ],
+    "annerare": [
+     "annera",
+     "annerava"
+    ],
+    "annidare": [
+     "annida",
+     "annidi"
+    ],
+    "annottare": [
+     "annotta"
+    ],
+    "annoverare": [
+     "annoverar"
+    ],
+    "antelucano": [
+     "antelucani"
+    ],
+    "anticamente": [
+     "anticamente"
+    ],
+    "antivedere": [
+     "antiveder",
+     "antivedere",
+     "antivedesse"
+    ],
+    "apparare": [
+     "apparinno",
+     "apparo"
+    ],
+    "appastare": [
+     "appasta"
+    ],
+    "appellare": [
+     "appella",
+     "appellar",
+     "appellava"
+    ],
+    "appetibile": [
+     "appetibili"
+    ],
+    "appiattare": [
+     "appiattò"
+    ],
+    "appo": [
+     "apo"
+    ],
+    "apporre": [
+     "appon",
+     "appone"
+    ],
+    "apportare": [
+     "apporta",
+     "apporterai"
+    ],
+    "apprensivo": [
+     "apprensiva"
+    ],
+    "appresentare": [
+     "appresenta",
+     "appresenti",
+     "appresentò"
+    ],
+    "appreso": [
+     "appresa"
+    ],
+    "appressare": [
+     "appressa",
+     "appressai",
+     "appressammo",
+     "appressando",
+     "appressano",
+     "appressarne",
+     "appressaro",
+     "appressava",
+     "appressavamo",
+     "appressavan",
+     "appresso"
+    ],
+    "apprestare": [
+     "appresta"
+    ],
+    "approvarla": [
+     "approvarla"
+    ],
+    "appulcrare": [
+     "appulcro"
+    ],
+    "appuzzare": [
+     "appuzza"
+    ],
+    "aprimi": [
+     "aprimi"
+    ],
+    "aprirmi": [
+     "aprirmi"
+    ],
+    "arbitrio": [
+     "arbitrio"
+    ],
+    "arbore": [
+     "arbor",
+     "arbore"
+    ],
+    "arboscello": [
+     "arbuscelli"
+    ],
+    "arcanamente": [
+     "arcanamente"
+    ],
+    "arengo": [
+     "aringo"
+    ],
+    "argolico": [
+     "argolica"
+    ],
+    "arra": [
+     "arr",
+     "arra"
+    ],
+    "arricciare": [
+     "arricciar"
+    ],
+    "arrossare": [
+     "arrossan",
+     "arrosso"
+    ],
+    "arrostarsi": [
+     "arrostarsi"
+    ],
+    "arruncigliare": [
+     "arruncigliarmi",
+     "arruncigliò"
+    ],
+    "arsiccio": [
+     "arsiccia"
+    ],
+    "artezza": [
+     "artezza"
+    ],
+    "artimone": [
+     "artimon"
+    ],
+    "arzanà": [
+     "arzanà"
+    ],
+    "ascendere": [
+     "ascende"
+    ],
+    "asciare": [
+     "ascian"
+    ],
+    "ascoltarli": [
+     "ascoltarli"
+    ],
+    "ascoltarmi": [
+     "ascoltarmi"
+    ],
+    "ascondere": [
+     "asconde",
+     "asconder",
+     "ascondeva",
+     "ascondo",
+     "ascose",
+     "ascoso"
+    ],
+    "ascoso": [
+     "ascosa"
+    ],
+    "assennare": [
+     "assenno"
+    ],
+    "assetare": [
+     "asseta"
+    ],
+    "assettare": [
+     "assetta",
+     "assettai"
+    ],
+    "assidere": [
+     "assiser",
+     "assiso"
+    ],
+    "assiepare": [
+     "assiepa"
+    ],
+    "assomigliarsi": [
+     "assomigliarsi"
+    ],
+    "assommare": [
+     "assommi",
+     "assumma"
+    ],
+    "assonnare": [
+     "assonna",
+     "assonnar",
+     "assonnaro"
+    ],
+    "asticciola": [
+     "asticciuole"
+    ],
+    "atro": [
+     "atra",
+     "atre"
+    ],
+    "atteggiare": [
+     "atteggiata"
+    ],
+    "attempare": [
+     "attempo"
+    ],
+    "attergare": [
+     "atterga"
+    ],
+    "attorcere": [
+     "attorse",
+     "attorti"
+    ],
+    "attossicare": [
+     "attosca"
+    ],
+    "attristare": [
+     "attrista",
+     "attristiam"
+    ],
+    "attuffare": [
+     "attuffa",
+     "attuffare",
+     "attuffata",
+     "attuffò"
+    ],
+    "audire": [
+     "audivi"
+    ],
+    "augello": [
+     "augel",
+     "augelli",
+     "augello"
+    ],
+    "aulire": [
+     "auliva"
+    ],
+    "auso": [
+     "ausa",
+     "ausi"
+    ],
+    "ausonio": [
+     "ausonia"
+    ],
+    "avacciare": [
+     "avacci",
+     "avacciava",
+     "avaccio"
+    ],
+    "avellere": [
+     "avello",
+     "avelse"
+    ],
+    "avello": [
+     "avelli"
+    ],
+    "avendomi": [
+     "avendomi"
+    ],
+    "averlo": [
+     "averlo"
+    ],
+    "avermi": [
+     "avermi"
+    ],
+    "aversi": [
+     "aversi"
+    ],
+    "averti": [
+     "averti"
+    ],
+    "avolterare": [
+     "avolterate",
+     "avoltero"
+    ],
+    "avvallare": [
+     "avvalla",
+     "avvalli",
+     "avvalliamo"
+    ],
+    "avvantaggiare": [
+     "avvantaggia"
+    ],
+    "avvedersi": [
+     "avvede",
+     "avvedrai",
+     "avvide"
+    ],
+    "avventare": [
+     "avventa",
+     "avventarsi",
+     "avventò"
+    ],
+    "avverare": [
+     "avvera"
+    ],
+    "avvinto": [
+     "avvinte"
+    ],
+    "avviticchiare": [
+     "avviticchiò"
+    ],
+    "avvivare": [
+     "avviva",
+     "avvivan",
+     "avvivava"
+    ],
+    "avvolto": [
+     "avvolte",
+     "avvolti"
+    ],
+    "balbo": [
+     "balba"
+    ],
+    "balco": [
+     "balco"
+    ],
+    "balestrare": [
+     "balestro"
+    ],
+    "bando": [
+     "bando"
+    ],
+    "barattiere": [
+     "barattier"
+    ],
+    "baroccio": [
+     "barucci"
+    ],
+    "basterna": [
+     "basterna"
+    ],
+    "battendosi": [
+     "battendosi"
+    ],
+    "battezzatore": [
+     "battezzatori"
+    ],
+    "battuto": [
+     "battuti"
+    ],
+    "becchettare": [
+     "becchetto"
+    ],
+    "becio": [
+     "bieci"
+    ],
+    "belletta": [
+     "belletta"
+    ],
+    "benignamente": [
+     "benignamente"
+    ],
+    "beninanza": [
+     "beninanza"
+    ],
+    "berti": [
+     "berti"
+    ],
+    "bestialità": [
+     "bestialitade",
+     "bestialitate"
+    ],
+    "biancovestito": [
+     "biancovestito"
+    ],
+    "bigoncia": [
+     "bigoncia"
+    ],
+    "bisca": [
+     "biscazza"
+    ],
+    "bivero": [
+     "bivero"
+    ],
+    "botolo": [
+     "botoli"
+    ],
+    "bozzacchione": [
+     "bozzacchioni"
+    ],
+    "bracare": [
+     "braco"
+    ],
+    "brago": [
+     "brago"
+    ],
+    "brancolare": [
+     "brancolar"
+    ],
+    "brenta": [
+     "brenta"
+    ],
+    "brisare": [
+     "brisso"
+    ],
+    "brolo": [
+     "brolo"
+    ],
+    "bugio": [
+     "bugio"
+    ],
+    "bulicame": [
+     "bulicame"
+    ],
+    "burchio": [
+     "burchi"
+    ],
+    "burella": [
+     "burella"
+    ],
+    "cacciane": [
+     "caccianli"
+    ],
+    "cacciata": [
+     "cacciata"
+    ],
+    "cacume": [
+     "cacume"
+    ],
+    "caggere": [
+     "caggendo",
+     "caggia",
+     "caggion",
+     "caggiono"
+    ],
+    "cagnazzo": [
+     "cagnazzi",
+     "cagnazzo"
+    ],
+    "calere": [
+     "caler",
+     "calse"
+    ],
+    "calla": [
+     "calla"
+    ],
+    "camo": [
+     "camo"
+    ],
+    "candire": [
+     "candente"
+    ],
+    "cangiare": [
+     "cangerebbe",
+     "cangerà",
+     "cangi",
+     "cangia",
+     "cangiando",
+     "cangiandosi",
+     "cangiar",
+     "cangiata"
+    ],
+    "canicolare": [
+     "canicular"
+    ],
+    "caninamente": [
+     "caninamente"
+    ],
+    "cantaro": [
+     "cantaro"
+    ],
+    "cantera": [
+     "cantere"
+    ],
+    "cantica": [
+     "cantica"
+    ],
+    "capa": [
+     "cape"
+    ],
+    "cappelletti": [
+     "cappelletti"
+    ],
+    "caramente": [
+     "caramente"
+    ],
+    "carlina": [
+     "carlin"
+    ],
+    "carme": [
+     "carmi"
+    ],
+    "carola": [
+     "carole"
+    ],
+    "carpare": [
+     "carpando"
+    ],
+    "carrarese": [
+     "carrarese"
+    ],
+    "carreggiare": [
+     "carreggiar"
+    ],
+    "cassio": [
+     "cassio"
+    ],
+    "catolico": [
+     "catolico"
+    ],
+    "catone": [
+     "caton",
+     "catun"
+    ],
+    "cencro": [
+     "cencri"
+    ],
+    "cennamella": [
+     "cennamella"
+    ],
+    "cent": [
+     "cent"
+    ],
+    "cerchia": [
+     "cerchie"
+    ],
+    "cerebro": [
+     "cerebro"
+    ],
+    "cerro": [
+     "cerro"
+    ],
+    "chelidro": [
+     "chelidri"
+    ],
+    "cherubo": [
+     "cherubi"
+    ],
+    "chiama": [
+     "chiame"
+    ],
+    "chiana": [
+     "chiana"
+    ],
+    "chiarirsi": [
+     "chiarirti"
+    ],
+    "chiarità": [
+     "chiarità"
+    ],
+    "chiercuto": [
+     "chercuti"
+    ],
+    "chinandomi": [
+     "chinandomi"
+    ],
+    "chiostra": [
+     "chiostra"
+    ],
+    "chiotto": [
+     "ciotto"
+    ],
+    "ciacco": [
+     "ciacco"
+    ],
+    "cibare": [
+     "ciba",
+     "ciberà"
+    ],
+    "cincinnare": [
+     "cincinnato"
+    ],
+    "cinghio": [
+     "cinghio"
+    ],
+    "cioncare": [
+     "cionca"
+    ],
+    "ciprigno": [
+     "ciprigna"
+    ],
+    "circoncingere": [
+     "circumcinto"
+    ],
+    "circonfulgere": [
+     "circunfulse"
+    ],
+    "circulare": [
+     "circulata",
+     "circulava"
+    ],
+    "citarista": [
+     "citarista"
+    ],
+    "ciuffetto": [
+     "ciuffetto"
+    ],
+    "cive": [
+     "cive",
+     "civi"
+    ],
+    "clarità": [
+     "claritate"
+    ],
+    "clavo": [
+     "clavi"
+    ],
+    "clivare": [
+     "clivo"
+    ],
+    "coartare": [
+     "coarta"
+    ],
+    "cocente": [
+     "cocenti"
+    ],
+    "cocolla": [
+     "cocolle",
+     "coculla"
+    ],
+    "codesti": [
+     "cotesti"
+    ],
+    "cogitazione": [
+     "cogitazion"
+    ],
+    "cognazione": [
+     "cognazione"
+    ],
+    "colui": [
+     "colei",
+     "colui"
+    ],
+    "colà": [
+     "colà"
+    ],
+    "comburere": [
+     "combusto"
+    ],
+    "commendare": [
+     "commendai",
+     "commendan",
+     "commendo"
+    ],
+    "commensurare": [
+     "commensurar"
+    ],
+    "compage": [
+     "compage"
+    ],
+    "compartire": [
+     "comparte",
+     "compartendo",
+     "compartir"
+    ],
+    "compiacermi": [
+     "compiacermi"
+    ],
+    "compiangere": [
+     "compiange",
+     "compianto"
+    ],
+    "compreso": [
+     "compresa"
+    ],
+    "compungere": [
+     "compunto"
+    ],
+    "concolore": [
+     "concolori"
+    ],
+    "condiscendere": [
+     "condescende"
+    ],
+    "confarsi": [
+     "confaccia"
+    ],
+    "configgere": [
+     "confitto"
+    ],
+    "conflare": [
+     "conflati"
+    ],
+    "conformare": [
+     "conforma",
+     "conformate",
+     "conformato"
+    ],
+    "confortarmi": [
+     "confortarmi"
+    ],
+    "congaudere": [
+     "congaudete"
+    ],
+    "congiungere": [
+     "congiugnersi",
+     "congiungi"
+    ],
+    "congratulare": [
+     "congratulando"
+    ],
+    "conserto": [
+     "conserte"
+    ],
+    "constare": [
+     "constare"
+    ],
+    "consumere": [
+     "consunse",
+     "consunsi"
+    ],
+    "contarla": [
+     "contarla"
+    ],
+    "contemplante": [
+     "contemplanti"
+    ],
+    "contenerlo": [
+     "contenerlo"
+    ],
+    "contentare": [
+     "contentato",
+     "contentava"
+    ],
+    "contezza": [
+     "contezza"
+    ],
+    "contingere": [
+     "continga"
+    ],
+    "contrada": [
+     "contrada",
+     "contrade"
+    ],
+    "contrappasso": [
+     "contrapasso"
+    ],
+    "contristare": [
+     "contrista",
+     "contristati"
+    ],
+    "convegna": [
+     "convegna"
+    ],
+    "convolgere": [
+     "convolto"
+    ],
+    "coperchiare": [
+     "coperchia",
+     "coverchia"
+    ],
+    "cordigliere": [
+     "cordigliero"
+    ],
+    "coricare": [
+     "corca",
+     "corcar"
+    ],
+    "coronare": [
+     "coronarmi",
+     "coronava",
+     "corono"
+    ],
+    "corredare": [
+     "correda"
+    ],
+    "corruscare": [
+     "corusca",
+     "coruscar"
+    ],
+    "corrusco": [
+     "corusco"
+    ],
+    "corruttibile": [
+     "corruttibile"
+    ],
+    "cospergere": [
+     "consperso",
+     "cosperso"
+    ],
+    "costellare": [
+     "costellati"
+    ],
+    "costinci": [
+     "costinci"
+    ],
+    "costoro": [
+     "costor"
+    ],
+    "costui": [
+     "costei",
+     "costoro",
+     "costui"
+    ],
+    "costumare": [
+     "costuma"
+    ],
+    "costà": [
+     "costà"
+    ],
+    "costì": [
+     "costì"
+    ],
+    "cotale": [
+     "cotai",
+     "cotal",
+     "cotale",
+     "cotali"
+    ],
+    "cotanto": [
+     "cotanta",
+     "cotanti",
+     "cotanto"
+    ],
+    "cotesto": [
+     "cotesta",
+     "cotesto"
+    ],
+    "coto": [
+     "coto"
+    ],
+    "crasso": [
+     "crasso"
+    ],
+    "crastino": [
+     "crastino"
+    ],
+    "crebro": [
+     "crebra"
+    ],
+    "credendomi": [
+     "credendomi"
+    ],
+    "cresciuto": [
+     "cresciuta"
+    ],
+    "croio": [
+     "croia"
+    ],
+    "crollarsi": [
+     "crollarsi"
+    ],
+    "crosciare": [
+     "croscia"
+    ],
+    "crucciare": [
+     "cruccia",
+     "crucciare",
+     "crucciasse",
+     "crucciato"
+    ],
+    "crucciato": [
+     "crucciata"
+    ],
+    "cuntare": [
+     "cunta"
+    ],
+    "cuoiame": [
+     "coram"
+    ],
+    "curane": [
+     "curan"
+    ],
+    "curro": [
+     "curro"
+    ],
+    "cuticagna": [
+     "cuticagna"
+    ],
+    "dallo": [
+     "dalmi"
+    ],
+    "dandole": [
+     "dandole"
+    ],
+    "dannaggio": [
+     "dannaggio"
+    ],
+    "danne": [
+     "danne"
+    ],
+    "dape": [
+     "dape"
+    ],
+    "darli": [
+     "darli"
+    ],
+    "darmi": [
+     "darmi"
+    ],
+    "darne": [
+     "darne"
+    ],
+    "darti": [
+     "darti"
+    ],
+    "debile": [
+     "debili"
+    ],
+    "debitamente": [
+     "debitamente"
+    ],
+    "deca": [
+     "diche"
+    ],
+    "decenne": [
+     "decenne"
+    ],
+    "decretale": [
+     "decretali"
+    ],
+    "decuria": [
+     "decurio"
+    ],
+    "degnamente": [
+     "degnamente"
+    ],
+    "deh": [
+     "deh"
+    ],
+    "deiforme": [
+     "deiforme"
+    ],
+    "delubro": [
+     "delubro"
+    ],
+    "demanio": [
+     "deman"
+    ],
+    "desiare": [
+     "disia",
+     "disiando",
+     "disiante",
+     "disiar",
+     "disiassimo",
+     "disiato",
+     "disiava"
+    ],
+    "desio": [
+     "disii",
+     "disio"
+    ],
+    "desioso": [
+     "disioso"
+    ],
+    "desirare": [
+     "disira"
+    ],
+    "desire": [
+     "disir",
+     "disire",
+     "disiri",
+     "disiro"
+    ],
+    "detrudere": [
+     "detruso"
+    ],
+    "deturpare": [
+     "deturpa"
+    ],
+    "dianzi": [
+     "dianzi"
+    ],
+    "diavola": [
+     "diavol"
+    ],
+    "dicendomi": [
+     "dicendomi"
+    ],
+    "dichiararti": [
+     "dichiararti"
+    ],
+    "diene": [
+     "dien"
+    ],
+    "diesare": [
+     "diessi"
+    ],
+    "diffidare": [
+     "diffidi"
+    ],
+    "digli": [
+     "digli"
+    ],
+    "digradare": [
+     "digrada",
+     "digradar"
+    ],
+    "dilacerare": [
+     "dilaceraro"
+    ],
+    "dileguare": [
+     "dilegua",
+     "dileguan",
+     "dileguò"
+    ],
+    "dilettarne": [
+     "dilettarne"
+    ],
+    "dilettoso": [
+     "dilettoso"
+    ],
+    "dille": [
+     "dille"
+    ],
+    "dillo": [
+     "dilci",
+     "dillo",
+     "dilmi"
+    ],
+    "dimagrare": [
+     "dimagra"
+    ],
+    "dimesso": [
+     "dimessa"
+    ],
+    "dimmi": [
+     "dimmi"
+    ],
+    "dimostrami": [
+     "dimostrami"
+    ],
+    "dindo": [
+     "dindi"
+    ],
+    "dinne": [
+     "dinne"
+    ],
+    "dintorno": [
+     "dintorno"
+    ],
+    "dipartirci": [
+     "dipartirci"
+    ],
+    "dipelare": [
+     "dipela",
+     "dipelato"
+    ],
+    "diradare": [
+     "dirada",
+     "diradar"
+    ],
+    "diramare": [
+     "dirama"
+    ],
+    "dirci": [
+     "dirci"
+    ],
+    "dirimere": [
+     "dirimendo"
+    ],
+    "dirimpetto": [
+     "rimpetto"
+    ],
+    "dirittamente": [
+     "dirittamente"
+    ],
+    "dirmi": [
+     "dirmi"
+    ],
+    "dirne": [
+     "dirne"
+    ],
+    "dirompere": [
+     "dirompea"
+    ],
+    "dirsi": [
+     "dirsi",
+     "dirti"
+    ],
+    "dirvi": [
+     "dirvi"
+    ],
+    "disagiare": [
+     "disagia"
+    ],
+    "disanimare": [
+     "disanimato"
+    ],
+    "disascondere": [
+     "disasconda"
+    ],
+    "disbrigare": [
+     "disbrigo"
+    ],
+    "discedere": [
+     "disceda"
+    ],
+    "discente": [
+     "discente"
+    ],
+    "discettare": [
+     "discetti"
+    ],
+    "disciogliere": [
+     "discioglie",
+     "discioglierò",
+     "disciolse",
+     "disciolta",
+     "disciolto"
+    ],
+    "discolorare": [
+     "discolora"
+    ],
+    "discorde": [
+     "discorde"
+    ],
+    "discorrere": [
+     "discorre",
+     "discorrer"
+    ],
+    "discoscendere": [
+     "discoscesa"
+    ],
+    "disfamare": [
+     "disfama"
+    ],
+    "disfatto": [
+     "disfatti"
+    ],
+    "disgiunto": [
+     "disgiunte"
+    ],
+    "disianza": [
+     "disianza"
+    ],
+    "dislegare": [
+     "dislega",
+     "disleghi",
+     "dislego"
+    ],
+    "dismalare": [
+     "dismala"
+    ],
+    "dismisura": [
+     "dismisura"
+    ],
+    "disnodare": [
+     "disnoda",
+     "disnodi"
+    ],
+    "disparire": [
+     "dispaia",
+     "disparito",
+     "disparve"
+    ],
+    "dispensare": [
+     "dispensare"
+    ],
+    "dispergere": [
+     "dispergesse"
+    ],
+    "dispogliare": [
+     "dispoglia",
+     "dispogliata"
+    ],
+    "disposare": [
+     "disposando",
+     "disposò"
+    ],
+    "dispregiare": [
+     "dispregia",
+     "dispregiare",
+     "dispregio",
+     "dispregiò"
+    ],
+    "dispregio": [
+     "dispregi"
+    ],
+    "disserrare": [
+     "diserra",
+     "diserrando",
+     "diserrare",
+     "diserri"
+    ],
+    "dissigillare": [
+     "disigilla"
+    ],
+    "dissonnare": [
+     "disonna"
+    ],
+    "distare": [
+     "dista",
+     "distar",
+     "distava",
+     "distavan"
+    ],
+    "disusare": [
+     "disusa"
+    ],
+    "disvestito": [
+     "disvestito"
+    ],
+    "disviare": [
+     "disvia",
+     "disviando",
+     "disviate",
+     "disviato"
+    ],
+    "disvolere": [
+     "disvuol"
+    ],
+    "ditele": [
+     "ditel"
+    ],
+    "diteli": [
+     "diteli"
+    ],
+    "ditemi": [
+     "ditemi"
+    ],
+    "divallare": [
+     "divalli"
+    ],
+    "divellere": [
+     "divella",
+     "divelse"
+    ],
+    "divizia": [
+     "divizia"
+    ],
+    "divoto": [
+     "divota",
+     "divote"
+    ],
+    "doglianza": [
+     "doglienza"
+    ],
+    "doglioso": [
+     "dogliose",
+     "dogliosi"
+    ],
+    "dolcino": [
+     "dolcin"
+    ],
+    "dolente": [
+     "dolenti"
+    ],
+    "dolermi": [
+     "dolermi"
+    ],
+    "dolorare": [
+     "dolorando"
+    ],
+    "domandale": [
+     "domandal"
+    ],
+    "domandarmi": [
+     "domandarmi"
+    ],
+    "domo": [
+     "dome"
+    ],
+    "donati": [
+     "donati"
+    ],
+    "donno": [
+     "donno"
+    ],
+    "drittamente": [
+     "drittamente"
+    ],
+    "drudo": [
+     "drudo"
+    ],
+    "dubbiare": [
+     "dubbiando",
+     "dubbiar",
+     "dubbiare",
+     "dubbiava"
+    ],
+    "dubitazione": [
+     "dubitazion"
+    ],
+    "duolo": [
+     "duol",
+     "duolo"
+    ],
+    "eccelso": [
+     "eccelsa"
+    ],
+    "effigiare": [
+     "effigiata"
+    ],
+    "ego": [
+     "ego"
+    ],
+    "elidere": [
+     "eliso"
+    ],
+    "embolo": [
+     "imboli"
+    ],
+    "empire": [
+     "empierti"
+    ],
+    "enfiato": [
+     "infiata",
+     "nfiata"
+    ],
+    "epa": [
+     "epa",
+     "epe"
+    ],
+    "erbetta": [
+     "erbetta",
+     "erbette"
+    ],
+    "ergere": [
+     "ergea"
+    ],
+    "ermo": [
+     "ermo",
+     "irmi"
+    ],
+    "esalazione": [
+     "essalazion"
+    ],
+    "eschio": [
+     "eschi"
+    ],
+    "essente": [
+     "essenti"
+    ],
+    "essermi": [
+     "essermi"
+    ],
+    "esservi": [
+     "esservi",
+     "viemmi"
+    ],
+    "estimativo": [
+     "stimativa"
+    ],
+    "esto": [
+     "esti",
+     "esto"
+    ],
+    "eternale": [
+     "etternal",
+     "etternale"
+    ],
+    "eternalmente": [
+     "etternalmente"
+    ],
+    "face": [
+     "facella"
+    ],
+    "facendosi": [
+     "faccendosi"
+    ],
+    "fagliare": [
+     "fallio"
+    ],
+    "falcare": [
+     "falca"
+    ],
+    "fallace": [
+     "fallace",
+     "fallaci"
+    ],
+    "fallare": [
+     "fallar"
+    ],
+    "falsare": [
+     "falsai",
+     "falsasti",
+     "falsava"
+    ],
+    "fammi": [
+     "fammi",
+     "fammiti"
+    ],
+    "fantolino": [
+     "fantolin",
+     "fantolini",
+     "fantolino"
+    ],
+    "farea": [
+     "faree"
+    ],
+    "farinata": [
+     "farinata"
+    ],
+    "farle": [
+     "farle"
+    ],
+    "farli": [
+     "farli"
+    ],
+    "farlo": [
+     "farlo"
+    ],
+    "farmi": [
+     "farmi"
+    ],
+    "farmisi": [
+     "farmisi"
+    ],
+    "farne": [
+     "farne"
+    ],
+    "farti": [
+     "farti"
+    ],
+    "farvi": [
+     "farvi"
+    ],
+    "fatene": [
+     "fatene"
+    ],
+    "favella": [
+     "favelle"
+    ],
+    "favellare": [
+     "favella",
+     "favelli",
+     "favellò"
+    ],
+    "favoleggiare": [
+     "favoleggiare",
+     "favoleggiava"
+    ],
+    "fedire": [
+     "fedir",
+     "fedire",
+     "feggia",
+     "fiede"
+    ],
+    "felicitare": [
+     "felicitando"
+    ],
+    "fellare": [
+     "fella",
+     "felli",
+     "fello",
+     "félli"
+    ],
+    "fellonia": [
+     "fellonia"
+    ],
+    "ferace": [
+     "ferace"
+    ],
+    "fermale": [
+     "fermalvi"
+    ],
+    "fermandosi": [
+     "fermandosi"
+    ],
+    "fermano": [
+     "ferman"
+    ],
+    "ferrarese": [
+     "ferrarese"
+    ],
+    "ferrato": [
+     "ferrati"
+    ],
+    "ferrigno": [
+     "ferrigno"
+    ],
+    "fertilmente": [
+     "fertilemente"
+    ],
+    "ferza": [
+     "ferza",
+     "ferze"
+    ],
+    "festino": [
+     "festini",
+     "festino"
+    ],
+    "fiammare": [
+     "fiammando"
+    ],
+    "fiata": [
+     "fiate"
+    ],
+    "fiatare": [
+     "fiata"
+    ],
+    "fidandomi": [
+     "fidandomi"
+    ],
+    "fido": [
+     "fida",
+     "fidi"
+    ],
+    "fiesolano": [
+     "fiesolane"
+    ],
+    "figliuolo": [
+     "figliuol",
+     "figliuole",
+     "figliuoli"
+    ],
+    "finitelo": [
+     "finitolo"
+    ],
+    "fino": [
+     "fino"
+    ],
+    "fio": [
+     "fio"
+    ],
+    "fioccare": [
+     "fiocca",
+     "fioccar"
+    ],
+    "fleto": [
+     "fleto"
+    ],
+    "focara": [
+     "focara"
+    ],
+    "focile": [
+     "focile"
+    ],
+    "foglietta": [
+     "fogliette"
+    ],
+    "folgorare": [
+     "folgorando",
+     "folgorate",
+     "folgorò"
+    ],
+    "folgoreggiare": [
+     "folgoreggiando"
+    ],
+    "foracchiare": [
+     "foracchiato"
+    ],
+    "forame": [
+     "forame"
+    ],
+    "forbire": [
+     "forbendola",
+     "forbi"
+    ],
+    "forcuto": [
+     "forcuta",
+     "forcuto"
+    ],
+    "forese": [
+     "forese"
+    ],
+    "fornito": [
+     "fornita"
+    ],
+    "forsennato": [
+     "forsennata"
+    ],
+    "fotina": [
+     "fotin"
+    ],
+    "frangere": [
+     "franga",
+     "fratto"
+    ],
+    "frasca": [
+     "frasca",
+     "frasche"
+    ],
+    "fruire": [
+     "frui"
+    ],
+    "fugare": [
+     "fugò"
+    ],
+    "fuggirsi": [
+     "fuggirsi"
+    ],
+    "fulgere": [
+     "fulgeami"
+    ],
+    "fulgido": [
+     "fulgida"
+    ],
+    "fulgore": [
+     "fulgor",
+     "fulgore"
+    ],
+    "furare": [
+     "furare",
+     "furò"
+    ],
+    "furo": [
+     "fura"
+    ],
+    "gabbare": [
+     "gabbo"
+    ],
+    "gaetto": [
+     "gaetta"
+    ],
+    "gaggio": [
+     "gaggi"
+    ],
+    "gaudio": [
+     "gaudio"
+    ],
+    "gaudioso": [
+     "gaudiose",
+     "gaudioso"
+    ],
+    "geomante": [
+     "geomanti"
+    ],
+    "gibetto": [
+     "gibetto"
+    ],
+    "giga": [
+     "giga"
+    ],
+    "giovanetto": [
+     "giovanetti"
+    ],
+    "gioviale": [
+     "giovial"
+    ],
+    "giovinetto": [
+     "giovinetta"
+    ],
+    "gire": [
+     "gimmo",
+     "gire",
+     "girà",
+     "gissi",
+     "giva",
+     "givan",
+     "givi",
+     "gì"
+    ],
+    "girone": [
+     "giron",
+     "girone",
+     "gironi"
+    ],
+    "girsene": [
+     "girsene"
+    ],
+    "gitano": [
+     "gittan"
+    ],
+    "giurarlo": [
+     "giurarlo"
+    ],
+    "giure": [
+     "iura"
+    ],
+    "glielo": [
+     "gliel"
+    ],
+    "gliene": [
+     "glien",
+     "gliene"
+    ],
+    "gloriare": [
+     "gloriai",
+     "gloriar",
+     "gloriarla"
+    ],
+    "gloriosamente": [
+     "gloriosamente"
+    ],
+    "gocciare": [
+     "gocciar",
+     "gocciava"
+    ],
+    "gradare": [
+     "grada"
+    ],
+    "grattarmi": [
+     "grattarmi"
+    ],
+    "gravezza": [
+     "gravezza"
+    ],
+    "greppo": [
+     "greppo"
+    ],
+    "greve": [
+     "greve"
+    ],
+    "grifagno": [
+     "grifagni",
+     "grifagno"
+    ],
+    "grommare": [
+     "gromma"
+    ],
+    "grommato": [
+     "grommate"
+    ],
+    "gualdo": [
+     "gualdo"
+    ],
+    "guardaci": [
+     "guardaci"
+    ],
+    "guastatore": [
+     "guastatori"
+    ],
+    "guatare": [
+     "guata",
+     "guati"
+    ],
+    "guisa": [
+     "guisa",
+     "guise"
+    ],
+    "gurge": [
+     "gurge"
+    ],
+    "iattura": [
+     "iattura"
+    ],
+    "ibero": [
+     "ibero"
+    ],
+    "idropico": [
+     "idropico"
+    ],
+    "igne": [
+     "igne"
+    ],
+    "ignito": [
+     "ignito"
+    ],
+    "imbestiare": [
+     "imbestiò",
+     "mbestiate"
+    ],
+    "imbrunare": [
+     "imbruna"
+    ],
+    "imburrato": [
+     "burrato"
+    ],
+    "immillare": [
+     "inmilla"
+    ],
+    "immondo": [
+     "immondi"
+    ],
+    "imo": [
+     "ima",
+     "imo"
+    ],
+    "impacciare": [
+     "mpaccia"
+    ],
+    "impaniato": [
+     "mpaniati"
+    ],
+    "impedito": [
+     "impediti"
+    ],
+    "impegolare": [
+     "mpegolate"
+    ],
+    "impelare": [
+     "impeli",
+     "impola"
+    ],
+    "impellere": [
+     "impulse"
+    ],
+    "imperare": [
+     "impera"
+    ],
+    "impetrare": [
+     "impetrai",
+     "impetrare",
+     "impetrato",
+     "impetri",
+     "mpetro"
+    ],
+    "impetuoso": [
+     "impetuosa",
+     "impetuoso"
+    ],
+    "impigliare": [
+     "impiglia",
+     "impigliar",
+     "mpiglia"
+    ],
+    "impinguare": [
+     "impingua"
+    ],
+    "impresso": [
+     "impressa"
+    ],
+    "impronto": [
+     "impronti"
+    ],
+    "incappare": [
+     "incappelli"
+    ],
+    "incendere": [
+     "incese",
+     "inceso"
+    ],
+    "incensare": [
+     "incensa"
+    ],
+    "inceso": [
+     "incesa"
+    ],
+    "inchiedere": [
+     "inchiese",
+     "nchiese"
+    ],
+    "inchinare": [
+     "inchinai",
+     "inchinassi",
+     "inchinava"
+    ],
+    "inchiudere": [
+     "inchiuso",
+     "nchiude"
+    ],
+    "incielare": [
+     "inciela"
+    ],
+    "incingere": [
+     "incinse"
+    ],
+    "inclito": [
+     "inclita"
+    ],
+    "incognito": [
+     "incognita",
+     "incognito"
+    ],
+    "incominciare": [
+     "incominciai",
+     "incomincian",
+     "incominciando",
+     "incominciar",
+     "incominciaro",
+     "incominciava",
+     "incominciommi",
+     "incominciò"
+    ],
+    "inconsumabile": [
+     "inconsummabile"
+    ],
+    "increscere": [
+     "increbbe",
+     "incresca",
+     "incresce"
+    ],
+    "incude": [
+     "incude"
+    ],
+    "indigere": [
+     "indige"
+    ],
+    "indulgere": [
+     "indulgo",
+     "indulse"
+    ],
+    "indurare": [
+     "indurasse"
+    ],
+    "indurlo": [
+     "indurlo"
+    ],
+    "ineffabile": [
+     "ineffabil",
+     "ineffabile",
+     "ineffabili"
+    ],
+    "infermo": [
+     "inferma",
+     "infermi",
+     "infermo"
+    ],
+    "infimo": [
+     "infima",
+     "infimo"
+    ],
+    "infingere": [
+     "infinse"
+    ],
+    "infino": [
+     "infino",
+     "nfin",
+     "nfino"
+    ],
+    "infiorare": [
+     "infiora",
+     "nfiora"
+    ],
+    "infondere": [
+     "infonde",
+     "infuso"
+    ],
+    "inforcare": [
+     "inforca",
+     "inforcar",
+     "nforco"
+    ],
+    "ingemmare": [
+     "ingemmato",
+     "ingemmi"
+    ],
+    "inleiarsi": [
+     "inlei"
+    ],
+    "inluiarsi": [
+     "inluia"
+    ],
+    "innovare": [
+     "innovò"
+    ],
+    "insaccare": [
+     "insacca"
+    ],
+    "insalare": [
+     "insala"
+    ],
+    "insellare": [
+     "insolla"
+    ],
+    "insembre": [
+     "nsembre"
+    ],
+    "insino": [
+     "insin",
+     "insino"
+    ],
+    "intendimento": [
+     "intendimenti",
+     "ntendimento"
+    ],
+    "intercidere": [
+     "intercisi",
+     "interciso"
+    ],
+    "interporre": [
+     "interporsi",
+     "interpuose"
+    ],
+    "intoppare": [
+     "intoppa"
+    ],
+    "intronare": [
+     "ntrona",
+     "ntrono"
+    ],
+    "inurbarsi": [
+     "inurba"
+    ],
+    "invaghire": [
+     "invaghito"
+    ],
+    "inveggiare": [
+     "inveggia",
+     "inveggiar"
+    ],
+    "invetriare": [
+     "nvetriate"
+    ],
+    "inviarci": [
+     "nviarci"
+    ],
+    "inviluppare": [
+     "nviluppata"
+    ],
+    "involare": [
+     "invola"
+    ],
+    "iole": [
+     "iole"
+    ],
+    "iracondia": [
+     "iracundia"
+    ],
+    "ispirarmi": [
+     "spirarmi"
+    ],
+    "istoriare": [
+     "istoria"
+    ],
+    "istoriato": [
+     "storiata"
+    ],
+    "italico": [
+     "italica"
+    ],
+    "iterare": [
+     "iterate"
+    ],
+    "iubere": [
+     "iube"
+    ],
+    "labbia": [
+     "labbia"
+    ],
+    "labile": [
+     "labili"
+    ],
+    "labio": [
+     "labi"
+    ],
+    "lacerto": [
+     "lacerto"
+    ],
+    "lacrimabile": [
+     "lagrimabil"
+    ],
+    "ladroneccio": [
+     "ladroneccio"
+    ],
+    "lapillo": [
+     "lapilli"
+    ],
+    "largire": [
+     "largir",
+     "largirmi",
+     "largiscon",
+     "largisse",
+     "largita",
+     "largito"
+    ],
+    "lasciala": [
+     "lasciala"
+    ],
+    "lasciali": [
+     "lasciali"
+    ],
+    "lasciatomi": [
+     "lasciatemi"
+    ],
+    "latebra": [
+     "latebra"
+    ],
+    "latria": [
+     "latria"
+    ],
+    "lattare": [
+     "lattar"
+    ],
+    "lauda": [
+     "laude"
+    ],
+    "laudabile": [
+     "laudabil",
+     "laudabile"
+    ],
+    "lauro": [
+     "lauro"
+    ],
+    "lavina": [
+     "lavina"
+    ],
+    "lecito": [
+     "licito"
+    ],
+    "ledere": [
+     "leda"
+    ],
+    "legista": [
+     "legista"
+    ],
+    "lelia": [
+     "lilia"
+    ],
+    "leppo": [
+     "leppo"
+    ],
+    "leso": [
+     "lesa"
+    ],
+    "letiziare": [
+     "letizian",
+     "letiziar"
+    ],
+    "lezio": [
+     "lizio"
+    ],
+    "lezzo": [
+     "lezzo"
+    ],
+    "libente": [
+     "libente"
+    ],
+    "licere": [
+     "lece"
+    ],
+    "lici": [
+     "lici"
+    ],
+    "lietamente": [
+     "lietamente"
+    ],
+    "lievemente": [
+     "lievemente"
+    ],
+    "litorano": [
+     "litorano"
+    ],
+    "livore": [
+     "livore"
+    ],
+    "locare": [
+     "locata",
+     "locati"
+    ],
+    "loico": [
+     "loico"
+    ],
+    "lonzo": [
+     "lonza"
+    ],
+    "lordura": [
+     "lordura"
+    ],
+    "lucore": [
+     "lucore"
+    ],
+    "luculento": [
+     "luculenta"
+    ],
+    "ludere": [
+     "lude"
+    ],
+    "ludo": [
+     "ludi",
+     "ludo"
+    ],
+    "lungamente": [
+     "lungamente"
+    ],
+    "lunghesso": [
+     "lunghesso"
+    ],
+    "lusinga": [
+     "lusinghe"
+    ],
+    "maccabeo": [
+     "maccabei"
+    ],
+    "macro": [
+     "macra",
+     "macri"
+    ],
+    "macrofotografico": [
+     "macro"
+    ],
+    "magrezza": [
+     "magrezza"
+    ],
+    "mainò": [
+     "magino"
+    ],
+    "malagevole": [
+     "malagevole"
+    ],
+    "malignamente": [
+     "malignamente"
+    ],
+    "malmenare": [
+     "malmenare"
+    ],
+    "manducare": [
+     "manduca"
+    ],
+    "manicare": [
+     "manicar"
+    ],
+    "manso": [
+     "manse"
+    ],
+    "mantovano": [
+     "mantoan"
+    ],
+    "maremma": [
+     "maremma"
+    ],
+    "marescalco": [
+     "marescalchi"
+    ],
+    "marinaro": [
+     "marinari"
+    ],
+    "marra": [
+     "marra"
+    ],
+    "marzocco": [
+     "marzucco"
+    ],
+    "mastro": [
+     "mastro"
+    ],
+    "mattinare": [
+     "mattinar"
+    ],
+    "mazzerare": [
+     "mazzerati"
+    ],
+    "meare": [
+     "mea"
+    ],
+    "meco": [
+     "meco"
+    ],
+    "medesmo": [
+     "medesma",
+     "medesme",
+     "medesmi"
+    ],
+    "melodo": [
+     "melode"
+    ],
+    "membruto": [
+     "membruto"
+    ],
+    "memorare": [
+     "memorar"
+    ],
+    "menare": [
+     "menai",
+     "menalo",
+     "menando",
+     "menane",
+     "menar",
+     "menare",
+     "menarlo",
+     "menarmi",
+     "menarvi",
+     "menato",
+     "menava",
+     "menavano",
+     "meni",
+     "menocci",
+     "menò"
+    ],
+    "mencio": [
+     "mencio"
+    ],
+    "mendare": [
+     "mendici"
+    ],
+    "mentovare": [
+     "mentovato"
+    ],
+    "meo": [
+     "mee"
+    ],
+    "mercare": [
+     "merca"
+    ],
+    "mercatare": [
+     "mercatante"
+    ],
+    "mercé": [
+     "mercé"
+    ],
+    "mergere": [
+     "merse"
+    ],
+    "meriggio": [
+     "merigge"
+    ],
+    "mescere": [
+     "mesca"
+    ],
+    "messer": [
+     "ser"
+    ],
+    "messere": [
+     "messer"
+    ],
+    "mettetele": [
+     "mettetel"
+    ],
+    "mettine": [
+     "mettine"
+    ],
+    "migliaio": [
+     "migliaio"
+    ],
+    "minerva": [
+     "minerva"
+    ],
+    "minugia": [
+     "minugia"
+    ],
+    "mirabile": [
+     "mirabil",
+     "mirabile",
+     "mirabili"
+    ],
+    "mirabilmente": [
+     "mirabilmente"
+    ],
+    "miraglio": [
+     "miraglio"
+    ],
+    "mirrare": [
+     "mirro"
+    ],
+    "miseramente": [
+     "miseramente"
+    ],
+    "miserere": [
+     "miserere"
+    ],
+    "misuratamente": [
+     "misuratamente"
+    ],
+    "moltiplicato": [
+     "multiplicata"
+    ],
+    "monco": [
+     "monche",
+     "monchi"
+    ],
+    "mondiglia": [
+     "mondiglia"
+    ],
+    "monetiere": [
+     "monetier"
+    ],
+    "monito": [
+     "mmonito"
+    ],
+    "montasio": [
+     "montasi"
+    ],
+    "moralmente": [
+     "moralmente"
+    ],
+    "moria": [
+     "moria"
+    ],
+    "moscone": [
+     "mosconi"
+    ],
+    "mostrandomi": [
+     "mostrandomi"
+    ],
+    "mostrandovi": [
+     "mostrandovi"
+    ],
+    "mostrarli": [
+     "mostrarli"
+    ],
+    "mostrarmi": [
+     "mostrarmi"
+    ],
+    "mostrarti": [
+     "mostrarti"
+    ],
+    "mucciare": [
+     "mucci"
+    ],
+    "mugghiare": [
+     "mugghia",
+     "mugghiava",
+     "mugghiò"
+    ],
+    "mula": [
+     "mul"
+    ],
+    "muno": [
+     "muno"
+    ],
+    "muoverci": [
+     "muoverci"
+    ],
+    "muovervi": [
+     "muovervi"
+    ],
+    "murare": [
+     "murò"
+    ],
+    "mutandomi": [
+     "mutandom"
+    ],
+    "nascimento": [
+     "nascimenti"
+    ],
+    "nasetto": [
+     "nasetto"
+    ],
+    "navigio": [
+     "navigio"
+    ],
+    "necesse": [
+     "necesse"
+    ],
+    "nembrotto": [
+     "nembrotto"
+    ],
+    "nequizia": [
+     "nequizia"
+    ],
+    "nescio": [
+     "nescia"
+    ],
+    "nino": [
+     "nin",
+     "nino"
+    ],
+    "niso": [
+     "niso"
+    ],
+    "niuno": [
+     "neun"
+    ],
+    "nocchio": [
+     "nocchi"
+    ],
+    "noiare": [
+     "noiando",
+     "nòi"
+    ],
+    "nomare": [
+     "noma",
+     "nomar",
+     "nomarlo",
+     "nomasse",
+     "nomati",
+     "nomato",
+     "nomava",
+     "nomerò",
+     "nomò"
+    ],
+    "nominanza": [
+     "nominanza"
+    ],
+    "nosco": [
+     "nosco"
+    ],
+    "nostrale": [
+     "nostral",
+     "nostrali"
+    ],
+    "notrica": [
+     "notrica"
+    ],
+    "novellamente": [
+     "novellamente"
+    ],
+    "novellare": [
+     "novello"
+    ],
+    "noverca": [
+     "noverca"
+    ],
+    "nume": [
+     "numi"
+    ],
+    "obliare": [
+     "obliando"
+    ],
+    "oblivione": [
+     "oblivion"
+    ],
+    "oggimai": [
+     "oggimai",
+     "omai"
+    ],
+    "ognora": [
+     "ognora"
+    ],
+    "olezzare": [
+     "olezza"
+    ],
+    "oltracotanza": [
+     "oltracotanza"
+    ],
+    "oltracotato": [
+     "oltracotata"
+    ],
+    "ombrare": [
+     "ombrata"
+    ],
+    "ombrifero": [
+     "umbriferi"
+    ],
+    "omè": [
+     "omè"
+    ],
+    "onrato": [
+     "onrata"
+    ],
+    "onta": [
+     "onta"
+    ],
+    "ontoso": [
+     "ontoso"
+    ],
+    "opimo": [
+     "opima",
+     "opimo"
+    ],
+    "oppilazione": [
+     "oppilazion"
+    ],
+    "orbare": [
+     "orbino"
+    ],
+    "orezzo": [
+     "orezza"
+    ],
+    "organare": [
+     "organa",
+     "organar"
+    ],
+    "orizzon": [
+     "orizzòn"
+    ],
+    "orizzontare": [
+     "orizzonta"
+    ],
+    "orlare": [
+     "orlando"
+    ],
+    "ormai": [
+     "oramai"
+    ],
+    "ormare": [
+     "ormai"
+    ],
+    "orrevole": [
+     "orrevoli"
+    ],
+    "ortolano": [
+     "ortolano"
+    ],
+    "ossame": [
+     "ossame"
+    ],
+    "ostare": [
+     "ostante"
+    ],
+    "ottare": [
+     "otta"
+    ],
+    "ove": [
+     "ov",
+     "ove"
+    ],
+    "pacare": [
+     "pachino"
+    ],
+    "palesarvi": [
+     "palesarvi"
+    ],
+    "papeio": [
+     "pape"
+    ],
+    "pappare": [
+     "pappo"
+    ],
+    "pareglio": [
+     "pareglio"
+    ],
+    "pargoleggiare": [
+     "pargoleggia"
+    ],
+    "parlami": [
+     "parlami"
+    ],
+    "parlandomi": [
+     "parlandomi"
+    ],
+    "parlarmi": [
+     "parlarmi"
+    ],
+    "parlasia": [
+     "parlasia"
+    ],
+    "parnaso": [
+     "parnaso"
+    ],
+    "paroffia": [
+     "paroffia"
+    ],
+    "paroletta": [
+     "parolette"
+    ],
+    "parteggiare": [
+     "parteggiando"
+    ],
+    "paruta": [
+     "paruta"
+    ],
+    "parvente": [
+     "parventi"
+    ],
+    "parvolo": [
+     "parvol"
+    ],
+    "pasciuto": [
+     "pasciute",
+     "pasciuti"
+    ],
+    "pasco": [
+     "paschi"
+    ],
+    "pasturale": [
+     "pasturale"
+    ],
+    "pasturare": [
+     "pasturò"
+    ],
+    "paternostro": [
+     "paternostro"
+    ],
+    "patteggiare": [
+     "patteggiarne",
+     "patteggiati"
+    ],
+    "paventare": [
+     "paventi",
+     "pavento"
+    ],
+    "pe'": [
+     "pè"
+    ],
+    "peculio": [
+     "pecuglio"
+    ],
+    "pedere": [
+     "pedes"
+    ],
+    "pegaseo": [
+     "pegasea"
+    ],
+    "pegola": [
+     "pegola"
+    ],
+    "pelago": [
+     "pelaghi",
+     "pelago"
+    ],
+    "pendice": [
+     "pendice",
+     "pendici"
+    ],
+    "peneio": [
+     "peneia"
+    ],
+    "pennecchio": [
+     "pennecchio"
+    ],
+    "pennelleggiare": [
+     "pennelleggia"
+    ],
+    "perdonanza": [
+     "perdonanza"
+    ],
+    "perduto": [
+     "perduta",
+     "perdute",
+     "perduti"
+    ],
+    "permanere": [
+     "permane",
+     "permanendo"
+    ],
+    "persecutore": [
+     "persecutori"
+    ],
+    "pertrattare": [
+     "pertratta",
+     "pertrattato"
+    ],
+    "pesolo": [
+     "pesol"
+    ],
+    "petraia": [
+     "petraia"
+    ],
+    "pettinaio": [
+     "pettinaio"
+    ],
+    "piacerli": [
+     "piacerli"
+    ],
+    "piacermi": [
+     "piacermi"
+    ],
+    "piacerti": [
+     "piacerti"
+    ],
+    "piare": [
+     "piato",
+     "piava"
+    ],
+    "pica": [
+     "piche"
+    ],
+    "piccardo": [
+     "piccarda"
+    ],
+    "piceno": [
+     "picen"
+    ],
+    "pietosamente": [
+     "pietosamente"
+    ],
+    "pietrina": [
+     "petrina"
+    ],
+    "piluccare": [
+     "pilucca"
+    ],
+    "pingue": [
+     "pingue"
+    ],
+    "pisano": [
+     "pisan"
+    ],
+    "pispigliare": [
+     "pispiglia"
+    ],
+    "piviere": [
+     "piovier"
+    ],
+    "pizzicore": [
+     "pizzicor"
+    ],
+    "plaga": [
+     "plaga"
+    ],
+    "plaudire": [
+     "plaude"
+    ],
+    "ploia": [
+     "ploia"
+    ],
+    "plorare": [
+     "plor",
+     "plora"
+    ],
+    "poetare": [
+     "poetando",
+     "poetar",
+     "poetaro"
+    ],
+    "poltro": [
+     "poltre"
+    ],
+    "polve": [
+     "polve"
+    ],
+    "ponderoso": [
+     "ponderoso"
+    ],
+    "pontare": [
+     "ponta",
+     "pontan",
+     "pontano"
+    ],
+    "porsela": [
+     "porsila"
+    ],
+    "portarne": [
+     "portarne"
+    ],
+    "posarmi": [
+     "posarmi"
+    ],
+    "poscia": [
+     "poscia"
+    ],
+    "possa": [
+     "poss",
+     "posse"
+    ],
+    "possanza": [
+     "possanza"
+    ],
+    "posseditore": [
+     "posseditor"
+    ],
+    "possiamo": [
+     "possiam"
+    ],
+    "potenziato": [
+     "potenziata"
+    ],
+    "potersi": [
+     "potiersi"
+    ],
+    "poterti": [
+     "potert"
+    ],
+    "potestà": [
+     "podestate",
+     "potestate"
+    ],
+    "poverello": [
+     "poverel",
+     "poverella",
+     "poverelli",
+     "poverello"
+    ],
+    "pranso": [
+     "pranse"
+    ],
+    "pravo": [
+     "prava",
+     "prave",
+     "pravi"
+    ],
+    "precingere": [
+     "precinto"
+    ],
+    "preclaro": [
+     "preclara"
+    ],
+    "preconio": [
+     "preconio"
+    ],
+    "predella": [
+     "predella"
+    ],
+    "predestinazione": [
+     "predestinazion"
+    ],
+    "prefazio": [
+     "prefazi"
+    ],
+    "pregiare": [
+     "pregi",
+     "pregiando",
+     "pregio"
+    ],
+    "pregno": [
+     "pregno"
+    ],
+    "prelibare": [
+     "preliba"
+    ],
+    "presago": [
+     "presaga"
+    ],
+    "prestamente": [
+     "prestamente"
+    ],
+    "preterire": [
+     "preterito"
+    ],
+    "prevedimento": [
+     "provedimenti"
+    ],
+    "pria": [
+     "pria"
+    ],
+    "primaio": [
+     "primai",
+     "primaia"
+    ],
+    "primiero": [
+     "primiero"
+    ],
+    "principiare": [
+     "princìpi"
+    ],
+    "probo": [
+     "probo"
+    ],
+    "profilare": [
+     "profila"
+    ],
+    "promesso": [
+     "promessi"
+    ],
+    "promissione": [
+     "promession"
+    ],
+    "propinquo": [
+     "propinqua",
+     "propinque",
+     "propinqui"
+    ],
+    "proponimento": [
+     "proponimento"
+    ],
+    "prossimano": [
+     "prossimano"
+    ],
+    "protendere": [
+     "protende"
+    ],
+    "protervo": [
+     "proterva",
+     "proterve"
+    ],
+    "provedenza": [
+     "provedenza"
+    ],
+    "pruno": [
+     "prun",
+     "pruno"
+    ],
+    "pucciare": [
+     "puccio"
+    ],
+    "puerizia": [
+     "puerizia"
+    ],
+    "pugnare": [
+     "pugnar"
+    ],
+    "pulcro": [
+     "pulcro"
+    ],
+    "purgarmi": [
+     "purgarmi"
+    ],
+    "purgazione": [
+     "purgazion"
+    ],
+    "pusillo": [
+     "pusillo"
+    ],
+    "putire": [
+     "pute"
+    ],
+    "puttaneggiare": [
+     "puttaneggiar"
+    ],
+    "quai": [
+     "quai"
+    ],
+    "quandunque": [
+     "quandunque"
+    ],
+    "quantunque": [
+     "quantunque"
+    ],
+    "quatto": [
+     "quatto"
+    ],
+    "quest'": [
+     "quest"
+    ],
+    "quici": [
+     "quici"
+    ],
+    "quietare": [
+     "quetar",
+     "quetaro",
+     "quetarsi",
+     "quetato",
+     "queti",
+     "quietar",
+     "quietata",
+     "quietò"
+    ],
+    "quietarmi": [
+     "quietarmi"
+    ],
+    "quinci": [
+     "quinc",
+     "quinci"
+    ],
+    "quirino": [
+     "quirino"
+    ],
+    "quiritta": [
+     "quiritta"
+    ],
+    "quivi": [
+     "quiv",
+     "quivi"
+    ],
+    "quorum": [
+     "quorum"
+    ],
+    "rabbuffare": [
+     "rabbuffa"
+    ],
+    "raccapricciare": [
+     "accapriccia",
+     "raccapriccia"
+    ],
+    "raccertare": [
+     "raccerta"
+    ],
+    "racconciare": [
+     "racconciasse"
+    ],
+    "raccorciare": [
+     "raccorci"
+    ],
+    "raccostare": [
+     "raccostammo",
+     "raccostansi"
+    ],
+    "racquetare": [
+     "racqueta"
+    ],
+    "radiare": [
+     "radiando"
+    ],
+    "radunare": [
+     "rauna",
+     "raunai",
+     "rauni"
+    ],
+    "raffrettare": [
+     "raffrettò"
+    ],
+    "raffrontare": [
+     "raffronta"
+    ],
+    "raggelare": [
+     "raggeli"
+    ],
+    "raggiare": [
+     "raggeran",
+     "raggerà",
+     "raggia",
+     "raggiando",
+     "raggiandomi",
+     "raggiar",
+     "raggiare",
+     "raggiasse",
+     "raggiava",
+     "raggiò"
+    ],
+    "raggiornare": [
+     "raggiorna"
+    ],
+    "ragnare": [
+     "ragna"
+    ],
+    "raia": [
+     "raia"
+    ],
+    "rallargare": [
+     "rallarga",
+     "rallargati",
+     "rallargò"
+    ],
+    "rallignare": [
+     "ralligna"
+    ],
+    "ramarro": [
+     "ramarro"
+    ],
+    "rammendo": [
+     "rimendo"
+    ],
+    "ramogna": [
+     "ramogna"
+    ],
+    "rampognare": [
+     "rampogni"
+    ],
+    "rancio": [
+     "rance"
+    ],
+    "rancura": [
+     "rancura",
+     "rancuro"
+    ],
+    "rannicchiare": [
+     "rannicchia"
+    ],
+    "rappaciare": [
+     "rappaciati"
+    ],
+    "rapportare": [
+     "rapporta"
+    ],
+    "rattezza": [
+     "rattezza"
+    ],
+    "ravegnano": [
+     "ravignani"
+    ],
+    "ravvolgere": [
+     "ravvolgea"
+    ],
+    "ravvoltare": [
+     "ravvolta"
+    ],
+    "razionabile": [
+     "razionabile"
+    ],
+    "recare": [
+     "reca",
+     "recar",
+     "recasse",
+     "recasti",
+     "recate",
+     "rech",
+     "recherà",
+     "rechi",
+     "rechiti",
+     "reco",
+     "recò"
+    ],
+    "recarne": [
+     "recarne"
+    ],
+    "recircolare": [
+     "recirculando"
+    ],
+    "reciso": [
+     "riciso"
+    ],
+    "recluso": [
+     "reclusa"
+    ],
+    "reda": [
+     "rede"
+    ],
+    "redare": [
+     "reda"
+    ],
+    "redire": [
+     "redire",
+     "redissi",
+     "riede",
+     "riedi"
+    ],
+    "redita": [
+     "reddita"
+    ],
+    "redola": [
+     "redole"
+    ],
+    "refrigerio": [
+     "refrigerio"
+    ],
+    "regalmente": [
+     "regalmente"
+    ],
+    "rege": [
+     "rege",
+     "regi"
+    ],
+    "reiterare": [
+     "reiterando"
+    ],
+    "remunerare": [
+     "remunerar"
+    ],
+    "rendili": [
+     "rendili"
+    ],
+    "repente": [
+     "repente"
+    ],
+    "requiare": [
+     "requievi"
+    ],
+    "restarmi": [
+     "restarmi"
+    ],
+    "retrorso": [
+     "retrorso"
+    ],
+    "rezzo": [
+     "rezzo"
+    ],
+    "rialto": [
+     "rialto"
+    ],
+    "riandare": [
+     "rivada"
+    ],
+    "riardere": [
+     "riarso"
+    ],
+    "riarso": [
+     "riarse"
+    ],
+    "riavere": [
+     "riavesse"
+    ],
+    "ribaldo": [
+     "ribaldo"
+    ],
+    "ribellare": [
+     "ribellante"
+    ],
+    "ricercarsi": [
+     "ricorcarsi"
+    ],
+    "ricernere": [
+     "ricerna"
+    ],
+    "richinare": [
+     "richinava"
+    ],
+    "richiudere": [
+     "richiude",
+     "richiudon",
+     "richiusa",
+     "richiuse",
+     "richiuso"
+    ],
+    "ricogliere": [
+     "ricoglie"
+    ],
+    "ricompiere": [
+     "ricompie"
+    ],
+    "riconfortare": [
+     "riconforta"
+    ],
+    "ricoperto": [
+     "ricoperta"
+    ],
+    "ricreare": [
+     "ricrea"
+    ],
+    "ricredere": [
+     "ricreduta"
+    ],
+    "riddare": [
+     "riddi"
+    ],
+    "ridente": [
+     "ridenti"
+    ],
+    "ridurla": [
+     "ridurlasi"
+    ],
+    "riessere": [
+     "ristato"
+    ],
+    "rificcare": [
+     "rificchi"
+    ],
+    "rifiggere": [
+     "rifissi"
+    ],
+    "rifigliare": [
+     "rifiglia"
+    ],
+    "rifratto": [
+     "refratto",
+     "rifratta"
+    ],
+    "rifulgere": [
+     "refulge",
+     "refulgo",
+     "refulse",
+     "rifulgea"
+    ],
+    "rigare": [
+     "rigavan"
+    ],
+    "rigiungere": [
+     "rigiugnerò",
+     "rigiunse"
+    ],
+    "riguardarmi": [
+     "riguardarmi"
+    ],
+    "rilevarvi": [
+     "rilevarvi"
+    ],
+    "rilucente": [
+     "rilucenti"
+    ],
+    "rimanendosi": [
+     "rimanendosi"
+    ],
+    "rimaritare": [
+     "rimarita"
+    ],
+    "rimaso": [
+     "rimasa"
+    ],
+    "rimembranza": [
+     "rimembranza"
+    ],
+    "rimirare": [
+     "rimira",
+     "rimirando",
+     "rimirar",
+     "rimiraron",
+     "rimiri"
+    ],
+    "rimordere": [
+     "rimorda"
+    ],
+    "rimorire": [
+     "rimorte"
+    ],
+    "rimpalmare": [
+     "rimpalmare"
+    ],
+    "rinchiuso": [
+     "rinchiusa"
+    ],
+    "rinfamare": [
+     "rinfami"
+    ],
+    "rinfarcire": [
+     "rinfarcia"
+    ],
+    "rinfiammarsi": [
+     "rinfiammarsi"
+    ],
+    "rinfrescarmi": [
+     "rinfrescarmi"
+    ],
+    "ringhioso": [
+     "ringhiosi"
+    ],
+    "rinnovellare": [
+     "rinovellar"
+    ],
+    "rinselvare": [
+     "rinselva"
+    ],
+    "rintoppare": [
+     "rintoppa",
+     "rintoppo"
+    ],
+    "rinvertire": [
+     "rinverte"
+    ],
+    "ripercuotere": [
+     "ripercossi",
+     "ripercosso"
+    ],
+    "ripiangere": [
+     "ripiagne"
+    ],
+    "ripigliare": [
+     "ripigliammo",
+     "ripiglierà"
+    ],
+    "riporgere": [
+     "riporse"
+    ],
+    "riposto": [
+     "riposta"
+    ],
+    "ripregare": [
+     "ripriego"
+    ],
+    "riprestare": [
+     "ripresta"
+    ],
+    "riprofondare": [
+     "riprofondavan"
+    ],
+    "riscuotere": [
+     "riscosse",
+     "riscossi"
+    ],
+    "risedere": [
+     "riseder"
+    ],
+    "risegare": [
+     "risega"
+    ],
+    "risentire": [
+     "risente"
+    ],
+    "rissare": [
+     "risso"
+    ],
+    "ristare": [
+     "ristette",
+     "ristetti"
+    ],
+    "ristoppare": [
+     "ristoppa"
+    ],
+    "ristorare": [
+     "ristora",
+     "ristorar"
+    ],
+    "ristringere": [
+     "ristrinse",
+     "ristrinsi"
+    ],
+    "ristringermi": [
+     "ristrignermi"
+    ],
+    "ritendere": [
+     "ritese"
+    ],
+    "ritenerlo": [
+     "ritenerlo"
+    ],
+    "ritorcere": [
+     "ritorci",
+     "ritorse",
+     "ritorsili"
+    ],
+    "ritornarci": [
+     "ritornarci"
+    ],
+    "ritto": [
+     "ritto"
+    ],
+    "riudire": [
+     "riudir"
+    ],
+    "rivenire": [
+     "rivegno",
+     "rivene"
+    ],
+    "riverente": [
+     "reverente",
+     "reverenti"
+    ],
+    "riversare": [
+     "riversa",
+     "riversata"
+    ],
+    "rivolare": [
+     "rivolando"
+    ],
+    "rivolgere": [
+     "rivolga",
+     "rivolge",
+     "rivolgea",
+     "rivolgendo",
+     "rivolgi",
+     "rivolgiti",
+     "rivolgon",
+     "rivolse",
+     "rivolsersi",
+     "rivolsesi",
+     "rivolsi",
+     "rivolsilo",
+     "rivolve",
+     "rivolvi"
+    ],
+    "robbio": [
+     "robbi",
+     "roggio"
+    ],
+    "roffia": [
+     "roffia"
+    ],
+    "roggia": [
+     "roggia"
+    ],
+    "romagnolo": [
+     "romagnuoli"
+    ],
+    "romito": [
+     "romita"
+    ],
+    "ronchione": [
+     "ronchion",
+     "ronchione"
+    ],
+    "ronciglio": [
+     "runcigli",
+     "runciglio"
+    ],
+    "rorare": [
+     "roratelo"
+    ],
+    "rosseggiare": [
+     "rosseggia"
+    ],
+    "rotare": [
+     "rotando",
+     "rotante",
+     "rotata"
+    ],
+    "rubecchio": [
+     "rubecchio"
+    ],
+    "rubesto": [
+     "rubesto"
+    ],
+    "rubicante": [
+     "rubicante"
+    ],
+    "rubro": [
+     "rubro"
+    ],
+    "ruffiana": [
+     "ruffian"
+    ],
+    "rugumare": [
+     "rugumar"
+    ],
+    "sabbione": [
+     "sabbion",
+     "sabbione"
+    ],
+    "sabello": [
+     "sabello"
+    ],
+    "sacrare": [
+     "sacrate"
+    ],
+    "saglia": [
+     "saglia"
+    ],
+    "salirla": [
+     "salirla"
+    ],
+    "salitore": [
+     "salitor"
+    ],
+    "salmista": [
+     "salmista"
+    ],
+    "salterellare": [
+     "salterello"
+    ],
+    "salutevole": [
+     "salutevol"
+    ],
+    "sampogna": [
+     "sampogna"
+    ],
+    "sanatore": [
+     "sanator"
+    ],
+    "saperlo": [
+     "sallo"
+    ],
+    "sapio": [
+     "sappie",
+     "sapìa"
+    ],
+    "saputo": [
+     "saputa"
+    ],
+    "sardanapalo": [
+     "sardanapalo"
+    ],
+    "saziarti": [
+     "saziarti"
+    ],
+    "sbandire": [
+     "sbandita"
+    ],
+    "scacciare": [
+     "scaccia",
+     "scacciato"
+    ],
+    "scalea": [
+     "scalee"
+    ],
+    "scalpitare": [
+     "scalpitar"
+    ],
+    "scalzare": [
+     "scalzasi",
+     "scalzò"
+    ],
+    "scarmiglione": [
+     "scarmiglione"
+    ],
+    "sceda": [
+     "iscede"
+    ],
+    "scemato": [
+     "scemata"
+    ],
+    "scempiare": [
+     "scempia",
+     "scempio"
+    ],
+    "scempio": [
+     "scempie"
+    ],
+    "scernere": [
+     "scerna"
+    ],
+    "scerpare": [
+     "scerpi"
+    ],
+    "scevro": [
+     "scevra"
+    ],
+    "schianza": [
+     "schianze"
+    ],
+    "schiarare": [
+     "schiara",
+     "schiarar",
+     "schiarato"
+    ],
+    "schiarire": [
+     "schiarì"
+    ],
+    "schiatta": [
+     "schiatte"
+    ],
+    "sciagurato": [
+     "sciagurato",
+     "sciaurati"
+    ],
+    "scilocco": [
+     "scilocco"
+    ],
+    "sciorinare": [
+     "sciorina"
+    ],
+    "scipare": [
+     "scipa"
+    ],
+    "scoccare": [
+     "scocca"
+    ],
+    "scolorire": [
+     "scolora",
+     "scolorocci"
+    ],
+    "sconoscere": [
+     "sconoscente"
+    ],
+    "sconsolato": [
+     "sconsolata"
+    ],
+    "scontrare": [
+     "scontrati",
+     "scontrava"
+    ],
+    "scoperto": [
+     "scoperti"
+    ],
+    "scornarsi": [
+     "scornati"
+    ],
+    "scoscendere": [
+     "scoscende"
+    ],
+    "scostare": [
+     "scosta",
+     "scostarsi"
+    ],
+    "scusarmi": [
+     "scusarmi"
+    ],
+    "sdebitare": [
+     "sdebitò"
+    ],
+    "se non": [
+     "sinon"
+    ],
+    "secare": [
+     "seco"
+    ],
+    "secreto": [
+     "secreta"
+    ],
+    "segnacolo": [
+     "signaculo"
+    ],
+    "segnato": [
+     "segnata"
+    ],
+    "segretamente": [
+     "segretamente"
+    ],
+    "seguentemente": [
+     "seguentemente"
+    ],
+    "seguimi": [
+     "seguimi"
+    ],
+    "seguirla": [
+     "seguirla"
+    ],
+    "sementa": [
+     "semente"
+    ],
+    "semente": [
+     "sementa"
+    ],
+    "semenza": [
+     "semenza",
+     "semenze"
+    ],
+    "semicircolo": [
+     "semicirculi"
+    ],
+    "sempiternare": [
+     "sempiterno"
+    ],
+    "sempiterno": [
+     "sempiterna",
+     "sempiterne",
+     "sempiterni"
+    ],
+    "sene": [
+     "sene",
+     "sone"
+    ],
+    "senese": [
+     "sanese",
+     "sanesi",
+     "senis"
+    ],
+    "sentenziare": [
+     "sentenzia"
+    ],
+    "sepolcrale": [
+     "sepulcral"
+    ],
+    "sepolto": [
+     "sepolta",
+     "sepolte",
+     "sepolti"
+    ],
+    "serafico": [
+     "serafico"
+    ],
+    "serbare": [
+     "serbolo",
+     "servammo",
+     "servando",
+     "servata"
+    ],
+    "serotino": [
+     "serotini"
+    ],
+    "serpentello": [
+     "serpentelli",
+     "serpentello"
+    ],
+    "serramento": [
+     "serrame"
+    ],
+    "serrato": [
+     "serrati"
+    ],
+    "servigio": [
+     "servigio"
+    ],
+    "sezzaio": [
+     "sezzai"
+    ],
+    "sezzo": [
+     "sezzo"
+    ],
+    "sfavillare": [
+     "sfavilla",
+     "sfavillar",
+     "sfavillaro"
+    ],
+    "sfogare": [
+     "sfogato"
+    ],
+    "sforzare": [
+     "sforza",
+     "sforzai",
+     "sforzami"
+    ],
+    "sgannare": [
+     "sganni"
+    ],
+    "sicurtà": [
+     "sicurtà"
+    ],
+    "signoreggiare": [
+     "signoreggia"
+    ],
+    "simoneggiare": [
+     "simoneggiando"
+    ],
+    "sipa": [
+     "sipa"
+    ],
+    "sirocchia": [
+     "serocchia"
+    ],
+    "sitire": [
+     "sitisti"
+    ],
+    "smagare": [
+     "smaga",
+     "smagato",
+     "smaghi"
+    ],
+    "smozzicare": [
+     "smozzicate"
+    ],
+    "sobbarcare": [
+     "sobbarco"
+    ],
+    "sobranzare": [
+     "sobranza"
+    ],
+    "sodalizio": [
+     "sodalizio"
+    ],
+    "sofferto": [
+     "sofferta",
+     "sofferti"
+    ],
+    "soffolcere": [
+     "soffolce",
+     "soffolge"
+    ],
+    "soga": [
+     "soga"
+    ],
+    "soggiacere": [
+     "soggiace",
+     "soggiacete"
+    ],
+    "soggiungere": [
+     "soggiugnendo",
+     "soggiunse"
+    ],
+    "sogliare": [
+     "sogliare"
+    ],
+    "soglio": [
+     "sogli"
+    ],
+    "solecchio": [
+     "solecchio"
+    ],
+    "soletto": [
+     "soletto"
+    ],
+    "solingo": [
+     "solinga",
+     "solingo"
+    ],
+    "sollo": [
+     "solla",
+     "sollo"
+    ],
+    "solvere": [
+     "soluto",
+     "solva",
+     "solve",
+     "solvendo",
+     "solver",
+     "solveranno",
+     "solverò",
+     "solvesi",
+     "solvesti",
+     "solvetemi",
+     "solvi"
+    ],
+    "somigliarsi": [
+     "somigliarsi"
+    ],
+    "sommerso": [
+     "sommersa"
+    ],
+    "sonante": [
+     "sonanti"
+    ],
+    "soprare": [
+     "sopr",
+     "soprato"
+    ],
+    "sor": [
+     "sor"
+    ],
+    "sormontare": [
+     "sormontar",
+     "sormontati",
+     "sormonti"
+    ],
+    "sorteggiare": [
+     "sorteggia"
+    ],
+    "sortire": [
+     "sortille",
+     "sortillo",
+     "sortiro",
+     "sortito"
+    ],
+    "sorto": [
+     "surta"
+    ],
+    "sospecciare": [
+     "sospecciar"
+    ],
+    "sospiroso": [
+     "sospirosa"
+    ],
+    "sostentare": [
+     "sostentar"
+    ],
+    "sottendere": [
+     "sottesso"
+    ],
+    "sottilmente": [
+     "sottilmente"
+    ],
+    "soverchiare": [
+     "soverchia",
+     "soverchiar",
+     "soverchio",
+     "soverchiò"
+    ],
+    "soverchio": [
+     "soperchia",
+     "soperchio"
+    ],
+    "spanare": [
+     "spani",
+     "spano"
+    ],
+    "spandere": [
+     "spanda",
+     "spande",
+     "spandessi",
+     "spandeva",
+     "spandi"
+    ],
+    "spaurare": [
+     "spaurato"
+    ],
+    "spaziare": [
+     "spazia"
+    ],
+    "specchiare": [
+     "specchia",
+     "specchiai",
+     "specchiarsi",
+     "specchiato"
+    ],
+    "specchiato": [
+     "specchiati"
+    ],
+    "spedito": [
+     "spedita",
+     "spediti"
+    ],
+    "speglio": [
+     "spegli",
+     "speglio"
+    ],
+    "speme": [
+     "speme",
+     "spene"
+    ],
+    "spergere": [
+     "sperga",
+     "spersi"
+    ],
+    "spogliarvi": [
+     "spogliarvi"
+    ],
+    "sporre": [
+     "sponesti"
+    ],
+    "sprangare": [
+     "spranga"
+    ],
+    "squadernare": [
+     "squaderna"
+    ],
+    "squillare": [
+     "squilla"
+    ],
+    "stagliare": [
+     "stagliata"
+    ],
+    "stannoso": [
+     "stannosi"
+    ],
+    "starmi": [
+     "starmi"
+    ],
+    "stazio": [
+     "stazio"
+    ],
+    "sterpo": [
+     "sterpi"
+    ],
+    "stimolato": [
+     "stimolati"
+    ],
+    "stingere": [
+     "stinse"
+    ],
+    "stizzosamente": [
+     "stizzosamente"
+    ],
+    "stoltezza": [
+     "stoltezza"
+    ],
+    "stoscio": [
+     "stoscio"
+    ],
+    "stracciare": [
+     "stracciando"
+    ],
+    "strale": [
+     "stral",
+     "strale",
+     "strali"
+    ],
+    "strame": [
+     "strame",
+     "strami"
+    ],
+    "straniare": [
+     "straniasse"
+    ],
+    "stremare": [
+     "strema",
+     "stremi"
+    ],
+    "strenna": [
+     "strenne"
+    ],
+    "suadere": [
+     "suadi"
+    ],
+    "succiare": [
+     "succia"
+    ],
+    "suggellare": [
+     "suggella",
+     "suggellata",
+     "suggello"
+    ],
+    "suggello": [
+     "suggel",
+     "suggelli"
+    ],
+    "superno": [
+     "superna",
+     "superne",
+     "superni",
+     "superno"
+    ],
+    "svellere": [
+     "disvelta",
+     "svelle"
+    ],
+    "tagliamento": [
+     "tagliamento"
+    ],
+    "talora": [
+     "talor",
+     "talora"
+    ],
+    "tangere": [
+     "tange"
+    ],
+    "tantosto": [
+     "tantosto"
+    ],
+    "tarpeo": [
+     "tarpea"
+    ],
+    "tebano": [
+     "teban",
+     "tebano"
+    ],
+    "teco": [
+     "teco"
+    ],
+    "telare": [
+     "telo"
+    ],
+    "temenza": [
+     "temenza"
+    ],
+    "tempra": [
+     "tempre"
+    ],
+    "temprare": [
+     "tempra",
+     "temprando",
+     "temprata",
+     "temprava"
+    ],
+    "temuto": [
+     "temuta"
+    ],
+    "tenerla": [
+     "tenerla"
+    ],
+    "tenermi": [
+     "tenermi"
+    ],
+    "tergere": [
+     "tersi",
+     "terso"
+    ],
+    "tergo": [
+     "terghi"
+    ],
+    "terrame": [
+     "terram"
+    ],
+    "testeso": [
+     "testeso"
+    ],
+    "testé": [
+     "testé"
+    ],
+    "teta": [
+     "tota"
+    ],
+    "tetragono": [
+     "tetragono"
+    ],
+    "tiepidezza": [
+     "tepidezza"
+    ],
+    "tignoso": [
+     "tignoso"
+    ],
+    "tirandosi": [
+     "tirandosi"
+    ],
+    "tirarti": [
+     "tirarti"
+    ],
+    "tolla": [
+     "tolle"
+    ],
+    "tomare": [
+     "tomma"
+    ],
+    "tormentarlo": [
+     "tormentarlo"
+    ],
+    "torneamento": [
+     "torneamenti"
+    ],
+    "torneare": [
+     "torneare"
+    ],
+    "torrente": [
+     "torrente"
+    ],
+    "tostamente": [
+     "tostamente"
+    ],
+    "tradito": [
+     "tradita"
+    ],
+    "trafiggere": [
+     "trafigge",
+     "trafisse",
+     "trafitto"
+    ],
+    "trafitto": [
+     "trafitta"
+    ],
+    "trafugare": [
+     "trafuggò"
+    ],
+    "tragedo": [
+     "tragedo"
+    ],
+    "tragitto": [
+     "tragetto",
+     "tragitto"
+    ],
+    "tralignare": [
+     "traligna",
+     "tralignando"
+    ],
+    "tralucere": [
+     "traluca",
+     "traluce"
+    ],
+    "tramortito": [
+     "tramortita"
+    ],
+    "tranquillare": [
+     "tranquillar"
+    ],
+    "trapassare": [
+     "trapassammo",
+     "trapassando",
+     "trapassar",
+     "trapassonne"
+    ],
+    "trarlo": [
+     "trarlo"
+    ],
+    "trarmi": [
+     "trarmi"
+    ],
+    "trarne": [
+     "trarne"
+    ],
+    "trascendere": [
+     "trascenda",
+     "trascende"
+    ],
+    "trascolorare": [
+     "trascolorar",
+     "trascoloro"
+    ],
+    "traslatare": [
+     "traslatò"
+    ],
+    "traslato": [
+     "translato"
+    ],
+    "trasmodare": [
+     "trasmoda"
+    ],
+    "trasmutabile": [
+     "trasmutabile"
+    ],
+    "trasmutare": [
+     "trasmuta",
+     "trasmutai",
+     "trasmutar",
+     "trasmutare",
+     "trasmutarsi",
+     "trasmutato",
+     "trasmutava",
+     "trasmuti",
+     "trasmutò"
+    ],
+    "trasmutato": [
+     "trasmutata"
+    ],
+    "trasparire": [
+     "trasparea",
+     "trasparer",
+     "trasparere"
+    ],
+    "trasumanare": [
+     "trasumanar"
+    ],
+    "trasvolare": [
+     "trasvolar"
+    ],
+    "travagliare": [
+     "travagliato",
+     "travagliava",
+     "travaglie"
+    ],
+    "traviare": [
+     "traviò"
+    ],
+    "trentino": [
+     "trentino"
+    ],
+    "trescare": [
+     "trescando"
+    ],
+    "tribo": [
+     "tribo"
+    ],
+    "trinacrio": [
+     "trinacria"
+    ],
+    "trionfante": [
+     "triunfanti"
+    ],
+    "trionfare": [
+     "triunfa",
+     "triunfando",
+     "triunfante",
+     "triunfar",
+     "triunfare",
+     "triunfaro"
+    ],
+    "tristizia": [
+     "trestizia",
+     "tristizia"
+    ],
+    "tristo": [
+     "trista",
+     "tristo"
+    ],
+    "troncone": [
+     "troncone"
+    ],
+    "trovandoli": [
+     "trovandoli"
+    ],
+    "trovane": [
+     "trovan"
+    ],
+    "trullare": [
+     "trulla"
+    ],
+    "turgere": [
+     "turge"
+    ],
+    "u": [
+     "u"
+    ],
+    "ubertà": [
+     "ubertà"
+    ],
+    "ubi": [
+     "ubi"
+    ],
+    "uccellatoio": [
+     "uccellatoio"
+    ],
+    "uccellina": [
+     "uccellin"
+    ],
+    "udirmi": [
+     "udirmi"
+    ],
+    "udirti": [
+     "udirti"
+    ],
+    "uncinare": [
+     "uncina"
+    ],
+    "unghione": [
+     "unghioni"
+    ],
+    "unqua": [
+     "unqua",
+     "unque"
+    ],
+    "unquanco": [
+     "unquanco"
+    ],
+    "uopo": [
+     "uo",
+     "uopo"
+    ],
+    "urgere": [
+     "urge"
+    ],
+    "usato": [
+     "usata"
+    ],
+    "usbergo": [
+     "asbergo"
+    ],
+    "uscirci": [
+     "uscirci"
+    ],
+    "uscirne": [
+     "uscirne"
+    ],
+    "usuriere": [
+     "usuriere"
+    ],
+    "utilmente": [
+     "utilmente"
+    ],
+    "vacare": [
+     "vaca"
+    ],
+    "vagheggiare": [
+     "vagheggia",
+     "vagheggiar"
+    ],
+    "valere": [
+     "valea",
+     "valse",
+     "varro"
+    ],
+    "valicare": [
+     "valchi"
+    ],
+    "vallare": [
+     "vallan"
+    ],
+    "vallea": [
+     "vallea"
+    ],
+    "vaneggiare": [
+     "vaneggia",
+     "vaneggiai",
+     "vaneggio"
+    ],
+    "varcare": [
+     "varca",
+     "varcai",
+     "varcheresti"
+    ],
+    "vasello": [
+     "vasel",
+     "vasello"
+    ],
+    "vasso": [
+     "vassi"
+    ],
+    "vece": [
+     "vece"
+    ],
+    "vederla": [
+     "vederla"
+    ],
+    "vederli": [
+     "vederli"
+    ],
+    "vederlo": [
+     "vederlo"
+    ],
+    "vedermi": [
+     "vedermi"
+    ],
+    "vederti": [
+     "vederti"
+    ],
+    "vedervi": [
+     "vedervi"
+    ],
+    "veggendoci": [
+     "veggendoci"
+    ],
+    "veggendomi": [
+     "veggendomi"
+    ],
+    "veggia": [
+     "vegg"
+    ],
+    "velame": [
+     "velame"
+    ],
+    "vellere": [
+     "velle"
+    ],
+    "veltro": [
+     "veltri",
+     "veltro"
+    ],
+    "venare": [
+     "veni"
+    ],
+    "vendicato": [
+     "vendicata"
+    ],
+    "venduto": [
+     "venduti"
+    ],
+    "venendomi": [
+     "venendomi"
+    ],
+    "vengiare": [
+     "vengiammo",
+     "vengiata",
+     "vengiò"
+    ],
+    "veniente": [
+     "vegnonti"
+    ],
+    "venirli": [
+     "venirli"
+    ],
+    "venirvi": [
+     "venirvi"
+    ],
+    "ventraia": [
+     "ventraia"
+    ],
+    "venusto": [
+     "venusto"
+    ],
+    "verace": [
+     "verace",
+     "veraci"
+    ],
+    "vergare": [
+     "verghi"
+    ],
+    "verghetta": [
+     "verghetta"
+    ],
+    "vergognare": [
+     "vergognando",
+     "vergognar"
+    ],
+    "vermena": [
+     "vermena"
+    ],
+    "vernaccia": [
+     "vernaccia"
+    ],
+    "vernare": [
+     "vernan"
+    ],
+    "verno": [
+     "verna"
+    ],
+    "veronese": [
+     "veronese"
+    ],
+    "vertù": [
+     "vertute",
+     "virtudi"
+    ],
+    "veruno": [
+     "verun"
+    ],
+    "vestigio": [
+     "vestige",
+     "vestigge",
+     "vestigio"
+    ],
+    "vestimento": [
+     "vestimento"
+    ],
+    "vetusto": [
+     "vetusto"
+    ],
+    "vicariare": [
+     "vicario"
+    ],
+    "vicario": [
+     "vicari"
+    ],
+    "vigere": [
+     "vige"
+    ],
+    "vigliare": [
+     "viglia"
+    ],
+    "vincente": [
+     "vincenti"
+    ],
+    "virtualmente": [
+     "virtualmente"
+    ],
+    "visaggio": [
+     "visaggio"
+    ],
+    "visiera": [
+     "visiere"
+    ],
+    "visitarli": [
+     "visitarli"
+    ],
+    "visivo": [
+     "visivi",
+     "visivo"
+    ],
+    "vituperio": [
+     "vituperio"
+    ],
+    "vivamente": [
+     "vivamente"
+    ],
+    "vivissimo": [
+     "vivissime"
+    ],
+    "vizzo": [
+     "vizzo"
+    ],
+    "vociare": [
+     "vocem"
+    ],
+    "voialtri": [
+     "voialtri"
+    ],
+    "voile": [
+     "voill"
+    ],
+    "volerne": [
+     "volerne"
+    ],
+    "volgendomi": [
+     "volgendom"
+    ],
+    "volgendosi": [
+     "volgendosi"
+    ],
+    "volgermi": [
+     "volgermi"
+    ],
+    "vomire": [
+     "vommi"
+    ],
+    "vosco": [
+     "vosco"
+    ],
+    "zanca": [
+     "zanca",
+     "zanche"
+    ],
+    "zannuto": [
+     "sannuto"
+    ],
+    "zara": [
+     "zara"
+    ],
+    "zeba": [
+     "zebe"
+    ]
+   }
+  }
  },
  "unanalysed": [
   "ab",

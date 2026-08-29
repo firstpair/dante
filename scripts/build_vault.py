@@ -34,6 +34,8 @@ NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 FREEDICT_RELEASE = "2025.11.23"
 EMACS_SUPPLEMENT = "sources/dictionaries/italian-supplement.json"
 RUSSIAN_SUPPLEMENT = "sources/dictionaries/italian-russian-supplement.json"
+# Russian glossaries pinned by FirstPair, direct dictionaries before the English-sense pivot.
+RUSSIAN_GLOSSARIES = ("ruwiktionary-italian", "itwiktionary-italian-translations", "ruwiktionary-russian-translations", "enwiktionary-english-pivot")
 
 
 def roman(value: str) -> int:
@@ -131,7 +133,7 @@ def emacs_config(pages: list[dict[str, str]], vault_output: str) -> dict:
                 "supplement": EMACS_SUPPLEMENT,
                 "translations": [
                     {"id": "en", "label": "English", "dictionary": "dist/dictionaries/it-en-freedict.json"},
-                    {"id": "ru", "label": "Русский", "glossary": ["ruwiktionary-italian", "ruwiktionary-russian-translations"],
+                    {"id": "ru", "label": "Русский", "glossary": list(RUSSIAN_GLOSSARIES),
                      "dictionary": "dist/dictionaries/it-ru-freedict.json", "supplement": RUSSIAN_SUPPLEMENT},
                 ],
             },
@@ -193,7 +195,7 @@ def main() -> None:
             "entries": {key: list(value) for key, value in sorted(lemmas.items())},
         })
     ru_index = None; ru_names = []
-    for identifier in ("ruwiktionary-italian", "ruwiktionary-russian-translations"):
+    for identifier in RUSSIAN_GLOSSARIES:
         item = corpus.glossary(spec, identifier)
         index = glosses.load_glossary(corpus.ensure_glossary(spec, item, allow_download=False), item, fold=fold)
         ru_index = index if ru_index is None else glosses.merge(ru_index, index)
@@ -212,9 +214,18 @@ def main() -> None:
     )
     write_json(data / "dictionaries" / "it-en.json", payload_en)
     write_json(data / "dictionaries" / "it-ru.json", payload_ru)
-    coverage = {"schema": "dante-dictionary-coverage-v1", "italianForms": report_en["forms"], "analysed": report_en["analysed"],
+    # Russian gaps by lemma, names apart: a proper name is explained by its
+    # English entry and wants a transliteration, not a translation.
+    names: dict[str, list[str]] = defaultdict(list); common: dict[str, list[str]] = defaultdict(list)
+    for form in report_ru["missing"]:
+        analyses = language.analyse(form)
+        if not analyses: continue
+        entry = language.entry(analyses[0].entry_id)
+        (names if entry.part == "name" or entry.headword[:1].isupper() else common)[entry.headword].append(form)
+    coverage = {"schema": "dante-dictionary-coverage-v2", "italianForms": report_en["forms"], "analysed": report_en["analysed"],
                 "english": {"covered": report_en["covered"], "missing": report_en["missing"]},
-                "russian": {"covered": report_ru["covered"], "missing": report_ru["missing"]},
+                "russian": {"covered": report_ru["covered"], "missing": report_ru["missing"],
+                            "missingLemmas": {"names": dict(sorted(names.items())), "common": dict(sorted(common.items()))}},
                 "unanalysed": report_en["unanalysed"]}
     write_json(data / "dictionaries" / "coverage.json", coverage)
     (ROOT / "sources" / "dictionaries" / "coverage.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -247,7 +258,8 @@ def main() -> None:
     config_path.write_text(json.dumps(emacs_config(pages, str(output.relative_to(ROOT)) if output.is_relative_to(ROOT) else str(output)), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"vault": str(output), "cantos": 100, "italianForms": report_en["forms"], "analysed": report_en["analysed"],
                       "englishCovered": report_en["covered"], "russianCovered": report_ru["covered"],
-                      "unanalysed": len(report_en["unanalysed"]), "russianMissing": len(report_ru["missing"])}, ensure_ascii=False))
+                      "unanalysed": len(report_en["unanalysed"]), "russianMissing": len(report_ru["missing"]),
+                      "russianMissingLemmas": {"names": len(names), "common": len(common)}}, ensure_ascii=False))
 
 
 if __name__ == "__main__": main()
