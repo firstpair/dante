@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "sources" / "raw"
-FIRSTPAIR_PLUGIN = ROOT.parents[0] / "firstpair" / "publishing" / "vault" / "plugin" / "firstpair-reader"
+FIRSTPAIR_PLUGIN = ROOT.parents[1] / "firstpair" / "publishing" / "vault" / "plugin" / "firstpair-reader"
 CANTICA = {"inferno": ("Inferno", 34), "purgatorio": ("Purgatorio", 33), "paradiso": ("Paradiso", 33)}
 ITALIAN_HEADER = re.compile(r"^(Inferno|Purgatorio|Paradiso)\s+•\s+Canto\s+([IVXLCDM]+)$", re.I)
 ENGLISH_HEADER = re.compile(r"^(Inferno|Purgatorio|Paradiso):\s+Canto\s+([IVXLCDM]+)$", re.I)
