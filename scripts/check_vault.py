@@ -11,7 +11,6 @@ assert parallel["schema"] == "firstpair-parallel-reader-v1"
 assert [item["id"] for item in parallel["translations"]] == ["ru", "en"]
 assert parallel["sourceLanguage"]["position"] == "left"
 assert all(item["defaultVisible"] for item in parallel["translations"])
-assert parallel["sourceLanguage"]["position"] == "right"
 assert len(parallel["pages"]) == 100
 units = 0
 for page in parallel["pages"]:

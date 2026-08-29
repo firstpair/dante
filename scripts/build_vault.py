@@ -193,8 +193,8 @@ def main() -> None:
             "entries": {key: list(value) for key, value in sorted(lemmas.items())},
         })
     ru_glossary = corpus.glossary(spec, "ruwiktionary-italian")
-    ru_index = glosses.index_kaikki(corpus.ensure_glossary(spec, ru_glossary, allow_download=False))
-    ru_supplement = glosses.load_supplement(ROOT / RUSSIAN_SUPPLEMENT)
+    ru_index = glosses.index_kaikki(corpus.ensure_glossary(spec, ru_glossary, allow_download=False), fold=fold)
+    ru_supplement = glosses.load_supplement(ROOT / RUSSIAN_SUPPLEMENT, fold=fold)
     payload_en, report_en = dictionaries.project(
         language, vocabulary, target="en", label="English", license="CC BY-SA 4.0",
         attribution=f"{spec.name}; FreeDict ita-eng {FREEDICT_RELEASE}; usage examples from Dante's Commedia",
