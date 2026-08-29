@@ -1,16 +1,15 @@
 {
  "schema": "dante-dictionary-coverage-v2",
  "italianForms": 12766,
- "analysed": 11882,
+ "analysed": 11921,
  "english": {
-  "covered": 11882,
+  "covered": 11921,
   "missing": []
  },
  "russian": {
-  "covered": 11317,
-  "derivedEntries": 0,
+  "covered": 11412,
+  "derivedEntries": 6799,
   "missing": [
-   "abbarbicata",
    "abbracciarmi",
    "abèl",
    "accline",
@@ -27,13 +26,11 @@
    "aiutarla",
    "aiutarlo",
    "aiutarmi",
-   "aiutarti",
    "alagna",
    "alberigo",
    "aldobrandi",
    "alichin",
    "alichino",
-   "allevata",
    "alpe",
    "altaforte",
    "ambage",
@@ -47,7 +44,6 @@
    "antenora",
    "antenori",
    "anteo",
-   "appresa",
    "appresta",
    "approvarla",
    "appulcro",
@@ -57,6 +53,7 @@
    "arcanamente",
    "argia",
    "argolica",
+   "aringo",
    "arli",
    "arno",
    "aronta",
@@ -84,7 +81,6 @@
    "battezzatori",
    "belisar",
    "benaco",
-   "berti",
    "bindi",
    "bisenzo",
    "bolsena",
@@ -109,13 +105,11 @@
    "cammilla",
    "camonica",
    "canavese",
-   "candelo",
    "canicular",
    "caninamente",
    "cantica",
    "caorsa",
    "capaneo",
-   "cappelletti",
    "caprona",
    "caramente",
    "carlin",
@@ -136,22 +130,16 @@
    "cleto",
    "cloto",
    "cogitazion",
-   "colchi",
-   "colco",
    "compiacermi",
-   "compresa",
    "concolori",
    "confortarmi",
    "contarla",
-   "contemplanti",
    "contenerlo",
    "cordigliero",
    "corneto",
    "corniglia",
    "correr",
    "corruttibile",
-   "cotesta",
-   "cotesto",
    "creusa",
    "crollarsi",
    "currado",
@@ -159,7 +147,6 @@
    "darmi",
    "darne",
    "darotti",
-   "darti",
    "decretali",
    "decurio",
    "deh",
@@ -169,7 +156,6 @@
    "deiforme",
    "delo",
    "diascoride",
-   "dichiararti",
    "dien",
    "dilettarne",
    "dipartirci",
@@ -178,9 +164,6 @@
    "dirne",
    "dirvi",
    "discorde",
-   "disfatti",
-   "disiata",
-   "disiati",
    "dismala",
    "doagio",
    "dolcin",
@@ -197,13 +180,10 @@
    "eritón",
    "esper",
    "essalazion",
-   "essenti",
    "essermi",
    "eteòcle",
    "eurialo",
-   "facelle",
    "fano",
-   "fantin",
    "faree",
    "farfarello",
    "farle",
@@ -212,11 +192,9 @@
    "farmi",
    "farmisi",
    "farne",
-   "farti",
    "farvi",
    "fassi",
    "femmi",
-   "fera",
    "ferman",
    "ferrarese",
    "fertilemente",
@@ -224,7 +202,6 @@
    "fiesole",
    "figliuol",
    "figliuole",
-   "figliuoli",
    "filippi",
    "flegetonta",
    "flegiàs",
@@ -236,11 +213,9 @@
    "forcuta",
    "forcuto",
    "forlì",
-   "fornita",
    "fucci",
    "gaddo",
    "gaeta",
-   "gaetta",
    "gallura",
    "ganellone",
    "garda",
@@ -292,7 +267,6 @@
    "lavina",
    "learco",
    "lenno",
-   "lesa",
    "libicocco",
    "lilia",
    "lito",
@@ -315,10 +289,6 @@
    "mazzerati",
    "mbestiate",
    "meco",
-   "medesma",
-   "medesme",
-   "medesmi",
-   "mee",
    "meleagro",
    "membruto",
    "menalippo",
@@ -328,7 +298,6 @@
    "milan",
    "minoi",
    "miserere",
-   "molin",
    "monaldi",
    "montaperti",
    "montecchi",
@@ -336,10 +305,8 @@
    "morrocco",
    "mostrarli",
    "mostrarmi",
-   "mostrarti",
    "mpetro",
    "mul",
-   "multiplicata",
    "muoverci",
    "muovervi",
    "muzio",
@@ -348,8 +315,8 @@
    "nerli",
    "nosco",
    "notaro",
+   "notrica",
    "nviarci",
-   "onrata",
    "opizzo",
    "oreste",
    "ormanni",
@@ -363,7 +330,6 @@
    "parlarmi",
    "pasife",
    "patris",
-   "pecorelle",
    "pegasea",
    "peneia",
    "penelopè",
@@ -376,7 +342,6 @@
    "pettinaio",
    "piacerli",
    "piacermi",
-   "piacerti",
    "piccarda",
    "picen",
    "pietrapana",
@@ -390,9 +355,6 @@
    "pola",
    "polidoro",
    "polissena",
-   "ponta",
-   "pontan",
-   "pontano",
    "porsila",
    "portarne",
    "posarmi",
@@ -411,7 +373,6 @@
    "ralligna",
    "recarne",
    "recirculando",
-   "refratto",
    "refrigerio",
    "refulge",
    "refulgo",
@@ -446,11 +407,10 @@
    "romagnuoli",
    "ronchion",
    "ronchione",
-   "rote",
    "rubecchio",
    "ruberto",
+   "rubicante",
    "ruggieri",
-   "rui",
    "rusticucci",
    "sabbion",
    "sabbione",
@@ -458,7 +418,6 @@
    "salirla",
    "salitor",
    "sallo",
-   "salvati",
    "sampogna",
    "sanese",
    "sanesi",
@@ -466,7 +425,6 @@
    "santafior",
    "santerno",
    "sardanapalo",
-   "saziarti",
    "schicchi",
    "schiro",
    "scilocco",
@@ -479,9 +437,6 @@
    "semiramìs",
    "senis",
    "sepe",
-   "sepolta",
-   "sepolte",
-   "sepolti",
    "sepulcral",
    "sepulcri",
    "ser",
@@ -495,15 +450,12 @@
    "sismondi",
    "sisto",
    "solecchio",
-   "specchiati",
    "spirarmi",
    "spogliarvi",
    "stannosi",
    "starmi",
    "stassi",
    "stieno",
-   "stimolati",
-   "storiata",
    "stoscio",
    "strofade",
    "sàvena",
@@ -522,10 +474,7 @@
    "tenermi",
    "tepidezza",
    "terram",
-   "testeso",
    "tideo",
-   "tin",
-   "tirarti",
    "tiresia",
    "tisbe",
    "titone",
@@ -534,7 +483,6 @@
    "torquato",
    "torza",
    "tossio",
-   "trafitta",
    "tragedo",
    "traiano",
    "trani",
@@ -542,9 +490,7 @@
    "trarmi",
    "trarne",
    "trasmutabile",
-   "trasmutata",
    "trentino",
-   "triunfanti",
    "tronto",
    "uccellatoio",
    "udirmi",
@@ -561,9 +507,7 @@
    "vederli",
    "vederlo",
    "vedermi",
-   "vederti",
    "vedervi",
-   "vendicata",
    "venedico",
    "venirli",
    "venirvi",
@@ -757,9 +701,6 @@
     "Canavese": [
      "canavese"
     ],
-    "Candelo": [
-     "candelo"
-    ],
     "Caorsa": [
      "caorsa"
     ],
@@ -793,10 +734,6 @@
     "Cloto": [
      "cloto"
     ],
-    "Colco": [
-     "colchi",
-     "colco"
-    ],
     "Corneto": [
      "corneto"
     ],
@@ -824,10 +761,6 @@
     ],
     "Delo": [
      "delo"
-    ],
-    "Desiato": [
-     "disiata",
-     "disiati"
     ],
     "Dioscoride": [
      "diascoride"
@@ -871,14 +804,8 @@
     "Eurialo": [
      "eurialo"
     ],
-    "Facella": [
-     "facelle"
-    ],
     "Fano": [
      "fano"
-    ],
-    "Fantina": [
-     "fantin"
     ],
     "Farfarello": [
      "farfarello"
@@ -888,9 +815,6 @@
     ],
     "Femia": [
      "femmi"
-    ],
-    "Fera": [
-     "fera"
     ],
     "Fiesole": [
      "fiesole"
@@ -1071,9 +995,6 @@
     "Minoia": [
      "minoi"
     ],
-    "Molino": [
-     "molin"
-    ],
     "Monaldi": [
      "monaldi"
     ],
@@ -1134,9 +1055,6 @@
     "Patrese": [
      "patris"
     ],
-    "Pecorella": [
-     "pecorelle"
-    ],
     "Penelope": [
      "penelopè"
     ],
@@ -1194,14 +1112,8 @@
     "Riniero": [
      "rinier"
     ],
-    "Roia": [
-     "rui"
-    ],
     "Romagna": [
      "romagna"
-    ],
-    "Rota": [
-     "rote"
     ],
     "Ruberto": [
      "ruberto"
@@ -1211,9 +1123,6 @@
     ],
     "Ruzier": [
      "ruggieri"
-    ],
-    "Salvato": [
-     "salvati"
     ],
     "Santa Fiora": [
      "santafior"
@@ -1303,9 +1212,6 @@
     "Tideo": [
      "tideo"
     ],
-    "Tinè": [
-     "tin"
-    ],
     "Tiresia": [
      "tiresia"
     ],
@@ -1360,9 +1266,6 @@
     ]
    },
    "common": {
-    "abbarbicato": [
-     "abbarbicata"
-    ],
     "abbracciarmi": [
      "abbracciarmi"
     ],
@@ -1390,12 +1293,6 @@
     "aiutarmi": [
      "aiutarmi"
     ],
-    "aiutarti": [
-     "aiutarti"
-    ],
-    "allevato": [
-     "allevata"
-    ],
     "alpe": [
      "alpe"
     ],
@@ -1411,9 +1308,6 @@
     "antelucano": [
      "antelucani"
     ],
-    "appreso": [
-     "appresa"
-    ],
     "apprestare": [
      "appresta"
     ],
@@ -1428,6 +1322,9 @@
     ],
     "arcanamente": [
      "arcanamente"
+    ],
+    "arengo": [
+     "aringo"
     ],
     "argolico": [
      "argolica"
@@ -1465,9 +1362,6 @@
     "battezzatore": [
      "battezzatori"
     ],
-    "berti": [
-     "berti"
-    ],
     "bozzacchione": [
      "bozzacchioni"
     ],
@@ -1482,9 +1376,6 @@
     ],
     "cantica": [
      "cantica"
-    ],
-    "cappelletti": [
-     "cappelletti"
     ],
     "caramente": [
      "caramente"
@@ -1519,9 +1410,6 @@
     "compiacermi": [
      "compiacermi"
     ],
-    "compreso": [
-     "compresa"
-    ],
     "concolore": [
      "concolori"
     ],
@@ -1531,9 +1419,6 @@
     "contarla": [
      "contarla"
     ],
-    "contemplante": [
-     "contemplanti"
-    ],
     "contenerlo": [
      "contenerlo"
     ],
@@ -1542,10 +1427,6 @@
     ],
     "corruttibile": [
      "corruttibile"
-    ],
-    "cotesto": [
-     "cotesta",
-     "cotesto"
     ],
     "crollarsi": [
      "crollarsi"
@@ -1559,9 +1440,6 @@
     "darne": [
      "darne"
     ],
-    "darti": [
-     "darti"
-    ],
     "decretale": [
      "decretali"
     ],
@@ -1573,9 +1451,6 @@
     ],
     "deiforme": [
      "deiforme"
-    ],
-    "dichiararti": [
-     "dichiararti"
     ],
     "diene": [
      "dien"
@@ -1601,9 +1476,6 @@
     "discorde": [
      "discorde"
     ],
-    "disfatto": [
-     "disfatti"
-    ],
     "dismalare": [
      "dismala"
     ],
@@ -1621,9 +1493,6 @@
     ],
     "esalazione": [
      "essalazion"
-    ],
-    "essente": [
-     "essenti"
     ],
     "essermi": [
      "essermi"
@@ -1649,9 +1518,6 @@
     "farne": [
      "farne"
     ],
-    "farti": [
-     "farti"
-    ],
     "farvi": [
      "farvi"
     ],
@@ -1669,8 +1535,7 @@
     ],
     "figliuolo": [
      "figliuol",
-     "figliuole",
-     "figliuoli"
+     "figliuole"
     ],
     "focara": [
      "focara"
@@ -1681,12 +1546,6 @@
     "forcuto": [
      "forcuta",
      "forcuto"
-    ],
-    "fornito": [
-     "fornita"
-    ],
-    "gaetto": [
-     "gaetta"
     ],
     "geomante": [
      "geomanti"
@@ -1738,9 +1597,6 @@
     "ispirarmi": [
      "spirarmi"
     ],
-    "istoriato": [
-     "storiata"
-    ],
     "lapillo": [
      "lapilli"
     ],
@@ -1755,9 +1611,6 @@
     ],
     "lelia": [
      "lilia"
-    ],
-    "leso": [
-     "lesa"
     ],
     "malignamente": [
      "malignamente"
@@ -1780,16 +1633,8 @@
     "meco": [
      "meco"
     ],
-    "medesmo": [
-     "medesma",
-     "medesme",
-     "medesmi"
-    ],
     "membruto": [
      "membruto"
-    ],
-    "meo": [
-     "mee"
     ],
     "messer": [
      "ser"
@@ -1800,17 +1645,11 @@
     "miserere": [
      "miserere"
     ],
-    "moltiplicato": [
-     "multiplicata"
-    ],
     "mostrarli": [
      "mostrarli"
     ],
     "mostrarmi": [
      "mostrarmi"
-    ],
-    "mostrarti": [
-     "mostrarti"
     ],
     "mula": [
      "mul"
@@ -1824,8 +1663,8 @@
     "nosco": [
      "nosco"
     ],
-    "onrato": [
-     "onrata"
+    "notricare": [
+     "notrica"
     ],
     "ossame": [
      "ossame"
@@ -1861,9 +1700,6 @@
     "piacermi": [
      "piacermi"
     ],
-    "piacerti": [
-     "piacerti"
-    ],
     "piccardo": [
      "piccarda"
     ],
@@ -1875,11 +1711,6 @@
     ],
     "plaudire": [
      "plaude"
-    ],
-    "pontare": [
-     "ponta",
-     "pontan",
-     "pontano"
     ],
     "porsela": [
      "porsila"
@@ -1954,7 +1785,6 @@
      "rifissi"
     ],
     "rifratto": [
-     "refratto",
      "rifratta"
     ],
     "rifulgere": [
@@ -2012,6 +1842,9 @@
      "ronchion",
      "ronchione"
     ],
+    "rosseggiante": [
+     "rubicante"
+    ],
     "rubecchio": [
      "rubecchio"
     ],
@@ -2037,9 +1870,6 @@
     "sardanapalo": [
      "sardanapalo"
     ],
-    "saziarti": [
-     "saziarti"
-    ],
     "scilocco": [
      "scilocco"
     ],
@@ -2060,11 +1890,6 @@
     "sepolcrale": [
      "sepulcral"
     ],
-    "sepolto": [
-     "sepolta",
-     "sepolte",
-     "sepolti"
-    ],
     "sgannare": [
      "sganni"
     ],
@@ -2074,9 +1899,6 @@
     "solecchio": [
      "solecchio"
     ],
-    "specchiato": [
-     "specchiati"
-    ],
     "spogliarvi": [
      "spogliarvi"
     ],
@@ -2085,9 +1907,6 @@
     ],
     "starmi": [
      "starmi"
-    ],
-    "stimolato": [
-     "stimolati"
     ],
     "stoscio": [
      "stoscio"
@@ -2108,20 +1927,11 @@
     "terrame": [
      "terram"
     ],
-    "testeso": [
-     "testeso"
-    ],
     "tiepidezza": [
      "tepidezza"
     ],
-    "tirarti": [
-     "tirarti"
-    ],
     "tormentarlo": [
      "tormentarlo"
-    ],
-    "trafitto": [
-     "trafitta"
     ],
     "tragedo": [
      "tragedo"
@@ -2138,14 +1948,8 @@
     "trasmutabile": [
      "trasmutabile"
     ],
-    "trasmutato": [
-     "trasmutata"
-    ],
     "trentino": [
      "trentino"
-    ],
-    "trionfante": [
-     "triunfanti"
     ],
     "uccellatoio": [
      "uccellatoio"
@@ -2174,14 +1978,8 @@
     "vedermi": [
      "vedermi"
     ],
-    "vederti": [
-     "vederti"
-    ],
     "vedervi": [
      "vedervi"
-    ],
-    "vendicato": [
-     "vendicata"
     ],
     "venirli": [
      "venirli"
@@ -2278,7 +2076,6 @@
   "augelletto",
   "augustin",
   "augustino",
-  "aunasse",
   "austro",
   "babillòn",
   "baccialier",
@@ -2343,7 +2140,6 @@
   "cenìt",
   "ceperan",
   "certaldo",
-  "chere",
   "chiascheduno",
   "chiaveri",
   "chinail",
@@ -2487,7 +2283,6 @@
   "efigènia",
   "elesponto",
   "elice",
-  "empierà",
   "empiezza",
   "eneida",
   "erisittone",
@@ -2577,7 +2372,6 @@
   "habent",
   "horum",
   "iacobbe",
-  "iacomo",
   "iaculi",
   "iacòb",
   "ianua",
@@ -2609,7 +2403,6 @@
   "incrocicchia",
   "indonna",
   "indova",
-  "indraca",
   "inforsa",
   "infronda",
   "infutura",
@@ -2644,7 +2437,6 @@
   "ismeno",
   "isplendor",
   "iterum",
-  "ito",
   "iudicatis",
   "iudìt",
   "iuno",
@@ -2668,7 +2460,6 @@
   "leggiavamo",
   "lemosì",
   "lerice",
-  "letane",
   "letigio",
   "leuto",
   "lievre",
@@ -2700,8 +2491,6 @@
   "meos",
   "merrenti",
   "merrò",
-  "merta",
-  "mertai",
   "meschite",
   "metafisice",
   "meus",
@@ -2712,7 +2501,6 @@
   "miserella",
   "misericordes",
   "misurrebbe",
-  "mitrio",
   "modicum",
   "monimenti",
   "montemalo",
@@ -2749,8 +2537,6 @@
   "oderisi",
   "offensa",
   "offerere",
-  "offerie",
-  "oltrarti",
   "omberto",
   "opposito",
   "orbisaglia",
@@ -2801,7 +2587,6 @@
   "policleto",
   "polinestòr",
   "poluce",
-  "pompeana",
   "portarno",
   "postrema",
   "prande",
@@ -2818,7 +2603,6 @@
   "prodeunt",
   "producerebbe",
   "proenza",
-  "prope",
   "propinquissimi",
   "provenzai",
   "provenzan",
@@ -2847,7 +2631,6 @@
   "rattrappa",
   "recalcitrate",
   "recepe",
-  "recetto",
   "redimita",
   "redui",
   "redur",
@@ -2867,10 +2650,6 @@
   "repluo",
   "repreme",
   "reserva",
-  "resurgeranno",
-  "resurgi",
-  "retrosa",
-  "retrosi",
   "revela",
   "revelando",
   "revelazion",
@@ -2890,19 +2669,11 @@
   "rimembre",
   "ringavagna",
   "rinoardo",
-  "rinovando",
-  "rinovate",
-  "rinovella",
-  "rinovellate",
-  "rinovelle",
-  "rinovelli",
   "rinverda",
   "ripentuti",
   "ripriso",
   "risense",
-  "riserrolli",
   "rispondien",
-  "risurgeran",
   "ritraén",
   "riveggia",
   "rividil",
@@ -2930,9 +2701,7 @@
   "savesse",
   "savorose",
   "saùl",
-  "sberna",
   "scarche",
-  "scarco",
   "scheggion",
   "schembo",
   "schiante",
@@ -2948,18 +2717,14 @@
   "segnorso",
   "seguio",
   "seguiterieno",
-  "sembian",
-  "sembiò",
   "semilia",
   "semplicetta",
   "seniori",
   "sennacherìb",
   "sennaàr",
   "sentero",
-  "serafi",
   "sgagliarda",
   "sghermitor",
-  "sguardando",
   "sicut",
   "siestri",
   "sigieri",
@@ -3009,7 +2774,6 @@
   "sternel",
   "sternilmi",
   "stinghe",
-  "stornei",
   "stricca",
   "stupefaciensi",
   "subitana",
@@ -3022,15 +2786,12 @@
   "superillustrans",
   "superinfusa",
   "suppe",
-  "surgea",
-  "surgeran",
   "taciensi",
   "talamone",
   "tecta",
   "tegni",
   "temps",
   "tenavamo",
-  "tenciona",
   "tenebrata",
   "teodia",
   "tepe",
@@ -3043,10 +2804,8 @@
   "tifeo",
   "timbreo",
   "timidette",
-  "toglien",
   "tolosano",
   "torpente",
-  "torrien",
   "trasparien",
   "tree",
   "trei",

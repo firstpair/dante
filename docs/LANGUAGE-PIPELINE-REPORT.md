@@ -104,7 +104,11 @@ and alternative forms, so *gaetta* → *gaietto* → *gaio* → *весёлый*
 "via gaio"; then a pivot through the words of the entry's own English senses
 against English Wiktionary's Russian tables, so *accismare* ("to adorn, to
 deck out") is glossed *украшать (via English: adorn, to make more beautiful)*.
-Names are excluded from the second pass.
+Names are excluded from the second pass. Wiktionary often writes a link only
+as gloss text ("Dantesque form of gaietto"); such glosses are parsed into
+links too, so *gaetta* reaches *gaietto* — "spotted, speckled",
+*запятнанный* via *maculato* — and the inflection table of a linked entry
+resolves through the link.
 
 ### The vault
 
@@ -147,10 +151,10 @@ Over the Commedia's 101,604 Italian tokens and 12,766 normalised word types:
 
 | | Before (FreeDict, exact headword) | After |
 | --- | --- | --- |
-| Forms analysed to a headword with grammar | — | 11,882 of 12,766 types (93.1 %), 98.9 % of tokens |
-| English explanation | 2,436 types (17.9 %) | all 11,882 analysed forms |
+| Forms analysed to a headword with grammar | — | 11,921 of 12,766 types (93.4%), 98.9 % of tokens |
+| English explanation | 2,436 types (17.9 %) | all 11,921 analysed forms |
 | Russian explanation, direct sources | 1,745 types (12.8 %) | 9,591 of 11,882 analysed forms (80.7 %) |
-| Russian explanation, with the labelled second pass | — | 11,317 of 11,882 analysed forms (95.2 %) |
+| Russian explanation, with the labelled second pass | — | 11,412 of 11,921 analysed forms (95.7%); 6,799 entries derived and labelled |
 | Vault dictionary entries | 28,245 / 13,529 (lemma-keyed, mostly unreachable) | 12,189 / 9,813 (form-keyed) |
 
 The gap analysis in `sources/dictionaries/coverage.json` is honest by
@@ -158,12 +162,12 @@ construction: the analyser never fills a hole with a guess.
 
 ## What remains
 
-- **884 unanalysed forms** (6.9 % of types, 1.1 % of tokens): hapax
+- **845 unanalysed forms** (6.6% of types, about 1 % of tokens): hapax
   archaisms and proper names the extraction lacks — *Acheronte, Averroè,
   Bonagiunta* — which have neither English nor Russian. They belong in the
   reviewed supplement; the frequent ones are already there.
-- **565 analysed forms without Russian**, behind 257 proper-name lemmas and
-  274 common lemmas whose English senses are phrases the gloss pivot cannot
+- **509 analysed forms without Russian**, behind 245 proper-name lemmas and
+  241 common lemmas whose English senses are phrases the gloss pivot cannot
   safely reduce to a word. The remaining path is
   `italian-russian-supplement.json`, lemma by lemma from `coverage.json`. A
   proper name wants a transliteration rather than a translation, and the
