@@ -190,3 +190,34 @@ shows the underscores literally. Cicero was rebuilt and validated on the
 refactored Latin path. The contract is in
 `publishing/emacs/EMACS-DELIVERY.md`; the workflow in
 `publishing/skills/emacs-info-bundle.md`.
+
+## Third pass: the public edition and the Reader on a phone (2026-08-29)
+
+Preparing the public Italian–English edition exposed two defects and one
+limit, all fixed in FirstPair so Cicero inherits them:
+
+- **Auxiliary rows are not forms.** Every Wiktionary conjugation table names
+  the verb's auxiliary as a form row, `{"form": "avére", "tags":
+  ["auxiliary", "transitive"]}`. The Italian layer indexed it as a form of the
+  lemma, so *avere* analysed to 18,235 lemmas and *essere* to as many, and
+  their dictionary keys carried every verb in the corpus (10.8 MB for one
+  word). Rows tagged `auxiliary` are now skipped outright; the Russian
+  dictionary fell from about 71,000 to 68,225 entries with coverage unchanged
+  (11,412 forms), and the largest key holds 50 entries (*se*).
+- **Sharded dictionaries.** The single-file dictionaries (13 MB English,
+  58 MB Russian) were at the mercy of Obsidian Sync's per-file ceiling and of
+  a phone parsing them on the first tap. `firstpair_emacs.dictionaries.write_sharded`
+  now writes `index.json` (`firstpair-reader-dictionary-index-v1`) plus
+  prefix-keyed shards of at most 4 MB (26 each here); the Reader resolves a
+  word by its longest present prefix. Per-entry source labels are the short
+  glossary identifiers; the full attribution is stated once per dictionary.
+- **Layouts.** Reader 1.3.0 stacks a tercet on a phone held upright (Italian
+  flush left, translations indented beneath), returns to columns sideways,
+  offers a manual override, sizes the dictionary drawer to the last column,
+  and opens pages from `Home.md` links.
+
+The public edition (`vault.build.json`, `dist/Dante Commedia Vault`,
+`dist/Dante Commedia Emacs`, `book/dist-full/`) carries only the Italian and
+Longfellow; `scripts/check-obsidian-vault.py` refuses a public vault with any
+Cyrillic in its chapters. The study copy with Lozinsky is built by
+`--translations en,ru` and stays local.

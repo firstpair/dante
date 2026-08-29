@@ -5,3 +5,6 @@
 dist/
 sources/raw/
 __pycache__/
+book/build/
+book/dist-full/
+.DS_Store

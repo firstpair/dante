@@ -10,11 +10,17 @@
 - Russian: Mikhail Lozinsky translation, obtained from Lib.ru. Lozinsky died
   in 1955 and the authorial term expired in Russia on 1 January 2026. Its US
   copyright status is less straightforward because publication began after
-  1930. The generated vault is therefore a local study copy and must not be
-  published or redistributed without a jurisdiction-specific rights review.
+  1930. The study vault and bundle built with `--translations en,ru` are
+  therefore local copies and must not be published or redistributed without
+  a jurisdiction-specific rights review. The public edition (the default
+  build, and everything on First Pair Press) contains only the Italian and
+  Longfellow's English.
 - Dictionaries: FreeDict `ita-eng` and `ita-rus`, release 2025.11.23, derived
   from Wiktionary via WikDict/DBnary and distributed under CC BY-SA 3.0.
-  The complete FreeDict `COPYING` files are included in the built vault.
+  The complete FreeDict `COPYING` files are included in the built vault. The
+  analyser and senses come from the English (and, in the study copy, Russian
+  and Italian) Wiktionary extractions pinned by FirstPair, CC BY-SA 4.0.
+- Cover and header art: `images/dante-header.png`, First Pair Press.
 
 Only the general reader code, schemas, and tests belong upstream in FirstPair;
 the Russian text and generated local vault do not.

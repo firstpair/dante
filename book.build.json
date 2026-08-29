@@ -1,0 +1,40 @@
+{
+  "$schema": "../firstpair/publishing/book.build.schema.json",
+  "schemaVersion": 1,
+  "bookRoot": "book",
+  "manuscript": "book/build/firstpair/commedia.md",
+  "metadata": "book/metadata.yaml",
+  "cover": "book/cover.md",
+  "css": "book/epub.css",
+  "stem": "dante-commedia",
+  "title": "La Divina Commedia",
+  "subtitle": "Italian and English, aligned tercet by tercet",
+  "author": "Dante Alighieri",
+  "headboardImage": "images/dante-header.png",
+  "version": { "source": "file", "file": "VERSION" },
+  "dist": "book/dist-full",
+  "buildDir": "book/build/firstpair",
+  "cleanDist": true,
+  "edition": "full",
+  "primaryFormat": "typst",
+  "mobi": false,
+  "pandoc": {
+    "reader": "markdown+smart+fenced_divs+line_blocks",
+    "tocDepth": 1,
+    "numberSections": false,
+    "resourcePaths": ["${repoRoot}", "book"],
+    "commonArgs": ["--lua-filter", "${repoRoot}/book/aligned.lua"]
+  },
+  "pdf": {
+    "coverImage": "cover/dante-commedia-cover.png",
+    "coverWidth": "8.5in",
+    "coverHeight": "11in",
+    "coverFit": "contain"
+  },
+  "epub": { "coverImage": "cover/dante-commedia-cover.png", "includeRenderedCover": false },
+  "html": { "splitLevel": 1, "luaFilter": "book/aligned.lua" },
+  "hooks": {
+    "prebuild": [ { "python": "scripts/build_book.py", "project": "." } ]
+  },
+  "pdfFormats": [ { "name": "typst", "renderer": "typst", "stem": "dante-commedia", "primary": true } ]
+}

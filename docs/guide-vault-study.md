@@ -7,8 +7,11 @@ with one, it stands beside the Italian.
 
 Each row is one stable tercet (with a shorter final row where a canto closes
 with a single line). Alignment is structural by canto and verse position; it
-does not assert word-for-word equivalence. On iPhone and other narrow screens,
-swipe each row horizontally among the selected translations and Italian.
+does not assert word-for-word equivalence. On a phone held upright the Reader
+stacks each tercet — Italian first, then Russian and English indented beneath
+it — and returns to columns when you turn the phone sideways; the layout
+button in the toolbar overrides that choice. `Home.md` lists every canto as a
+link that opens it in the Reader.
 
 Select an Italian word to open it in the dictionary drawer. Inflected and
 old forms are analysed to their modern headword — the entry names the grammar
