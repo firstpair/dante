@@ -42,3 +42,6 @@ The Lozinsky-based generated vault and Emacs bundle are local study copies.
 Do not publish them without the rights review described in `RIGHTS.md`.
 
 See [RIGHTS.md](RIGHTS.md) for the redistribution basis and attribution.
+
+The language pipeline, its measured coverage, and what remains are recorded
+in [docs/LANGUAGE-PIPELINE-REPORT.md](docs/LANGUAGE-PIPELINE-REPORT.md).
