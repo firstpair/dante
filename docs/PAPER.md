@@ -143,7 +143,10 @@ further work.
 
 ## 6. A global resource
 
-The repository `github.com/firstpair/dante` is public. Its acquisition
+The edition is published at `firstpair.org/books/dante-commedia/`, one
+library entry with an Italian–English version and an Italian–English–Russian
+one, each as book, vault, and Emacs bundle. The repository
+`github.com/firstpair/dante` is public. Its acquisition
 script, parsers, registry, builders, validators, and guides are meant to be
 copied: `docs/ADDING-TRANSLATIONS.md` walks a contributor from finding a
 public-domain text to seeing it in the column header, and the same path

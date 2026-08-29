@@ -21,13 +21,13 @@ the guide fragments under `docs/`. FirstPair owns the unified book builder,
 the Reader plugin, the Emacs Info writers and reader, the pinned Wiktionary
 extractions, the catalog, hosted readers, Blob uploads, and deployment.
 
-Two titles are published from this repository, both **full** (every text is
-public domain; see `RIGHTS.md`):
+One library entry, `dante-commedia`, carries the language versions — every
+text is public domain (see `RIGHTS.md`), so both are **full** editions:
 
-| Title | Slug | Book | Vault | Emacs |
+| Version | Label | Book | Vault | Emacs |
 | --- | --- | --- | --- | --- |
-| Italian and English | `dante-commedia` | `book/dist-full` | `dist/Dante Commedia Vault` | `dist/Dante Commedia Emacs` |
-| Italian, English, and Russian | `dante-commedia-russian` | `book/dist-russian` | `dist/Dante Commedia Vault Russian` | `dist/Dante Commedia Emacs Russian` |
+| the title itself | Italian and English | `book/dist-full` | `dist/Dante Commedia Vault` | `dist/Dante Commedia Emacs` |
+| `russian` | Italian, English, and Russian | `book/dist-russian` | `dist/Dante Commedia Vault Russian` | `dist/Dante Commedia Emacs Russian` |
 
 The study edition with Lozinsky's Russian is never published.
 
@@ -59,25 +59,32 @@ names the commit being published, so it is generated after the last commit).
 ## Publish
 
 Both repositories clean and pushed; the bundles' manifests must name the
-pushed HEAD. Dry run first, then live.
+pushed HEAD. Dry run first, then live; the title first, then its versions
+(each publish commits FirstPair metadata before the next).
 
 ```sh
 cd "$HOME/src/firstpair"
 npm run library:publish -- "$HOME/src/dante" --full \
   --vault-dir "dist/Dante Commedia Vault" --vault-guide dist/dante-commedia-vault-guide.md --emacs \
+  --version-label "Italian and English" \
   --title "Dante — La Divina Commedia" --kicker "Aligned edition" --tags "finished,literature,Dante,Italian" \
-  --description "The complete Commedia with Dante's Italian beside four English translations — Longfellow, Cary, Norton, Sibbald — tercet by tercet, and a dictionary that analyses every Italian word: a book, an Obsidian vault, and an Emacs Info bundle." \
+  --description "The complete Commedia with Dante's Italian beside its translations, tercet by tercet — four English (Longfellow, Cary, Norton, Sibbald) and, in the Russian version, five Russian (Min, Petrov, Fedorov, Chuiko, Minaev) — with a dictionary that analyses every Italian word: a book, an Obsidian vault, and an Emacs Info bundle." \
   --dry-run --no-build --no-smoke --no-deploy --no-icloud
 npm run library:publish -- "$HOME/src/dante" --full \
-  --vault-dir "dist/Dante Commedia Vault" --vault-guide dist/dante-commedia-vault-guide.md --emacs
+  --vault-dir "dist/Dante Commedia Vault" --vault-guide dist/dante-commedia-vault-guide.md --emacs --version-label "Italian and English"
 
-npm run library:publish -- "$HOME/src/dante/book/dist-russian" --slug dante-commedia-russian --full \
+npm run library:publish -- "$HOME/src/dante/book/dist-russian" --slug dante-commedia --shelf literature --full \
+  --version russian --version-label "Italian, English, and Russian" \
   --vault-dir "$HOME/src/dante/dist/Dante Commedia Vault Russian" --vault-guide "$HOME/src/dante/dist/dante-commedia-russian-vault-guide.md" \
   --emacs-dir "$HOME/src/dante/dist/Dante Commedia Emacs Russian" \
-  --title "Dante — La Divina Commedia (with Russian)" --kicker "Aligned edition" --tags "finished,literature,Dante,Italian,Russian" \
-  --description "The complete Commedia with Dante's Italian beside four English and five Russian translations — Longfellow, Cary, Norton, Sibbald; Min, Petrov, Fedorov, Chuiko, Minaev — tercet by tercet, and a dictionary that analyses every Italian word in English and Russian: a book, an Obsidian vault, and an Emacs Info bundle." \
   --dry-run --no-build --no-smoke --no-deploy --no-icloud
-npm run library:publish -- "$HOME/src/dante/book/dist-russian" --slug dante-commedia-russian --full \
+npm run library:publish -- "$HOME/src/dante/book/dist-russian" --slug dante-commedia --shelf literature --full \
+  --version russian --version-label "Italian, English, and Russian" \
   --vault-dir "$HOME/src/dante/dist/Dante Commedia Vault Russian" --vault-guide "$HOME/src/dante/dist/dante-commedia-russian-vault-guide.md" \
   --emacs-dir "$HOME/src/dante/dist/Dante Commedia Emacs Russian"
 ```
+
+Live: `https://firstpair.org/books/dante-commedia/` — the title's own
+deliverables under `/dante-commedia/…` and `/read/dante-commedia/…`, the
+Russian version under `/dante-commedia/russian/…` and
+`/read/dante-commedia/russian/…`.

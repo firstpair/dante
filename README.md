@@ -9,8 +9,9 @@ restored to their modern headword) and answers in English and Russian. Three
 readers are built from one source: a book (PDF, EPUB, HTML), an Obsidian
 vault with the FirstPair Reader, and an Emacs Info bundle.
 
-Published on First Pair Press: **dante-commedia** (Italian and English) and
-**dante-commedia-russian** (Italian, English, and Russian). The paper
+Published on First Pair Press as one title, **dante-commedia**, in two
+language versions: *Italian and English*, and *Italian, English, and Russian*
+(`https://firstpair.org/books/dante-commedia/`). The paper
 `docs/PAPER.md` describes the edition; `docs/ADDING-TRANSLATIONS.md` shows how
 to add a translation or a language; `docs/LANGUAGE-PIPELINE-REPORT.md` records
 the dictionary pipeline and its coverage.
@@ -19,8 +20,8 @@ the dictionary pipeline and its coverage.
 
 | Edition | Flag | Texts | Output | Published |
 | --- | --- | --- | --- | --- |
-| English | `--edition en` | Italian + Longfellow, Cary, Norton, Sibbald | `dist/Dante Commedia Vault`, `dist/Dante Commedia Emacs`, `book/dist-full` | yes |
-| Russian | `--edition ru` | + Min (modern and original spelling), Petrov, Fedorov, Chuiko, Minaev | `dist/Dante Commedia Vault Russian`, `dist/Dante Commedia Emacs Russian`, `book/dist-russian` | yes |
+| English | `--edition en` | Italian + Longfellow, Cary, Norton, Sibbald | `dist/Dante Commedia Vault`, `dist/Dante Commedia Emacs`, `book/dist-full` | the title itself |
+| Russian | `--edition ru` | + Min (modern and original spelling), Petrov, Fedorov, Chuiko, Minaev | `dist/Dante Commedia Vault Russian`, `dist/Dante Commedia Emacs Russian`, `book/dist-russian` | version `russian` |
 | Study | `--edition study` | + Lozinsky | `dist/Dante-Multilingual-Vault`, `dist/Dante-Emacs` | never (see `RIGHTS.md`) |
 
 Every translation is registered in `scripts/translations.py` with its
