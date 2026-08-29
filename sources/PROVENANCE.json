@@ -1,0 +1,31 @@
+{
+  "schema": "dante-source-provenance-v1",
+  "files": {
+    "italian.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/1012/pg1012.txt",
+      "sha256": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6"
+    },
+    "english.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/1004/pg1004.txt",
+      "sha256": "c233a7ef9444890cb7f16071ff54d997307a3c60dcd6506cfd415bae2430eac2"
+    },
+    "ita-eng.tei": {
+      "url": "https://download.freedict.org/dictionaries/ita-eng/2025.11.23/freedict-ita-eng-2025.11.23.src.tar.xz",
+      "release": "2025.11.23",
+      "archiveSha512": "86b505604204cfcc311fd03dd7e5aa2a73f6c9991c2d29af214dc22d6769c12449d810e07a39abfe70899c12dfb693c0fb447b0cc8ff69e9375eae5ffae07483",
+      "sha256": "2cbb03e7baa5d798c1663c2f162e3266c8f34443f5be7184c89b51eaa9fc5e0d"
+    },
+    "ita-rus.tei": {
+      "url": "https://download.freedict.org/dictionaries/ita-rus/2025.11.23/freedict-ita-rus-2025.11.23.src.tar.xz",
+      "release": "2025.11.23",
+      "archiveSha512": "c6766e21a96cdd91804ec6985660f33d6c4743139e9afc641c295c8f207355e5480c7af396198010528fc9ffeb93c713f5deb07d367ec80910bdad1c8ec648f7",
+      "sha256": "9b3a7d1457c48604fe1c69ebde805c2535730fb4d23e41218d448b659f542531"
+    },
+    "russian-lozinsky.html": {
+      "url": "https://lib.ru/POEZIQ/DANTE/comedy.txt",
+      "translator": "Mikhail Leonidovich Lozinsky",
+      "sha256": "b0b80e2b4a769969b9451be67b5a2bbffb2d97cd5e8a0180f0b88c976b7a22d3",
+      "redistribution": "local-study-copy; review US rights before publication"
+    }
+  }
+}
