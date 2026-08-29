@@ -7,7 +7,7 @@
   "sourceCommit": "HEAD",
   "plugin": true,
   "guide": {
-    "bookSpecific": "docs/guide-vault.md"
+    "bookSpecific": "docs/guide-vault-en.md"
   },
   "reader": [
     {
@@ -619,14 +619,14 @@
   },
   "emacs": {
     "guide": {
-      "bookSpecific": "docs/guide-emacs.md"
+      "bookSpecific": "docs/guide-emacs-en.md"
     },
     "direntry": {
       "category": "Books",
       "name": "dante-commedia",
-      "description": "Dante's Commedia with Longfellow's English, aligned tercet by tercet."
+      "description": "Dante's Commedia aligned tercet by tercet with its translations: Henry Wadsworth Longfellow, Henry Francis Cary, Charles Eliot Norton, James Romanes Sibbald."
     },
-    "subtitle": "La Divina Commedia, with Longfellow's English",
+    "subtitle": "La Divina Commedia, with its translations",
     "author": "Dante Alighieri",
     "parts": [
       {
@@ -642,6 +642,9 @@
         "description": "Thirty-three cantos: the spheres."
       }
     ],
+    "aligned": {
+      "index": "dist/Dante Commedia Vault/_data/parallel-reader.json"
+    },
     "lexicon": {
       "language": "italian",
       "mode": "projected",
@@ -662,7 +665,7 @@
         "output": "dist/Dante Commedia Emacs",
         "edition": "full",
         "maxFiles": 400,
-        "maxBytes": 200000000
+        "maxBytes": 400000000
       }
     }
   }

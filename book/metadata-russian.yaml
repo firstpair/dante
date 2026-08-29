@@ -1,0 +1,20 @@
+---
+title: "La Divina Commedia"
+title_stem: "dante-commedia-russian"
+subtitle: "Italian and Russian, aligned tercet by tercet"
+author: "Dante Alighieri"
+translator: "Dmitry Min"
+cover_image: "cover/dante-commedia-russian-cover.png"
+headboard_image: "images/dante-header.png"
+publisher: "First Pair Press"
+lang: en
+rights: "The Italian text and Min's translation are public domain (Project Gutenberg ebook 1012; Lib.ru/Классика transcriptions); this arrangement and apparatus are CC BY 4.0."
+toc: true
+toc-depth: 1
+papersize: us-letter
+fontsize: 10.5pt
+margin:
+  x: 1in
+  y: 0.9in
+page-numbering: "1"
+...

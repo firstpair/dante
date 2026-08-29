@@ -2,17 +2,17 @@
   "$schema": "../firstpair/publishing/book.build.schema.json",
   "schemaVersion": 1,
   "bookRoot": "book",
-  "manuscript": "book/build/firstpair/commedia-en.md",
-  "metadata": "book/metadata.yaml",
-  "cover": "book/cover.md",
+  "manuscript": "book/build/firstpair/commedia-ru.md",
+  "metadata": "book/metadata-russian.yaml",
+  "cover": "book/cover-russian.md",
   "css": "book/epub.css",
-  "stem": "dante-commedia",
+  "stem": "dante-commedia-russian",
   "title": "La Divina Commedia",
-  "subtitle": "Italian and English, aligned tercet by tercet",
+  "subtitle": "Italian and Russian, aligned tercet by tercet",
   "author": "Dante Alighieri",
   "headboardImage": "images/dante-header.png",
   "version": { "source": "file", "file": "VERSION" },
-  "dist": "book/dist-full",
+  "dist": "book/dist-russian",
   "buildDir": "book/build/firstpair",
   "cleanDist": true,
   "edition": "full",
@@ -26,15 +26,15 @@
     "commonArgs": ["--lua-filter", "${repoRoot}/book/aligned.lua"]
   },
   "pdf": {
-    "coverImage": "cover/dante-commedia-cover.png",
+    "coverImage": "cover/dante-commedia-russian-cover.png",
     "coverWidth": "8.5in",
     "coverHeight": "11in",
     "coverFit": "contain"
   },
-  "epub": { "coverImage": "cover/dante-commedia-cover.png", "includeRenderedCover": false },
+  "epub": { "coverImage": "cover/dante-commedia-russian-cover.png", "includeRenderedCover": false },
   "html": { "splitLevel": 1, "luaFilter": "book/aligned.lua" },
   "hooks": {
-    "prebuild": [ { "python": "scripts/build_book.py", "project": ".", "args": ["en"] } ]
+    "prebuild": [ { "python": "scripts/build_book.py", "project": ".", "args": ["ru"] } ]
   },
-  "pdfFormats": [ { "name": "typst", "renderer": "typst", "stem": "dante-commedia", "primary": true } ]
+  "pdfFormats": [ { "name": "typst", "renderer": "typst", "stem": "dante-commedia-russian", "primary": true } ]
 }

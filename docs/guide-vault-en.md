@@ -1,9 +1,18 @@
 # Reading this edition
 
-Open the FirstPair Reader from the ribbon or command palette. The Italian is
-always the left column and Longfellow's English the right; the **English**
-checkbox at the top hides the translation when you want to read the Italian
-alone.
+Open the FirstPair Reader from the ribbon, the command palette, or the link
+at the top of `Home.md`. The Italian is always the left column; the English
+stands beside it. The **English** checkbox at the top hides the translation
+when you want to read the Italian alone.
+
+Four English translations travel with this vault: Longfellow's line-for-line
+verse (1867, the default), Cary's blank verse (1814), Norton's prose
+(1891–92), and Sibbald's terza rima of the Inferno (1884). The column header
+names the one you are reading and rotates among them; **+** beside it opens
+a second English column, so two translations of the same tercet stand side by
+side. Only Longfellow and Sibbald keep Dante's line count, so their rows show
+the same verses; Cary and Norton are cut at the same fractions of the canto
+and are marked ≈ (approximate).
 
 Each row is one stable tercet (with a shorter final row where a canto closes
 with a single line). Alignment is structural by canto and verse position; it

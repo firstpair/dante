@@ -1,7 +1,10 @@
 Each canto is one node. Every tercet appears in Italian first, then in the
 translations you have switched on: English, Russian, or both. `C-c C-t`
 cycles that choice and hides the other translation in place, so the Italian
-never moves; the dictionary window's header line shows what is on.
+never moves; `C-c C-v` rotates a language's column through its translations
+(Lozinsky, Min, Petrov, Fedorov, Chuiko, Minaev; Longfellow, Cary, Norton,
+Sibbald) and `C-c C-b` shows a second translation of the same language; the
+dictionary window's header line shows what is on.
 
 Put point on any Italian word and press `C-c C-d`: the analysis names the
 modern headword and the form's grammar — and when Dante's spelling differs

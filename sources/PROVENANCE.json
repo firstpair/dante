@@ -5,9 +5,29 @@
       "url": "https://www.gutenberg.org/cache/epub/1012/pg1012.txt",
       "sha256": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6"
     },
-    "english.txt": {
+    "english-longfellow.txt": {
       "url": "https://www.gutenberg.org/cache/epub/1004/pg1004.txt",
       "sha256": "c233a7ef9444890cb7f16071ff54d997307a3c60dcd6506cfd415bae2430eac2"
+    },
+    "english-cary.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/8800/pg8800.txt",
+      "sha256": "3a7dd97b5fec82456c58237b33383a593480c2bfe088aeaaa4a519de2a10d39c"
+    },
+    "english-norton-1.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/1995/pg1995.txt",
+      "sha256": "a16393b88db1101b13cb1a30ef50fa9cc9a3ca2e8f502131f90eb8d92053baab"
+    },
+    "english-norton-2.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/1996/pg1996.txt",
+      "sha256": "ff05b1f84c74075bae143a3e39dfa38e5f3546b18d5ba3a32eeedf9306db6489"
+    },
+    "english-norton-3.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/1997/pg1997.txt",
+      "sha256": "9a48e85835c60ac565a928856cdde56dd38c120372d2fa0fb0b769b45ecc0cfe"
+    },
+    "english-sibbald-inferno.txt": {
+      "url": "https://www.gutenberg.org/cache/epub/41537/pg41537.txt",
+      "sha256": "cc448a9dc958b515e3695a92c46b52712314eafc94d693ef6e5ef7478aface73"
     },
     "ita-eng.tei": {
       "url": "https://download.freedict.org/dictionaries/ita-eng/2025.11.23/freedict-ita-eng-2025.11.23.src.tar.xz",
@@ -21,10 +41,58 @@
       "archiveSha512": "c6766e21a96cdd91804ec6985660f33d6c4743139e9afc641c295c8f207355e5480c7af396198010528fc9ffeb93c713f5deb07d367ec80910bdad1c8ec648f7",
       "sha256": "9b3a7d1457c48604fe1c69ebde805c2535730fb4d23e41218d448b659f542531"
     },
+    "russian-min-inferno.html": {
+      "url": "http://az.lib.ru/d/dante_a/dante_ad1-oldorfo.shtml",
+      "translator": "Dmitry Egorovich Min (1818–1885), Inferno, 1855 edition",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "11897134f597fbe2f9144de3b15685d74ddcd7f3d6379ac9e97d6cf54ade0a39"
+    },
+    "russian-min-purgatorio.html": {
+      "url": "http://az.lib.ru/d/dante_a/dante_ch1-oldorfo.shtml",
+      "translator": "Dmitry Egorovich Min, Purgatorio, 1902 edition",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "443ee31b7f64eef50ddc2ca8756f2dbad0f4771694ad74a033faddbb617b31bd"
+    },
+    "russian-min-paradiso.html": {
+      "url": "http://az.lib.ru/d/dante_a/text_1904_paradiso-oldorfo.shtml",
+      "translator": "Dmitry Egorovich Min, Paradiso, 1904 edition",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "1dc332a77c62e25e3092e671f135c3ccaa303446a0623dbd7555aa1b047b23fc"
+    },
+    "russian-minaev-purgatorio.html": {
+      "url": "http://az.lib.ru/d/dante_a/dante_ch2-oldorfo.shtml",
+      "translator": "Dmitry Dmitrievich Minaev (1835–1889), Purgatorio, Wolff edition",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "8551e1326440114f95d068032886fa230e25564576072795f5b3b62eddfed0cc"
+    },
+    "russian-minaev-paradiso.html": {
+      "url": "http://az.lib.ru/d/dante_a/dante_ray1-oldorfo.shtml",
+      "translator": "Dmitry Dmitrievich Minaev, Paradiso (1879), Wolff edition",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "9ce3d7ac87b2f68eeb3186469fcdc54d31a6c98db22bceb2d1770089d171c439"
+    },
+    "russian-petrov-inferno.html": {
+      "url": "http://az.lib.ru/d/dante_a/text_1871_inferno-oldorfo.shtml",
+      "translator": "V. A. Petrov, Inferno in terza rima, 1887",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "2c9fe64ec4b88e0744b75099403e064a2fb92734b4a20b094e9dc0fe62440644"
+    },
+    "russian-fedorov-inferno.html": {
+      "url": "http://az.lib.ru/d/dante_a/text_1898_inferno-oldorfo.shtml",
+      "translator": "A. P. Fedorov, Inferno in verse, 1898",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "68835d76553d04c0910d4445510f4b937545dac592e0e9ff6639b05023a4e181"
+    },
+    "russian-chuiko-inferno.html": {
+      "url": "http://az.lib.ru/d/dante_a/text_1894_ad_chuyko-oldorfo.shtml",
+      "translator": "V. V. Chuiko, Inferno in prose, 1894",
+      "orthography": "pre-1918, as transcribed by Lib.ru/Классика",
+      "sha256": "ef1783005366e3fa2cd8f22a6ba682f3f1aafc5bc07a3070422c0fdf60dd393a"
+    },
     "russian-lozinsky.html": {
       "url": "https://lib.ru/POEZIQ/DANTE/comedy.txt",
       "translator": "Mikhail Leonidovich Lozinsky",
-      "sha256": "820797e421c158ece642cf7616795491cd8279364c561ef9e87968de1a8df1a2",
+      "sha256": "99c5843f0811e2b3d0b44ba0f2cda76d1113a1faeea710704dd1527ba815caa4",
       "redistribution": "local-study-copy; review US rights before publication"
     }
   }

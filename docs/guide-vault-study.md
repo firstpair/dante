@@ -1,9 +1,14 @@
 # Reading this edition
 
-Open the FirstPair Reader from the ribbon or command palette. The Italian is
-always the left column. The **Русский** and **English** checkboxes stay at the
-top; with both on, Russian stands in the middle and English on the right, and
-with one, it stands beside the Italian.
+Open the FirstPair Reader from the ribbon, the command palette, or the link
+at the top of `Home.md`. The Italian is always the left column. The
+**Русский** and **English** checkboxes stay at the top; with both on, Russian
+stands in the middle and English on the right, and with one, it stands beside
+the Italian. Each column header names the translation you are reading and
+rotates among that language's translations — Lozinsky (the default), Min,
+Petrov, Fedorov, Chuiko, Minaev; Longfellow (the default), Cary, Norton,
+Sibbald — and **+** beside it opens a second column of the same language.
+Translations that do not keep Dante's line count are marked ≈.
 
 Each row is one stable tercet (with a shorter final row where a canto closes
 with a single line). Alignment is structural by canto and verse position; it
