@@ -3,13 +3,11 @@ translations you have switched on: English, Russian, or both. `C-c C-t`
 cycles that choice and hides the other translation in place, so the Italian
 never moves; `C-c C-v` rotates a language's column through its translations
 (Lozinsky, Min, Petrov, Fedorov, Chuiko, Minaev; Longfellow, Cary, Norton,
-Sibbald) and `C-c C-b` shows a second translation of the same language; the
-dictionary window's header line shows what is on.
+Sibbald) and `C-c C-b` shows a second translation of the same language.
 
-Put point on any Italian word and press `C-c C-d`: the analysis names the
-modern headword and the form's grammar — and when Dante's spelling differs
-from the dictionary's, it says how (*apocope of amore*, *old form of
-diceva*, *elision of il*). Definitions follow in the selected languages.
+Put point on any Italian word and press `C-c C-d`: the compact dictionary
+shows up to two senses in each selected language, one unwrapped line each.
+`m` or **More** reveals any remaining senses and **Less** folds them again.
 English senses come from the English Wiktionary; Russian from the Russian
 Wiktionary, FreeDict, and a small reviewed supplement. A form the edition
 cannot explain is reported as such, never guessed.
