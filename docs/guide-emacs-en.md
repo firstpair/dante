@@ -7,10 +7,12 @@ translations that do not keep Dante's line count are marked ≈ in the column
 header.
 
 Put point on any Italian word and press `C-c C-d`: the compact dictionary
-shows up to two English senses, one unwrapped line each, from the English
-Wiktionary and FreeDict. `m` or **More** reveals any remaining senses and
-**Less** folds them again. A form the edition cannot explain is reported as
-such, never guessed.
+starts with one bold Italian headword, then shows up to two English senses,
+one unwrapped line each, from the English Wiktionary and FreeDict. Press `RET`
+in the poem to advance to the next Italian word and open it with the current
+dictionary language. `m` or **More** reveals any remaining senses and **Less**
+folds them again. A form the edition cannot explain is reported as such, never
+guessed.
 
 Both texts are public domain (Project Gutenberg ebooks 1012 and 1004); the
 license notices are in `evidence/` beside the Texinfo source.

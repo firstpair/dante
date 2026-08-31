@@ -6,7 +6,9 @@ never moves; `C-c C-v` rotates a language's column through its translations
 Sibbald) and `C-c C-b` shows a second translation of the same language.
 
 Put point on any Italian word and press `C-c C-d`: the compact dictionary
-shows up to two senses in each selected language, one unwrapped line each.
+starts with one bold Italian headword, then shows up to two senses in each
+selected language, one unwrapped line each. Press `RET` in the poem to advance
+to the next Italian word and open it with the current dictionary languages.
 `m` or **More** reveals any remaining senses and **Less** folds them again.
 English senses come from the English Wiktionary; Russian from the Russian
 Wiktionary, FreeDict, and a small reviewed supplement. A form the edition
