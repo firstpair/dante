@@ -854,8 +854,8 @@
   "zabì"
  ],
  "russian": {
-  "covered": 11412,
-  "derivedEntries": 1954,
+  "covered": 11410,
+  "derivedEntries": 2368,
   "missing": [
    "abbracciarmi",
    "abèl",
@@ -1030,6 +1030,7 @@
    "essermi",
    "eteòcle",
    "eurialo",
+   "fabi",
    "fano",
    "faree",
    "farfarello",
@@ -1169,6 +1170,7 @@
    "ormanni",
    "ossame",
    "osterlicchi",
+   "ostiense",
    "ovidio",
    "palesarvi",
    "pantasilea",
@@ -1391,7 +1393,7 @@
     "Alagna": [
      "alagna"
     ],
-    "Alberico": [
+    "Alberigo": [
      "alberigo"
     ],
     "Aldobrandi": [
@@ -1650,6 +1652,9 @@
     ],
     "Eurialo": [
      "eurialo"
+    ],
+    "Fabio": [
+     "fabi"
     ],
     "Fano": [
      "fano"
@@ -1965,11 +1970,14 @@
     "Ruberto": [
      "ruberto"
     ],
+    "Rubicante": [
+     "rubicante"
+    ],
+    "Ruggieri": [
+     "ruggieri"
+    ],
     "Rusticucci": [
      "rusticucci"
-    ],
-    "Ruzier": [
-     "ruggieri"
     ],
     "Santa Fiora": [
      "santafior"
@@ -2043,6 +2051,9 @@
     ],
     "Tanai": [
      "tanai"
+    ],
+    "Tarpea": [
+     "tarpea"
     ],
     "Tarquinio": [
      "tarquino"
@@ -2242,7 +2253,7 @@
     "chiercuto": [
      "chercuti"
     ],
-    "cincinnare": [
+    "cincinnato": [
      "cincinnato"
     ],
     "circoncingere": [
@@ -2484,10 +2495,8 @@
      "membruto"
     ],
     "messer": [
+     "messer",
      "ser"
-    ],
-    "messere": [
-     "messer"
     ],
     "miserere": [
      "miserere"
@@ -2516,6 +2525,9 @@
     "ossame": [
      "ossame"
     ],
+    "ostiense": [
+     "ostiense"
+    ],
     "palesarvi": [
      "palesarvi"
     ],
@@ -2531,7 +2543,7 @@
     "peneio": [
      "peneia"
     ],
-    "persecutore": [
+    "persecutorio": [
      "persecutori"
     ],
     "pertrattare": [
@@ -2689,9 +2701,6 @@
      "ronchion",
      "ronchione"
     ],
-    "rosseggiante": [
-     "rubicante"
-    ],
     "rubecchio": [
      "rubecchio"
     ],
@@ -2757,9 +2766,6 @@
     ],
     "stoscio": [
      "stoscio"
-    ],
-    "tarpeo": [
-     "tarpea"
     ],
     "tebano": [
      "teban",
