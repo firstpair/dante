@@ -1,7 +1,13 @@
 {
  "schema": "firstpair-gloss-supplement-v1",
- "note": "First Pair reviewed Russian glosses (2026) for the forms in italian-supplement.json; keyed by the form as it appears in the Commedia.",
+ "note": "First Pair reviewed Russian glosses (2026) for Italian forms in the Commedia, including the forms in italian-supplement.json and common words whose case-folded glossary homographs are unsafe.",
  "entries": {
+  "i": [
+   "определённый артикль мужского рода множественного числа"
+  ],
+  "lo": [
+   "определённый артикль мужского рода единственного числа"
+  ],
   "subitamente": [
    "внезапно",
    "тотчас"
