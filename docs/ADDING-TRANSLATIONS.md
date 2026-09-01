@@ -88,7 +88,7 @@ The fields:
 - `title`, `years`, `form` (`verse` or `prose`).
 - `alignment` — how its lines meet the tercets:
   - `line`: the translator kept Dante's line count (Longfellow, Sibbald,
-    Min, Petrov, Fedorov, Lozinsky). Rows show the same verses.
+    Min, Petrov, Fedorov, Lozinsky, Ilyushin). Rows show the same verses.
   - `proportional`: verse of another length (Cary, Minaev). The lines are
     cut at the same fractions of the canto as the tercets. Marked ≈.
   - `prose`: sentences are distributed by their share of the canto's

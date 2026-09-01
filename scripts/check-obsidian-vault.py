@@ -30,7 +30,8 @@ public = edition in ("en", "ru")
 if public:
     restricted = [t["id"] for t in translations if t.get("rights") != "public domain"]
     assert not restricted, f"rights-restricted translations must not be published: {restricted}"
-else: assert "ru-lozinsky" in ids
+else:
+    assert {"ru-lozinsky", "ru-ilyushin"} <= set(ids)
 units = 0
 for page in parallel["pages"]:
     text = (root / page["path"]).read_text(encoding="utf-8"); chapter = json.loads(text); assert chapter["units"]
@@ -49,7 +50,8 @@ for code in languages:
         total += sum(len(entries) for entries in json.loads(path.read_text(encoding="utf-8"))["entries"].values())
     assert total >= minimums[f"it-{code}"], (code, total)
 sources = sorted(path.name for path in (root / "Sources").iterdir())
-if public: assert "russian-lozinsky.html" not in sources, sources
+if public: assert not {"russian-lozinsky.html", "russian-ilyushin-2008.html"} & set(sources), sources
+else: assert {"russian-lozinsky.html", "russian-ilyushin-2008.html"} <= set(sources), sources
 if edition == "en": assert not any(name.startswith("russian-") for name in sources), sources
 assert manifest["languages"] == ["it"] + languages and manifest["translations"] == ids
 plugin = (root / ".obsidian/plugins/firstpair-reader/main.js").read_text(encoding="utf-8")

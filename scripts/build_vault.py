@@ -8,7 +8,8 @@ Editions, chosen with ``--edition``:
 * ``ru``    — adds the public-domain Russian translations (Min, Petrov,
               Fedorov, Chuiko, Minaev) and the Russian dictionary. Writes
               ``vault.build.russian.json``.
-* ``study`` — adds Lozinsky's Russian, a local study copy that is never
+* ``study`` — adds Lozinsky's and Ilyushin's Russian plus the owner's modern
+              English translations, all local study copies that are never
               published (see RIGHTS.md). Writes ``vault.build.study.json`` and
               refreshes ``sources/dictionaries/coverage.json``.
 
@@ -128,7 +129,7 @@ def main() -> None:
     if output.exists(): raise SystemExit(f"refusing to replace existing output: {output}")
     chosen = T.selected(edition); languages = list(dict.fromkeys(t.lang for t in chosen))
     with_russian = "ru" in languages
-    required = list(ENGLISH_SOURCES) + ["ita-eng.tei"] + ((list(RUSSIAN_SOURCES) + ["ita-rus.tei"]) if with_russian else []) + (["russian-lozinsky.html", "english-palma.epub", "english-james.epub"] if edition == "study" else [])
+    required = list(ENGLISH_SOURCES) + ["ita-eng.tei"] + ((list(RUSSIAN_SOURCES) + ["ita-rus.tei"]) if with_russian else []) + (["russian-lozinsky.html", "russian-ilyushin-2008.html", "english-palma.epub", "english-james.epub"] if edition == "study" else [])
     missing = [name for name in required if not (RAW / name).is_file()]
     if missing: raise SystemExit(f"fetch sources first; missing: {', '.join(missing)}")
     italian = T.parse_gutenberg(RAW / "italian.txt", T.ITALIAN_HEADER)
@@ -237,7 +238,7 @@ def main() -> None:
     (output / "Reader").mkdir(); (output / "Reader" / "About the alignment.md").write_text((ROOT / vault_guide).read_text(encoding="utf-8"), encoding="utf-8")
     sources = output / "Sources"; sources.mkdir()
     shutil.copy2(ROOT / "RIGHTS.md", sources / "RIGHTS.md"); shutil.copy2(ROOT / "sources" / "PROVENANCE.json", sources / "PROVENANCE.json")
-    for name in list(ENGLISH_SOURCES) + (list(RUSSIAN_SOURCES) if with_russian else []) + (["russian-lozinsky.html"] if edition == "study" else []):
+    for name in list(ENGLISH_SOURCES) + (list(RUSSIAN_SOURCES) if with_russian else []) + (["russian-lozinsky.html", "russian-ilyushin-2008.html"] if edition == "study" else []):
         shutil.copy2(RAW / name, sources / name)
     obsidian = output / ".obsidian"; (obsidian / "plugins").mkdir(parents=True)
     shutil.copytree(FIRSTPAIR_PLUGIN, obsidian / "plugins" / "firstpair-reader")

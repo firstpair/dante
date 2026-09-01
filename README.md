@@ -22,11 +22,11 @@ the dictionary pipeline and its coverage.
 | --- | --- | --- | --- | --- |
 | English | `--edition en` | Italian + Longfellow, Cary, Norton, Sibbald | `dist/Dante Commedia Vault`, `dist/Dante Commedia Emacs`, `book/dist-full` | the title itself |
 | Russian | `--edition ru` | + Min (modern and original spelling), Petrov, Fedorov, Chuiko, Minaev | `dist/Dante Commedia Vault Russian`, `dist/Dante Commedia Emacs Russian`, `book/dist-russian` | version `russian` |
-| Study | `--edition study` | + Lozinsky | `dist/Dante-Multilingual-Vault`, `dist/Dante-Emacs` | never (see `RIGHTS.md`) |
+| Study | `--edition study` | + Lozinsky, Ilyushin (2008), Palma, James | `dist/Dante-Multilingual-Vault`, `dist/Dante-Emacs` | never (see `RIGHTS.md`) |
 
 Every translation is registered in `scripts/translations.py` with its
 language, maker, and alignment: line for line (Longfellow, Sibbald, Min,
-Petrov, Fedorov, Lozinsky), proportional cuts for verse of another length
+Petrov, Fedorov, Lozinsky, Ilyushin), proportional cuts for verse of another length
 (Cary, Minaev), sentence distribution for prose (Norton, Chuiko). Approximate
 alignments are marked ≈ in the readers.
 

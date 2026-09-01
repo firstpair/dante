@@ -48,9 +48,9 @@ rima Inferno (1887), A. P. Fedorov's Inferno (1898), V. V. Chuiko's prose
 Inferno (1894), and Dmitry Minaev's Purgatorio and Paradiso (1874–79). All
 nine are public domain; the Russian ones are offered both in the spelling
 of their editions and modernised by rule from the pre-1918 orthography. A
-tenth, Mikhail Lozinsky's, is the finest Russian Dante and still in copyright
-in the United States; it lives only in a local study edition of the same
-build and is never published.
+tenth, Mikhail Lozinsky's, and an eleventh, Alexander Ilyushin's complete
+2008 edition in Dante's metre, live only in a local study edition of the same
+build and are never published.
 
 Acquisition is a script that records every URL and hash. Where the source
 transcription loses a page — Wikisource's Min skips one in Purgatorio XVII;
@@ -63,7 +63,7 @@ The unit of alignment is the tercet: three Italian lines, the last row of a
 canto shorter. A translation meets the tercets in one of three ways, chosen
 by the shape of the translation, not by hand:
 
-- **Line for line.** Longfellow, Sibbald, Min, Petrov, Fedorov, and Lozinsky
+- **Line for line.** Longfellow, Sibbald, Min, Petrov, Fedorov, Lozinsky, and Ilyushin
   kept Dante's line count. Tercet *i* takes their lines 3*i*..3*i*+2, and
   every row shows the same verses.
 - **Proportional.** Cary and Minaev wrote verse of their own length (Minaev

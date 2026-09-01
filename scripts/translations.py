@@ -64,6 +64,7 @@ def parse_gutenberg(path: Path, pattern: re.Pattern) -> dict[tuple[str, int], li
         if match:
             current = (match.group(1).casefold(), roman(match.group(2))); result[current] = []; continue
         if current and line.startswith("*** END OF THE PROJECT GUTENBERG"): current = None
+        elif current and line.casefold() in CANTICA: current = None
         elif current and line:
             normalized = " ".join(line.split()); result[current].append(normalized)
             if normalized in LAST_LINES: current = None
@@ -166,6 +167,58 @@ def check_cantos(name: str, result: dict, *, expected: int = 100, minimum: int =
 
 import html as _html
 import zipfile
+
+
+CPCL_PAGE = re.compile(r'<div class="page-html[^>]*rel="(\d+)"[^>]*>(.*?)(?=<div class="page-html|</article>)', re.S)
+CPCL_PARAGRAPH = re.compile(r'<p class="([^"]+)"[^>]*>(.*?)</p>', re.S)
+
+
+def _replace_ilyushin_lines(lines: list[str], old: tuple[str, ...], new: tuple[str, ...]) -> None:
+    """Apply one reviewed correction to CPCL's OCR-derived line structure."""
+
+    matches = [index for index in range(len(lines) - len(old) + 1) if tuple(lines[index:index + len(old)]) == old]
+    if len(matches) != 1: raise RuntimeError(f"Ilyushin OCR correction matched {len(matches)} times: {old!r}")
+    index = matches[0]; lines[index:index + len(old)] = new
+
+
+def parse_ilyushin(path: Path, expected: dict[tuple[str, int], int]) -> dict[tuple[str, int], list[str]]:
+    """Ilyushin's complete 2008 edition from the private CPCL study witness.
+
+    The poem is pages 27--508. Its verse is marked as ``strofa`` paragraphs;
+    pages 511 onward are commentary. Three reviewed corrections restore line
+    breaks where the HTML OCR differs from the facsimile.
+    """
+
+    text = path.read_text(encoding="utf-8"); result: dict[tuple[str, int], list[str]] = {}
+    parts = {"Ад": "inferno", "Чистилище": "purgatorio", "Рай": "paradiso"}
+    cantica = None; canto = 0; current = None
+    for page_match in CPCL_PAGE.finditer(text):
+        page = int(page_match.group(1))
+        if not 27 <= page <= 508: continue
+        for css_class, body in CPCL_PARAGRAPH.findall(page_match.group(2)):
+            plain = re.sub(r"<br\s*/?>", "\n", body, flags=re.I)
+            plain = _html.unescape(re.sub(r"<[^>]+>", "", plain)).replace("\xad", "")
+            lines = [" ".join(line.split()).replace("*", "") for line in plain.splitlines() if line.strip()]
+            joined = "\n".join(lines)
+            if joined in parts:
+                cantica = parts[joined]; canto = 0; current = None
+            elif css_class.split()[0] == "text" and re.fullmatch(r"Песнь\s+.+", joined, re.I):
+                if cantica is None: raise RuntimeError(f"Ilyushin canto heading before cantica on page {page}")
+                canto += 1; current = (cantica, canto); result[current] = []
+            elif current and css_class.split()[0].startswith("strofa"):
+                result[current].extend(lines)
+
+    corrections = {
+        ("inferno", 14): (("Катона, с войском шедшего могучим.", "у"), ("Катона, с войском шедшего могучим.",)),
+        ("purgatorio", 18): (("Пряма ль, крива ль, — что ж нам в вину", "вменялось?»"), ("Пряма ль, крива ль, — что ж нам в вину вменялось?»",)),
+        ("paradiso", 24): (("Вот так и этих хороводов разнообразный танец предстал моим взорам:", "Здесь сдержанно, а там как бы развязно..."),
+                            ("Вот так и этих хороводов разно-", "образный танец предстал моим взорам:", "Здесь сдержанно, а там как бы развязно...")),
+    }
+    for key, (old, new) in corrections.items(): _replace_ilyushin_lines(result[key], old, new)
+    check_cantos(path.name, result)
+    mismatches = {key: (len(lines), expected[key]) for key, lines in result.items() if len(lines) != expected[key]}
+    if mismatches: raise RuntimeError(f"Ilyushin line counts differ from the Italian: {mismatches}")
+    return result
 
 
 def epub_documents(path: Path) -> list[tuple[str, str]]:
@@ -305,6 +358,8 @@ TRANSLATIONS: tuple[Translation, ...] = (
     Translation("ru-minaev", "ru", "Русский", "Дмитрий Минаев", "Минаев (1874–1879, Чистилище и Рай)", "1874–1879", "verse", "proportional", RUSSIAN, coverage=("purgatorio", "paradiso"), orthography="modernised", source="russian-minaev-*.html"),
     Translation("ru-lozinsky", "ru", "Русский", "Михаил Лозинский", "Лозинский (1939–1945)", "1939–1945", "verse", "line", STUDY, default=True,
                 rights="local study copy; not for publication (see RIGHTS.md)", source="russian-lozinsky.html"),
+    Translation("ru-ilyushin", "ru", "Русский", "Александр Илюшин", "Илюшин (2008)", "2008", "verse", "line", STUDY,
+                rights="local study copy; not for publication (see RIGHTS.md)", source="russian-ilyushin-2008.html"),
     # The owner's own EPUBs, in copyright: study edition only.
     Translation("en-palma", "en", "English", "Michael Palma", "Palma (2025)", "2025", "verse", "line", STUDY,
                 rights="local study copy; not for publication (see RIGHTS.md)", source="english-palma.epub"),
@@ -336,6 +391,7 @@ def load_texts(translations: tuple[Translation, ...], expected: dict[tuple[str, 
         for cantica in ("purgatorio", "paradiso"): parsed.update(parse_azlib_linenumbered(RAW / f"russian-minaev-{cantica}.html", cantica))
         texts["ru-minaev"] = modern(parsed)
     if "ru-lozinsky" in wanted: texts["ru-lozinsky"] = parse_lozinsky(RAW / "russian-lozinsky.html")
+    if "ru-ilyushin" in wanted: texts["ru-ilyushin"] = parse_ilyushin(RAW / "russian-ilyushin-2008.html", expected)
     if "en-palma" in wanted: texts["en-palma"] = parse_epub_palma(RAW / "english-palma.epub")
     if "en-james" in wanted: texts["en-james"] = parse_epub_james(RAW / "english-james.epub")
     return texts

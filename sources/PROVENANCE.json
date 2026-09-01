@@ -94,6 +94,14 @@
       "translator": "Mikhail Leonidovich Lozinsky",
       "sha256": "99c5843f0811e2b3d0b44ba0f2cda76d1113a1faeea710704dd1527ba815caa4",
       "redistribution": "local-study-copy; review US rights before publication"
+    },
+    "russian-ilyushin-2008.html": {
+      "url": "https://cpcl.info/text/dante_bozhestvennaya-komediya_2008/$p0/",
+      "textView": "https://cpcl.info/omega/viewer-html/?docurl=dante_bozhestvennaya-komediya_2008&pf=a&ps=2",
+      "translator": "Alexander Anatolievich Ilyushin (1940–2016)",
+      "edition": "Drofa, 2008; complete second edition; ISBN 978-5-358-03785-4",
+      "sha256": "ea42fb2ff562a5836888c40d195526f0e6e8b57602717a4e76c736ff292a8be7",
+      "redistribution": "local-study-copy; never publish or redistribute"
     }
   }
 }

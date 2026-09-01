@@ -38,6 +38,13 @@ pre-1918 orthography; this edition also offers each modernised by rule
   edition, which is never published or redistributed; the validator refuses
   it in any public vault.
 
+- Александр Анатольевич Илюшин (1940–2016), *Божественная комедия*, complete
+  second edition (Дрофа, 2008, ISBN 978-5-358-03785-4). The local study witness
+  is the complete text view at
+  `https://cpcl.info/text/dante_bozhestvennaya-komediya_2008/$p0/`. It is
+  carried only by the private `study` edition, is ignored by Git, and is
+  rejected by the public-edition validator.
+
 - Clive James, *The Divine Comedy* (Liveright, 2013), and Michael Palma,
   *The Divine Comedy* (Liveright, 2025): the owner's own EPUBs, in copyright.
   Carried only by the `study` edition (`sources/raw/english-*.epub`, ignored

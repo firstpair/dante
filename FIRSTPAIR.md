@@ -29,7 +29,8 @@ text is public domain (see `RIGHTS.md`), so both are **full** editions:
 | the title itself | Italian and English | `book/dist-full` | `dist/Dante Commedia Vault` | `dist/Dante Commedia Emacs` |
 | `russian` | Italian, English, and Russian | `book/dist-russian` | `dist/Dante Commedia Vault Russian` | `dist/Dante Commedia Emacs Russian` |
 
-The study edition with Lozinsky's Russian is never published.
+The study edition with Lozinsky's and Ilyushin's Russian plus the owner's
+modern English translations is never published.
 
 ## Build
 
