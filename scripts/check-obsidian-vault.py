@@ -50,6 +50,10 @@ for code in languages:
         total += sum(len(entries) for entries in json.loads(path.read_text(encoding="utf-8"))["entries"].values())
     assert total >= minimums[f"it-{code}"], (code, total)
 sources = sorted(path.name for path in (root / "Sources").iterdir())
+provenance = json.loads((root / "Sources/PROVENANCE.json").read_text(encoding="utf-8"))["files"]
+ilyushin = provenance.get("russian-ilyushin-2008.html", {})
+assert ilyushin.get("redistribution") == "local-study-copy; never publish or redistribute", ilyushin
+assert re.fullmatch(r"[0-9a-f]{64}", ilyushin.get("sha256", "")), ilyushin
 if public: assert not {"russian-lozinsky.html", "russian-ilyushin-2008.html"} & set(sources), sources
 else: assert {"russian-lozinsky.html", "russian-ilyushin-2008.html"} <= set(sources), sources
 if edition == "en": assert not any(name.startswith("russian-") for name in sources), sources

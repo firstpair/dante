@@ -37,6 +37,13 @@ DICTIONARIES = {
     },
 }
 RUSSIAN_URL = "https://lib.ru/POEZIQ/DANTE/comedy.txt"
+ILYUSHIN_SOURCE = {
+    "url": "https://cpcl.info/text/dante_bozhestvennaya-komediya_2008/$p0/",
+    "textView": "https://cpcl.info/omega/viewer-html/?docurl=dante_bozhestvennaya-komediya_2008&pf=a&ps=2",
+    "translator": "Alexander Anatolievich Ilyushin (1940–2016)",
+    "edition": "Drofa, 2008; complete second edition; ISBN 978-5-358-03785-4",
+    "redistribution": "local-study-copy; never publish or redistribute",
+}
 ROMAN = ("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV")
 
 
@@ -92,6 +99,12 @@ def main() -> None:
     encoded = decoded.encode("utf-8")
     (RAW / "russian-lozinsky.html").write_bytes(encoded)
     provenance["files"]["russian-lozinsky.html"] = {"url": RUSSIAN_URL, "translator": "Mikhail Leonidovich Lozinsky", "sha256": hashlib.sha256(encoded).hexdigest(), "redistribution": "local-study-copy; review US rights before publication"}
+    ilyushin = RAW / "russian-ilyushin-2008.html"
+    if ilyushin.is_file():
+        provenance["files"][ilyushin.name] = {
+            **ILYUSHIN_SOURCE,
+            "sha256": hashlib.sha256(ilyushin.read_bytes()).hexdigest(),
+        }
     (ROOT / "sources" / "PROVENANCE.json").write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
