@@ -100,6 +100,7 @@ def emacs_config(edition: str, pages: list[dict[str, str]], vault_output: str, l
         "reader": [{"id": page["id"], "title": page["title"], "source": f"{vault_output}/{page['path']}", "part": page["part"]} for page in pages],
         "products": {"desktop": {"output": vault_output, "edition": "full"}},
         "emacs": {
+            "launcher": "dante.sh",
             "guide": {"bookSpecific": emacs_guide},
             "direntry": {"category": "Books", "name": "dante-commedia", "description": f"Dante's Commedia aligned tercet by tercet with its translations: {names}."},
             "subtitle": "La Divina Commedia, with its translations",

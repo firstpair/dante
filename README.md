@@ -73,5 +73,18 @@ column, keeps the dictionary open, or docks it at the bottom.
 the word at point, `C-c C-t` chooses languages, `C-c C-v` rotates a
 language's translation, `C-c C-b` shows a second one.
 
+On iSH, keep the extracted bundle at `/root/books/Dante-Emacs` and install its
+launcher beside it:
+
+```sh
+cd /root/books
+curl -fLO https://firstpair.org/emacs/dante.sh
+chmod +x dante.sh
+./dante.sh
+```
+
+The launcher checks the small Reader version and SHA-256 record first. If that
+version is already installed, it skips the package tar and opens Dante at once.
+
 See `RIGHTS.md` for the redistribution basis of every text and dictionary,
 and `FIRSTPAIR.md` for publication.

@@ -618,6 +618,7 @@
     }
   },
   "emacs": {
+    "launcher": "dante.sh",
     "guide": {
       "bookSpecific": "docs/guide-emacs-en.md"
     },
