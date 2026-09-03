@@ -6,12 +6,13 @@
 
 ## Disposition
 
-Retained as the review record of an experiment, not as current Reader
-doctrine. Reader 1.40 superseded 1.39 after review: FirstPair restored one
-primary and one optional second translation per visible language, made the
-edition line read-only status again, and removed runtime Info-buffer rewriting
-and user-defined block ordering. The 1Unix **Tr< Tr> 2nd Lang** strip therefore
-remains the canonical compact control surface.
+Reader 1.41 restores this checkbox model after Reader 1.40 briefly and
+incorrectly returned to primary/second slots. The approved small state is one
+ordered list of checked editions per language plus one language-order list:
+selecting an unchecked edition adds it, selecting a checked edition removes
+it, and the header controls ordering. Reader 1.41 also migrates a 1.40
+primary/second pair into two checked editions. The obsolete **2nd** control is
+removed from the 1Unix strip.
 
 ## What the reader is now
 
@@ -73,10 +74,9 @@ trade.
    `firstpair-lexicon-definitions`; a wrong top homograph could filter
    compatible form glosses. `PART_PRIORITY` mitigates; watch for user reports
    of missing senses.
-4. **1Unix strip label**: button 3 still reads `2nd` (sends `b`, which now
-   means "one more / back to one"). Keys all match 1.39; only the label and
-   its accessibility string are stale. Two-line patch offered, not applied —
-   Codex owns `~/src/ish`.
+4. **1Unix strip label**: resolved in build 822 by removing the obsolete
+   `2nd` button. The `b` keyboard command remains available for "one more /
+   back to one," while the native strip matches the checkbox-first UI.
 5. **Version numbering across agents.** The 1.39 release was first shipped
    mislabeled 1.20 because Codex commits in the same worktree had taken the
    headers to 1.38 mid-refactor. Fixed (release deleted, 1.39 cut, sha256
@@ -100,5 +100,5 @@ bound to `4b45bbc`.
   pending item.
 - Phone check of the header row as a tap surface (row 2: tap a name → the
   edition disappears and tercets re-flow).
-- Optional: the 1Unix `2nd`→`+Tr` label patch; a Reader-strip long-press
-  doc touch-up in `DANTE-ISH.md`.
+- Physical phone acceptance of Reader 1.41 and 1Unix build 822 after both are
+  installed together.

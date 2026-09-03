@@ -1,11 +1,12 @@
 Each canto is one node. Every tercet appears in Italian first, then in the
 English translation you have chosen — Longfellow by default; `C-c C-v`
 rotates the column through Cary, Norton, and (in the Inferno) Sibbald, and
-`C-c C-b` shows a second English translation under the first. `C-c C-t`
+any number of them can be shown at once — the Tr-Eng menu is a checkbox
+list, and the header row below the menu bar hides an edition (tap its
+name) or reorders it (`◀`). `C-c C-t`
 hides and restores the translations in place, so the Italian never moves;
 translations that do not keep Dante's line count are marked ≈ in the column
-header. The edition line beneath the top bar reports what is visible; it does
-not remove or reorder translations.
+header.
 
 Put point on any Italian word and press `C-c C-d`: the compact dictionary
 starts with one bold Italian headword, then shows up to two English senses,
