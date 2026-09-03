@@ -6,6 +6,11 @@ never moves; `C-c C-v` rotates a language's column through its translations
 Sibbald), and any number of editions can be shown at once: the Tr-Eng and
 Tr-Rus menus are checkboxes, and the header row below the menu bar hides
 (tap a name), reorders (`◀`), and moves whole language blocks (tap `EN`/`RU`).
+The **2nd** control is a favorite-pair shortcut for this study edition: tap it
+to add Michael Palma and Alexander Ilyushin beside every translation already
+checked; hold it to keep Palma and Ilyushin and remove only the other English
+and Russian editions currently present. The pair is the Reader's standard
+`firstpair-reader-favorite-translations` Customize option.
 
 Put point on any Italian word and press `C-c C-d`: the compact dictionary
 starts with one bold Italian headword, then shows up to two senses in each

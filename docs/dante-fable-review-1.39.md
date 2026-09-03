@@ -6,13 +6,16 @@
 
 ## Disposition
 
-Reader 1.41 restores this checkbox model after Reader 1.40 briefly and
+Reader 1.41 restored this checkbox model after Reader 1.40 briefly and
 incorrectly returned to primary/second slots. The approved small state is one
 ordered list of checked editions per language plus one language-order list:
 selecting an unchecked edition adds it, selecting a checked edition removes
 it, and the header controls ordering. Reader 1.41 also migrates a 1.40
-primary/second pair into two checked editions. The obsolete **2nd** control is
-removed from the 1Unix strip.
+primary/second pair into two checked editions. Reader 1.42 restores **2nd** as
+an additive favorite-pair shortcut rather than a slot: tap adds Palma and
+Ilyushin to the checked set; hold keeps those favorites and removes only the
+other English and Russian editions currently present. The two ids live in the
+standard Emacs Customize option `firstpair-reader-favorite-translations`.
 
 ## What the reader is now
 
@@ -31,8 +34,8 @@ pane with `m` for more; and translations are now fully elastic:
   language, and choosing an edition of a hidden language restores it.
 - **The header row is the control surface**: ` EN Longfellow ◀Cary | RU Мин ` —
   tap a name to hide it, ◀ to move it earlier in its language, EN/RU to bring
-  that block first. The 2nd button is gone; `b` adds one more edition or
-  collapses to one.
+  that block first. **2nd**/`b` adds configured favorites without replacement;
+  `B` keeps only those favorites in their languages.
 - **Reordering is physical.** Each tercet's translation blocks are permuted
   bodily in the Info buffer. The Italian lines never move, so marked-word
   positions from `marked.tsv` stay exact; blocks must be separated by single
@@ -74,9 +77,10 @@ trade.
    `firstpair-lexicon-definitions`; a wrong top homograph could filter
    compatible form glosses. `PART_PRIORITY` mitigates; watch for user reports
    of missing senses.
-4. **1Unix strip label**: resolved in build 822 by removing the obsolete
-   `2nd` button. The `b` keyboard command remains available for "one more /
-   back to one," while the native strip matches the checkbox-first UI.
+4. **1Unix strip label**: resolved in build 823 by giving `2nd` the explicit
+   favorite-pair contract. `b` adds Palma and Ilyushin; a native long press
+   sends `B` to keep that pair and remove the other checked English and
+   Russian editions.
 5. **Version numbering across agents.** The 1.39 release was first shipped
    mislabeled 1.20 because Codex commits in the same worktree had taken the
    headers to 1.38 mid-refactor. Fixed (release deleted, 1.39 cut, sha256
@@ -94,11 +98,10 @@ bound to `4b45bbc`.
 
 ## Outstanding
 
-- **Public English and Russian Emacs bundles are still the old builds**
-  (`5ca23ea`): monolithic Info, pre-split, pre-1.17 dictionary, old loader.
-  Republishing both versions through `library:publish --emacs` is the big
-  pending item.
+- Public English and Russian bundles were republished at `028a531`; they do
+  not redistribute the study-only Palma or Ilyushin texts, so the favorite
+  shortcut becomes active in the private study bundle that contains them.
 - Phone check of the header row as a tap surface (row 2: tap a name → the
   edition disappears and tercets re-flow).
-- Physical phone acceptance of Reader 1.41 and 1Unix build 822 after both are
+- Physical phone acceptance of Reader 1.42 and 1Unix build 823 after both are
   installed together.
