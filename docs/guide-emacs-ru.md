@@ -2,8 +2,10 @@ Each canto is one node. Every tercet appears in Italian first, then in the
 translations you have chosen — Longfellow's English and Min's Russian by
 default; `C-c C-v` rotates a language's column through its translations
 (Cary, Norton, Sibbald; Petrov, Fedorov, Chuiko, Minaev, Min in the spelling
-of his editions), and `C-c C-b` shows a second translation of the same
-language under the first. `C-c C-t`
+of his editions), and any number of editions can be shown at once: the
+Tr-Eng and Tr-Rus menus are checkboxes, and the header row below the menu
+bar hides an edition (tap its name), reorders it (`◀`), and moves whole
+language blocks (tap `EN`/`RU`). `C-c C-t`
 hides and restores the translations in place, so the Italian never moves;
 translations that do not keep Dante's line count are marked ≈ in the column
 header.

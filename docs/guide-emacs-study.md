@@ -3,7 +3,9 @@ translations you have switched on: English, Russian, or both. `C-c C-t`
 cycles that choice and hides the other translation in place, so the Italian
 never moves; `C-c C-v` rotates a language's column through its translations
 (Lozinsky, Ilyushin 2008, Min, Petrov, Fedorov, Chuiko, Minaev; Longfellow, Cary, Norton,
-Sibbald) and `C-c C-b` shows a second translation of the same language.
+Sibbald), and any number of editions can be shown at once: the Tr-Eng and
+Tr-Rus menus are checkboxes, and the header row below the menu bar hides
+(tap a name), reorders (`◀`), and moves whole language blocks (tap `EN`/`RU`).
 
 Put point on any Italian word and press `C-c C-d`: the compact dictionary
 starts with one bold Italian headword, then shows up to two senses in each
